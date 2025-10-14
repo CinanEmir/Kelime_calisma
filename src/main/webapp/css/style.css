@@ -119,3 +119,39 @@ input, textarea {
     margin-bottom: 15px;
     font-size: 1.2em; /* Giriş kutusu fontu daha büyük */
 }
+/* Sadece telefon ekranları için stiller */
+@media (max-width: 600px) {
+    body {
+        font-size: 1em; /* Genel yazı boyutunu küçült */
+    }
+
+    .main-screen, .add-word-container {
+        padding: 2em; /* İç boşluğu küçült */
+        min-width: 90%; /* Genişliği ekrana sığacak şekilde ayarla */
+        max-width: 90%;
+    }
+
+    .card {
+        padding: 20px; /* Kelime kartının iç boşluğunu küçült */
+    }
+
+    .card h2 {
+        font-size: 2em; /* Kelime fontunu küçült */
+    }
+
+    .card p {
+        font-size: 1.2em; /* Anlam ve cümle fontunu küçült */
+    }
+
+    .main-btn {
+        padding: 12px 20px; /* Buton boyutlarını küçült */
+        font-size: 0.9em;
+    }
+
+    .add-word-btn {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        font-size: 0.8em;
+    }
+}
