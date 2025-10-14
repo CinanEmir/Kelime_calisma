@@ -154,4 +154,10 @@ input, textarea {
         padding: 10px 20px;
         font-size: 0.8em;
     }
+	.example-meaning-text {
+    font-style: italic;
+    font-size: 1em;
+    color: #b0c4de; /* Açık mavi */
+    margin-top: 10px;
+}
 }
