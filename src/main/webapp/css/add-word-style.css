@@ -1,0 +1,87 @@
+/* add-word-style.css */
+
+.add-word-container {
+    background-color: var(--card-background);
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 90%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.add-word-container h2 {
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--text-color);
+    font-size: 1.1em;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #001f3f; /* Koyu Mavi */
+    color: var(--text-color);
+    font-size: 1.2em;
+    border: 1px solid var(--secondary-color);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#saveWordBtn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+#saveWordBtn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+}
+.back-btn {
+    padding: 13px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+    text-decoration: none; /* Bu satır alt çizgiyi kaldırır */
+    margin-left: 15px; /* Butonlar arasına boşluk ekler */
+}
+
+.back-btn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+}

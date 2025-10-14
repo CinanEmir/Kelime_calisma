@@ -1,0 +1,121 @@
+:root {
+    --primary-color: #007bff; /* Mavi */
+    --secondary-color: #0056b3; /* Koyu Mavi */
+    --background-color: #0a192f; /* Çok Koyu Mavi */
+    --card-background: #172a45; /* Daha Açık Koyu Mavi */
+    --text-color: #ccd6f6; /* Açık Mavi/Beyaz */
+    --accent-color: #64ffda; /* Parlak Mavi */
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.5s ease-in-out;
+    font-size: 1.2em; /* Yazı boyutunu artırdık */
+}
+
+h1, h2 {
+    color: var(--accent-color);
+}
+
+.welcome-screen {
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.main-screen, .add-word-container {
+    padding: 3em; /* İç boşluğu artırdık */
+    border-radius: 10px;
+    background-color: var(--card-background);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    min-width: 400px; /* Minimum genişliği artırdık */
+    max-width: 600px; /* Maksimum genişliği artırdık */
+    animation: scaleIn 0.5s ease-out;
+}
+
+@keyframes scaleIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 30px; /* İç boşluğu artırdık */
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    background-color: #001f3f;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 3em; /* Kelime fontu daha büyük */
+    margin: 0;
+}
+
+.card p {
+    font-size: 1.5em; /* Anlam ve örnek cümle fontu daha büyük */
+    margin: 5px 0;
+}
+
+button, .add-word-btn {
+    padding: 30px 30px; /* Buton boyutunu büyüttük */
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: var(--background-color);
+    font-size: 1.1em;
+}
+
+button#getWordBtn {
+	background-color: var(--accent-color);
+	box-shadow: 0 4px 10px rgba(100, 255, 218, 0.3);
+	position: relative;
+	bottom: auto;
+	right: auto;
+	margin-right: 10px
+
+}
+
+button#getWordBtn:hover {
+    background-color: #52e3c0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(100, 255, 218, 0.4);
+}
+
+.add-word-btn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.add-word-btn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px; /* Giriş kutularını büyüttük */
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: #001f3f;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    font-size: 1.2em; /* Giriş kutusu fontu daha büyük */
+}
