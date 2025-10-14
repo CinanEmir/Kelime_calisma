@@ -1,510 +1,118 @@
 [
-  {
-    "word": "acquire",
-    "meaning": "elde etmek, kazanmak",
-    "example": "He wants to acquire new skills for his job."
-  },
-  {
-    "word": "adjust",
-    "meaning": "ayarlamak, uyum sağlamak",
-    "example": "You need to adjust the brightness of the screen."
-  },
-  {
-    "word": "benefit",
-    "meaning": "yarar, fayda",
-    "example": "The new policy will benefit everyone."
-  },
-  {
-    "word": "create",
-    "meaning": "yaratmak, oluşturmak",
-    "example": "She wants to create a new mobile application."
-  },
-  {
-    "word": "demonstrate",
-    "meaning": "göstermek, kanıtlamak",
-    "example": "The teacher will demonstrate how to solve the problem."
-  },
-  {
-    "word": "depend",
-    "meaning": "bağlı olmak, güvenmek",
-    "example": "Our success will depend on your effort."
-  },
-  {
-    "word": "home",
-    "meaning": "ev, yuva",
-    "example": "This place is my home."
-  },
-  {
-    "word": "Fool",
-    "meaning": "Aptal",
-    "example": "This fools cant make me sweat."
-  },
-  {
-    "word": "honor",
-    "meaning": "onur",
-    "example": "My honor can not defat from anyone else."
-  },
-  {
-    "word": "God",
-    "meaning": "Tanrı",
-    "example": "Gods created humans beacuse of humas loneliness."
-  },
-  {
-    "word": "Villain",
-    "meaning": "Kötü adam",
-    "example": "Obito may ı villain but he fought for everyone freedom."
-  },
-  {
-    "word": "patato",
-    "meaning": "patates",
-    "example": "This pc is patoto ."
-  },
-  {
-    "word": "Hell",
-    "meaning": "Cehennem",
-    "example": "This world is the hell."
-  },
-  
-  {
-    "word": "acquire",
-    "meaning": "elde etmek, kazanmak",
-    "example": "He wants to acquire new skills for his job."
-  },
-  {
-    "word": "adjust",
-    "meaning": "ayarlamak, uyum sağlamak",
-    "example": "You need to adjust the brightness of the screen."
-  },
-  {
-    "word": "benefit",
-    "meaning": "yarar, fayda",
-    "example": "The new policy will benefit everyone."
-  },
-  {
-    "word": "create",
-    "meaning": "yaratmak, oluşturmak",
-    "example": "She wants to create a new mobile application."
-  },
-  {
-    "word": "demonstrate",
-    "meaning": "göstermek, kanıtlamak",
-    "example": "The teacher will demonstrate how to solve the problem."
-  },
-  {
-    "word": "depend",
-    "meaning": "bağlı olmak, güvenmek",
-    "example": "Our success will depend on your effort."
-  },
-  {
-    "word": "achieve",
-    "meaning": "başarmak, ulaşmak",
-    "example": "She worked hard to achieve her goals."
-  },
-  {
-    "word": "analyze",
-    "meaning": "çözümlemek, incelemek",
-    "example": "We need to analyze the data carefully."
-  },
-  {
-    "word": "approach",
-    "meaning": "yaklaşmak, yaklaşım",
-    "example": "The company decided to take a new approach to the problem."
-  },
-  {
-    "word": "assess",
-    "meaning": "değerlendirmek, belirlemek",
-    "example": "We need to assess the situation before we act."
-  },
-  {
-    "word": "assume",
-    "meaning": "varsaymak, farz etmek",
-    "example": "Don't assume anything without proof."
-  },
-  {
-    "word": "authority",
-    "meaning": "otorite, yetki",
-    "example": "He has the authority to make this decision."
-  },
-  {
-    "word": "conduct",
-    "meaning": "yönetmek, yürütmek",
-    "example": "The scientists will conduct a new experiment."
-  },
-  {
-    "word": "consequence",
-    "meaning": "sonuç, netice",
-    "example": "The storm had serious consequences for the city."
-  },
-  {
-    "word": "consider",
-    "meaning": "düşünmek, göz önünde bulundurmak",
-    "example": "You should consider all the options."
-  },
-  {
-    "word": "constitute",
-    "meaning": "oluşturmak, teşkil etmek",
-    "example": "Twelve months constitute a year."
-  },
-  {
-    "word": "context",
-    "meaning": "bağlam, durum",
-    "example": "It's important to understand the context of the quote."
-  },
-  {
-    "word": "contract",
-    "meaning": "sözleşme",
-    "example": "They signed a contract for the new project."
-  },
-  {
-    "word": "derive",
-    "meaning": "türetmek, elde etmek",
-    "example": "The word 'science' is derived from a Latin word."
-  },
-  {
-    "word": "distribute",
-    "meaning": "dağıtmak, paylaştırmak",
-    "example": "The organization will distribute food to people in need."
-  },
-  {
-    "word": "economy",
-    "meaning": "ekonomi",
-    "example": "The country's economy is growing rapidly."
-  },
-  {
-    "word": "establish",
-    "meaning": "kurmak, tesis etmek",
-    "example": "They want to establish a new company in this city."
-  },
-  {
-    "word": "factor",
-    "meaning": "faktör, etken",
-    "example": "Cost is an important factor in our decision."
-  },
-  {
-    "word": "finance",
-    "meaning": "finans, maliye",
-    "example": "The new building will be funded by public finance."
-  },
-  {
-    "word": "formula",
-    "meaning": "formül",
-    "example": "The scientist discovered a new chemical formula."
-  },
-  {
-    "word": "indicate",
-    "meaning": "göstermek, belirtmek",
-    "example": "The map indicates the location of the treasure."
-  },
-  {
-    "word": "interpret",
-    "meaning": "yorumlamak, açıklamak",
-    "example": "We need to interpret the results of the experiment."
-  },
-  {
-    "word": "involve",
-    "meaning": "içermek, kapsamak",
-    "example": "The new job will involve a lot of traveling."
-  },
-  {
-    "word": "issue",
-    "meaning": "mesele, konu; yayımlamak",
-    "example": "The main issue is the lack of communication."
-  },
-  {
-    "word": "labor",
-    "meaning": "emek, iş gücü",
-    "example": "The factory relies on cheap labor."
-  },
-  {
-    "word": "legal",
-    "meaning": "yasal, hukuki",
-    "example": "You should seek legal advice."
-  },
-  {
-    "word": "major",
-    "meaning": "başlıca, ana",
-    "example": "Education is a major concern for parents."
-  },
-  {
-    "word": "method",
-    "meaning": "yöntem, metot",
-    "example": "This is the best method for solving the problem."
-  },
-  {
-    "word": "occur",
-    "meaning": "meydana gelmek, olmak",
-    "example": "The accident occurred at midnight."
-  },
-  {
-    "word": "percent",
-    "meaning": "yüzde",
-    "example": "Only ten percent of the students passed the exam."
-  },
-  {
-    "word": "period",
-    "meaning": "dönem, süre",
-    "example": "We are living in a period of great change."
-  },
-  {
-    "word": "policy",
-    "meaning": "politika",
-    "example": "The government announced a new economic policy."
-  },
-  {
-    "word": "principle",
-    "meaning": "prensip, ilke",
-    "example": "He is a man of strong principles."
-  },
-  {
-    "word": "proceed",
-    "meaning": "ilerlemek, devam etmek",
-    "example": "Please proceed to the checkout."
-  },
-  {
-    "word": "require",
-    "meaning": "gerektirmek, istemek",
-    "example": "This job will require a lot of dedication."
-  },
-  {
-    "word": "research",
-    "meaning": "araştırma",
-    "example": "She is doing research on climate change."
-  },
-  {
-    "word": "respond",
-    "meaning": "yanıt vermek, karşılık vermek",
-    "example": "He didn't respond to my email."
-  },
-  {
-    "word": "role",
-    "meaning": "rol, görev",
-    "example": "He played a major role in the success of the team."
-  },
-  {
-    "word": "section",
-    "meaning": "bölüm, kısım",
-    "example": "You can find this information in the first section of the book."
-  },
-  {
-    "word": "similar",
-    "meaning": "benzer",
-    "example": "Their opinions are very similar."
-  },
-  {
-    "word": "specific",
-    "meaning": "belirli, özgü",
-    "example": "Can you give me a specific example?"
-  },
-  {
-    "word": "structure",
-    "meaning": "yapı, inşa etmek",
-    "example": "The building has a solid structure."
-  },
-  {
-    "word": "team",
-    "meaning": "takım",
-    "example": "The team worked together to finish the project."
-  },
-  {
-    "word": "theory",
-    "meaning": "teori, kuram",
-    "example": "His theory is based on a lot of research."
-  },
-  {
-    "word": "variable",
-    "meaning": "değişken",
-    "example": "The temperature is a variable that affects the experiment."
-  },
-  {
-    "word": "vary",
-    "meaning": "değişmek, farklılık göstermek",
-    "example": "The prices of the products vary depending on the season."
-  },
-  
-  {
-    "word": "allocate",
-    "meaning": "tahsis etmek, ayırmak",
-    "example": "The government will allocate more funds for education."
-  },
-  {
-    "word": "alter",
-    "meaning": "değiştirmek, başkalaştırmak",
-    "example": "The design of the building was altered to save costs."
-  },
-  {
-    "word": "bias",
-    "meaning": "önyargı, taraf tutma",
-    "example": "The news report showed a clear bias against the candidate."
-  },
-  {
-    "word": "comprise",
-    "meaning": "oluşmak, içermek",
-    "example": "The team comprises five members."
-  },
-  {
-    "word": "conclude",
-    "meaning": "sonuçlandırmak, karar vermek",
-    "example": "After a long discussion, they concluded the project was successful."
-  },
-  {
-    "word": "confine",
-    "meaning": "sınırlandırmak, hapsetmek",
-    "example": "The patient was confined to his bed for a week."
-  },
-  {
-    "word": "coordinate",
-    "meaning": "koordine etmek, uyum sağlamak",
-    "example": "They need to coordinate their efforts to finish the task."
-  },
-  {
-    "word": "decade",
-    "meaning": "on yıl",
-    "example": "The company has been growing for over a decade."
-  },
-  {
-    "word": "dynamic",
-    "meaning": "dinamik, hareketli",
-    "example": "He has a dynamic and energetic personality."
-  },
-  {
-    "word": "emerge",
-    "meaning": "ortaya çıkmak, belirmek",
-    "example": "A new leader emerged from the protests."
-  },
-  {
-    "word": "exceed",
-    "meaning": "aşmak, geçmek",
-    "example": "The cost of the project should not exceed the budget."
-  },
-  {
-    "word": "framework",
-    "meaning": "çerçeve, iskelet",
-    "example": "We need a legal framework to govern the new technology."
-  },
-  {
-    "word": "guarantee",
-    "meaning": "garanti etmek",
-    "example": "The company guarantees a full refund if you are not satisfied."
-  },
-  {
-    "word": "imply",
-    "meaning": "ima etmek, anlamına gelmek",
-    "example": "His silence seemed to imply agreement."
-  },
-  {
-    "word": "incentive",
-    "meaning": "teşvik, özendirici",
-    "example": "There is a financial incentive for employees to work harder."
-  },
-  {
-    "word": "interact",
-    "meaning": "etkileşimde bulunmak",
-    "example": "He interacts well with other students."
-  },
-  {
-    "word": "minimize",
-    "meaning": "en aza indirmek",
-    "example": "We need to minimize the risk of failure."
-  },
-  {
-    "word": "mutual",
-    "meaning": "karşılıklı, ortak",
-    "example": "They have a mutual respect for each other."
-  },
-  {
-    "word": "notion",
-    "meaning": "düşünce, kavram",
-    "example": "He had a strange notion about time travel."
-  },
-  {
-    "word": "paramount",
-    "meaning": "en önemli, başlıca",
-    "example": "The safety of our customers is of paramount importance."
-  },
-  {
-    "word": "perspective",
-    "meaning": "bakış açısı, perspektif",
-    "example": "We need to consider the problem from a different perspective."
-  },
-  {
-    "word": "precede",
-    "meaning": "önce gelmek",
-    "example": "The introduction precedes the main chapter."
-  },
-  {
-    "word": "protocol",
-    "meaning": "protokol, resmi kural",
-    "example": "They followed the official protocol during the ceremony."
-  },
-  {
-    "word": "relate",
-    "meaning": "ilişkilendirmek",
-    "example": "Can you relate this information to the topic?"
-  },
-  {
-    "word": "relevant",
-    "meaning": "ilgili, alakalı",
-    "example": "Your question is not relevant to the topic."
-  },
-  {
-    "word": "reside",
-    "meaning": "ikamet etmek, oturmak",
-    "example": "He resides in a small town outside the city."
-  },
-  {
-    "word": "restrain",
-    "meaning": "durdurmak, dizginlemek",
-    "example": "She had to restrain herself from laughing."
-  },
-  {
-    "word": "sequence",
-    "meaning": "sıra, dizi",
-    "example": "The events happened in a logical sequence."
-  },
-  {
-    "word": "sphere",
-    "meaning": "alan, küre",
-    "example": "He is an expert in the sphere of international relations."
-  },
-  {
-    "word": "submit",
-    "meaning": "sunmak, göndermek",
-    "example": "You must submit your application by Friday."
-  },
-  {
-    "word": "subsequent",
-    "meaning": "sonraki, takip eden",
-    "example": "The subsequent chapters will explain this in more detail."
-  },
-  {
-    "word": "supplement",
-    "meaning": "eklemek, takviye etmek",
-    "example": "He takes vitamin supplements every day."
-  },
-  {
-    "word": "transform",
-    "meaning": "dönüştürmek, değiştirmek",
-    "example": "The internet has transformed the way we communicate."
-  },
-  {
-    "word": "undergo",
-    "meaning": "geçirmek, maruz kalmak",
-    "example": "She had to undergo a difficult medical procedure."
-  },
-  {
-    "word": "utilize",
-    "meaning": "kullanmak, yararlanmak",
-    "example": "We should utilize all the resources we have."
-  },
-  {
-    "word": "valid",
-    "meaning": "geçerli, mantıklı",
-    "example": "I don't think your argument is valid."
-  },
-  {
-    "word": "verbal",
-    "meaning": "sözlü, sözel",
-    "example": "She has strong verbal skills."
-  }
-
+  { "word": "relieve", "meaning": "rahatlatmak, hafifletmek", "example": "This medicine will relieve your pain." },
+  { "word": "alleviate", "meaning": "dindirmek, hafifletmek", "example": "We should find a way to alleviate the suffering of the poor." },
+  { "word": "rebellious", "meaning": "asi, isyankar", "example": "The rebellious teenager refused to follow the rules." },
+  { "word": "abolish", "meaning": "feshetmek, ortadan kaldırmak", "example": "The government decided to abolish the old law." },
+  { "word": "cease", "meaning": "durmak, sona ermek", "example": "The rain did not cease all day long." },
+  { "word": "mitigate", "meaning": "hafifletmek, azaltmak", "example": "We need to mitigate the effects of climate change." },
+  { "word": "diminish", "meaning": "azaltmak, eksiltmek", "example": "The value of the currency began to diminish." },
+  { "word": "resist", "meaning": "direnmek, karşı koymak", "example": "The doctor's body could no longer resist the infection." },
+  { "word": "defy", "meaning": "karşı gelmek, karşı koymak", "example": "He defied his parents' wishes and traveled abroad." },
+  { "word": "threaten", "meaning": "tehdit etmek", "example": "The dark clouds threatened to bring rain." },
+  { "word": "intimidating", "meaning": "göz korkutucu, ürkütücü", "example": "The boss's silence was very intimidating." },
+  { "word": "dangerous", "meaning": "tehlikeli", "example": "It is dangerous to walk alone at night." },
+  { "word": "perilous", "meaning": "tehlikeli, riskli", "example": "The climbers faced a perilous journey up the mountain." },
+  { "word": "deliberate", "meaning": "kasıtlı, bilerek", "example": "His actions were a deliberate attempt to sabotage the project." },
+  { "word": "intentional", "meaning": "kasıtlı, amaçlı", "example": "It was an intentional foul during the game." },
+  { "word": "intent", "meaning": "niyet, amaç", "example": "He was full of good intent, but his plan failed." },
+  { "word": "bizarre", "meaning": "tuhaf, acayip", "example": "We saw a bizarre sight in the sky." },
+  { "word": "strange", "meaning": "garip, tuhaf", "example": "I heard a strange noise in the other room." },
+  { "word": "odd", "meaning": "garip, tuhaf", "example": "He has some odd habits." },
+  { "word": "weird", "meaning": "tuhaf, acayip", "example": "That's a weird coincidence." },
+  { "word": "trivial", "meaning": "önemsiz, ufak", "example": "It's a trivial matter that doesn't require our attention." },
+  { "word": "insignificant", "meaning": "önemsiz, değersiz", "example": "The amount of money he lost was insignificant to him." },
+  { "word": "minor", "meaning": "küçük, önemsiz", "example": "She suffered a minor injury." },
+  { "word": "unimportant", "meaning": "önemsiz", "example": "His opinion is totally unimportant." },
+  { "word": "negligible", "meaning": "önemsiz, ihmal edilebilir", "example": "The difference in weight is negligible." },
+  { "word": "efficient", "meaning": "verimli, etkili", "example": "She is a very efficient worker." },
+  { "word": "effective", "meaning": "etkili", "example": "The new drug is highly effective." },
+  { "word": "productive", "meaning": "üretken", "example": "We had a very productive meeting." },
+  { "word": "competent", "meaning": "yetkin, yeterli", "example": "He is a competent teacher." },
+  { "word": "attain", "meaning": "elde etmek, ulaşmak", "example": "He was able to attain his goal." },
+  { "word": "obtain", "meaning": "edinmek, elde etmek", "example": "You need a permit to obtain a passport." },
+  { "word": "gain", "meaning": "kazanmak, elde etmek", "example": "The company is gaining market share." },
+  { "word": "devastating", "meaning": "yıkıcı", "example": "The earthquake caused devastating damage." },
+  { "word": "destructive", "meaning": "yıkıcı", "example": "His words were very destructive to her self-esteem." },
+  { "word": "catastrophic", "meaning": "felaket getiren", "example": "The failure of the bridge was catastrophic." },
+  { "word": "ruinous", "meaning": "yıkıcı, harap edici", "example": "A ruinous debt can destroy a person's life." },
+  { "word": "even", "meaning": "eşit", "example": "We have an even number of men and women." },
+  { "word": "equal", "meaning": "eşit", "example": "All citizens have equal rights." },
+  { "word": "disparity", "meaning": "eşitsizlik, farklılık", "example": "There is a great disparity between the rich and the poor." },
+  { "word": "irregular", "meaning": "düzensiz", "example": "He has an irregular heartbeat." },
+  { "word": "uneven", "meaning": "düzensiz", "example": "The surface of the road is uneven." },
+  { "word": "inconsistent", "meaning": "tutarsız", "example": "Her story was inconsistent with the facts." },
+  { "word": "sporadic", "meaning": "ara sıra, seyrek", "example": "The sporadic gunfire could be heard in the distance." },
+  { "word": "irrelevant", "meaning": "alakası olmayan, konu dışı", "example": "His comments were completely irrelevant to the discussion." },
+  { "word": "unrelated", "meaning": "alakasız", "example": "These two events are completely unrelated." },
+  { "word": "unconnected", "meaning": "bağlantısız", "example": "The two parts of the story are unconnected." },
+  { "word": "inevitable", "meaning": "kaçınılmaz", "example": "It was an inevitable consequence of her actions." },
+  { "word": "unavoidable", "meaning": "kaçınılmaz", "example": "The accident was unavoidable." },
+  { "word": "certain", "meaning": "kesin, belli", "example": "It is a certain fact that the sun will rise tomorrow." },
+  { "word": "inescapable", "meaning": "kaçınılmaz", "example": "The threat of war felt inescapable." },
+  { "word": "undeniable", "meaning": "inkar edilemez", "example": "The evidence is undeniable." },
+  { "word": "irrefutable", "meaning": "çürütülemez, reddedilemez", "example": "His argument was irrefutable." },
+  { "word": "unquestionable", "meaning": "tartışmasız", "example": "His loyalty is unquestionable." },
+  { "word": "evident", "meaning": "açık, belli", "example": "It was evident that she was unhappy." },
+  { "word": "exact", "meaning": "tam, kesin", "example": "I need the exact amount of money." },
+  { "word": "irreversible", "meaning": "geri dönülemez", "example": "The damage to the environment is irreversible." },
+  { "word": "permanent", "meaning": "kalıcı", "example": "She has a permanent job now." },
+  { "word": "unchangeable", "meaning": "değişmez", "example": "The laws of physics are unchangeable." },
+  { "word": "irrepairable", "meaning": "onarılmaz", "example": "The loss of life was an irreparable tragedy." },
+  { "word": "unreliable", "meaning": "güvenilmez", "example": "The witness was found to be unreliable." },
+  { "word": "undependable", "meaning": "güvenilmez", "example": "The old car is undependable." },
+  { "word": "uncertain", "meaning": "belirsiz", "example": "The future is still uncertain." },
+  { "word": "inconsistent", "meaning": "tutarsız", "example": "His behavior was inconsistent with his promises." },
+  { "word": "rely on", "meaning": "güvenmek, bağlı olmak", "example": "You can always rely on her." },
+  { "word": "depend on", "meaning": "bağlı olmak", "example": "Our plans depend on the weather." },
+  { "word": "count on", "meaning": "güvenmek", "example": "I'm counting on you to help me." },
+  { "word": "manageable", "meaning": "yönetilebilir", "example": "The project is difficult but manageable." },
+  { "word": "controllable", "meaning": "kontrol edilebilir", "example": "The fire was not easily controllable." },
+  { "word": "feasible", "meaning": "mümkün, yapılabilir", "example": "This plan is not feasible." },
+  { "word": "severe", "meaning": "şiddetli, sert", "example": "He was punished with a severe penalty." },
+  { "word": "harsh", "meaning": "sert, acımasız", "example": "The teacher gave them a harsh lecture." },
+  { "word": "precious", "meaning": "değerli, kıymetli", "example": "Her friendship is very precious to me." },
+  { "word": "valuable", "meaning": "değerli", "example": "This is a very valuable painting." },
+  { "word": "cherished", "meaning": "değer verilen, kıymetli", "example": "He kept the letter as a cherished memory." },
+  { "word": "treasured", "meaning": "değerli, kıymetli", "example": "The old book was a treasured possession." },
+  { "word": "frequent", "meaning": "sık, sık sık", "example": "He is a frequent visitor to our home." },
+  { "word": "common", "meaning": "yaygın, sık rastlanan", "example": "Flu is a common illness in winter." },
+  { "word": "repeated", "meaning": "tekrarlanan", "example": "She made repeated attempts to contact him." },
+  { "word": "habitual", "meaning": "alışılmış, alışkanlık haline gelmiş", "example": "It was his habitual morning routine." },
+  { "word": "detectable", "meaning": "saptanabilir, fark edilebilir", "example": "The presence of the virus was not detectable." },
+  { "word": "noticeable", "meaning": "fark edilebilir", "example": "The difference between the two colors is noticeable." },
+  { "word": "observable", "meaning": "gözlemlenebilir", "example": "His behavior was not observable to the public." },
+  { "word": "identifiable", "meaning": "tanımlanabilir", "example": "The suspect was clearly identifiable in the video." },
+  { "word": "determination", "meaning": "azim, kararlılık", "example": "Her determination helped her succeed." },
+  { "word": "courage", "meaning": "cesaret", "example": "He showed great courage in the face of danger." },
+  { "word": "resolute", "meaning": "kararlı", "example": "She was resolute in her decision." },
+  { "word": "diminish", "meaning": "azaltmak, eksiltmek", "example": "The noise began to diminish as we drove away." },
+  { "word": "suppress", "meaning": "bastırmak, engellemek", "example": "The government tried to suppress the protests." },
+  { "word": "put off", "meaning": "ertelemek, soğutmak", "example": "Don't put off doing your homework." },
+  { "word": "suspend", "meaning": "askıya almak, durdurmak", "example": "The game was suspended due to heavy rain." },
+  { "word": "predict", "meaning": "tahmin etmek", "example": "He was arrested for threatening a police officer." },
+  { "word": "figure out", "meaning": "çözmek, anlamak", "example": "I need to figure out what went wrong." },
+  { "word": "give up", "meaning": "vazgeçmek, pes etmek", "example": "Never give up on your dreams." },
+  { "word": "look out", "meaning": "dikkatli olmak", "example": "Look out! There's a car coming." },
+  { "word": "switch on", "meaning": "açmak", "example": "Please switch on the light." },
+  { "word": "turn off", "meaning": "kapatmak", "example": "Don't forget to turn off the computer." },
+  { "word": "work out", "meaning": "çözmek, egzersiz yapmak", "example": "We need to work out a solution." },
+  { "word": "break out", "meaning": "patlak vermek", "example": "War broke out in the region." },
+  { "word": "break down", "meaning": "bozulmak, ayrıştırmak", "example": "The car broke down on the highway." },
+  { "word": "tear up", "meaning": "yırtmak", "example": "He tore up the letter." },
+  { "word": "rip up", "meaning": "yırtmak", "example": "She ripped up the drawing in anger." },
+  { "word": "do away with", "meaning": "ortadan kaldırmak", "example": "The company decided to do away with the old policy." },
+  { "word": "get rid of", "meaning": "kurtulmak", "example": "I want to get rid of this old car." },
+  { "word": "ruin", "meaning": "mahvetmek", "example": "The storm ruined our vacation." },
+  { "word": "destroy", "meaning": "yok etmek", "example": "The fire destroyed the entire building." },
+  { "word": "perish", "meaning": "yok olmak, can vermek", "example": "The ancient city perished in a great fire." },
+  { "word": "corrupt", "meaning": "yozlaştırmak, bozmak", "example": "Power can corrupt even the best people." },
+  { "word": "inundate", "meaning": "su altında bırakmak, boğmak", "example": "The city was inundated by the sudden flood." },
+  { "word": "contain", "meaning": "içermek, kapsamak", "example": "The box contains several different items." },
+  { "word": "hold", "meaning": "tutmak", "example": "Please hold my hand." },
+  { "word": "embrace", "meaning": "kucaklamak, benimsemek", "example": "He embraced the challenge with a positive attitude." },
+  { "word": "reside", "meaning": "ikamet etmek, oturmak", "example": "She resides in a small town outside the city." },
+  { "word": "dwell", "meaning": "yaşamak, ikamet etmek", "example": "He dwells in a small cottage by the river." },
+  { "word": "settle", "meaning": "yerleşmek, halletmek", "example": "It's time to settle this argument." },
+  { "word": "solve", "meaning": "çözmek", "example": "Can you solve this math problem?" },
+  { "word": "resolve", "meaning": "çözmek, karara bağlamak", "example": "They were able to resolve their differences." }
 ]
