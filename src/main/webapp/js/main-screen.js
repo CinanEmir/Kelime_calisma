@@ -40,6 +40,7 @@ async function getRandomWord() {
         document.getElementById('word').innerText = randomWord.word;
         document.getElementById('meaning').innerText = randomWord.meaning;
         document.getElementById('example').innerText = randomWord.example;
+        document.getElementById('example-meaning').innerText = randomWord.example_meaning;
 
     } catch (error) {
         console.error('Kelime listesi yüklenirken bir hata oluştu:', error);
