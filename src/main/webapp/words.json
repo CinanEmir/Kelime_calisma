@@ -1,121 +1,1311 @@
 [
-  { "word": "relieve", "meaning": "rahatlatmak, hafifletmek", "example": "This medicine will relieve your pain.", "example_meaning": "Bu ilaç ağrınızı hafifletecek." },
-  { "word": "alleviate", "meaning": "dindirmek, hafifletmek", "example": "We should find a way to alleviate the suffering of the poor.", "example_meaning": "Fakirlerin çektiği acıyı dindirmenin bir yolunu bulmalıyız." },
-  { "word": "rebellious", "meaning": "asi, isyankar", "example": "The rebellious teenager refused to follow the rules.", "example_meaning": "Asi genç kurallara uymayı reddetti." },
-  { "word": "abolish", "meaning": "feshetmek, ortadan kaldırmak", "example": "The government decided to abolish the old law.", "example_meaning": "Hükümet eski yasayı feshetmeye karar verdi." },
-  { "word": "cease", "meaning": "durmak, sona ermek", "example": "The rain did not cease all day long.", "example_meaning": "Yağmur bütün gün boyunca durmadı." },
-  { "word": "mitigate", "meaning": "hafifletmek, azaltmak", "example": "We need to mitigate the effects of climate change.", "example_meaning": "İklim değişikliğinin etkilerini azaltmamız gerekiyor." },
-  { "word": "diminish", "meaning": "azaltmak, eksiltmek", "example": "The value of the currency began to diminish.", "example_meaning": "Para biriminin değeri azalmaya başladı." },
-  { "word": "resist", "meaning": "direnmek, karşı koymak", "example": "The doctor's body could no longer resist the infection.", "example_meaning": "Doktorun vücudu enfeksiyona artık direnemiyordu." },
-  { "word": "defy", "meaning": "karşı gelmek, karşı koymak", "example": "He defied his parents' wishes and traveled abroad.", "example_meaning": "Ebeveynlerinin dileklerine karşı geldi ve yurt dışına seyahat etti." },
-  { "word": "threaten", "meaning": "tehdit etmek", "example": "The dark clouds threatened to bring rain.", "example_meaning": "Kara bulutlar yağmur getirmekle tehdit ediyordu." },
-  { "word": "intimidating", "meaning": "göz korkutucu, ürkütücü", "example": "The boss's silence was very intimidating.", "example_meaning": "Patronun sessizliği çok göz korkutucuydu." },
-  { "word": "dangerous", "meaning": "tehlikeli", "example": "It is dangerous to walk alone at night.", "example_meaning": "Geceleri yalnız yürümek tehlikelidir." },
-  { "word": "perilous", "meaning": "tehlikeli, riskli", "example": "The climbers faced a perilous journey up the mountain.", "example_meaning": "Dağcılar dağa tırmanırken tehlikeli bir yolculukla karşılaştılar." },
-  { "word": "deliberate", "meaning": "kasıtlı, bilerek", "example": "His actions were a deliberate attempt to sabotage the project.", "example_meaning": "Eylemleri, projeyi sabote etmek için kasıtlı bir girişimdi." },
-  { "word": "intentional", "meaning": "kasıtlı, amaçlı", "example": "It was an intentional foul during the game.", "example_meaning": "Maç sırasında kasıtlı bir fauldü." },
-  { "word": "intent", "meaning": "niyet, amaç", "example": "He was full of good intent, but his plan failed.", "example_meaning": "İyi niyetle doluydu, ama planı başarısız oldu." },
-  { "word": "bizarre", "meaning": "tuhaf, acayip", "example": "We saw a bizarre sight in the sky.", "example_meaning": "Gökyüzünde tuhaf bir manzara gördük." },
-  { "word": "strange", "meaning": "garip, tuhaf", "example": "I heard a strange noise in the other room.", "example_meaning": "Diğer odadan garip bir ses duydum." },
-  { "word": "odd", "meaning": "garip, tuhaf", "example": "He has some odd habits.", "example_meaning": "Bazı tuhaf alışkanlıkları var." },
-  { "word": "weird", "meaning": "tuhaf, acayip", "example": "That's a weird coincidence.", "example_meaning": "Bu tuhaf bir tesadüf." },
-  { "word": "trivial", "meaning": "önemsiz, ufak", "example": "It's a trivial matter that doesn't require our attention.", "example_meaning": "Bu, dikkatimizi gerektirmeyen önemsiz bir mesele." },
-  { "word": "insignificant", "meaning": "önemsiz, değersiz", "example": "The amount of money he lost was insignificant to him.", "example_meaning": "Kaybettiği para miktarı onun için önemsizdi." },
-  { "word": "minor", "meaning": "küçük, önemsiz", "example": "She suffered a minor injury.", "example_meaning": "Hafif bir yaralanma geçirdi." },
-  { "word": "unimportant", "meaning": "önemsiz", "example": "His opinion is totally unimportant.", "example_meaning": "Onun fikri tamamen önemsiz." },
-  { "word": "negligible", "meaning": "önemsiz, ihmal edilebilir", "example": "The difference in weight is negligible.", "example_meaning": "Ağırlıktaki fark ihmal edilebilir." },
-  { "word": "efficient", "meaning": "verimli, etkili", "example": "She is a very efficient worker.", "example_meaning": "O, çok verimli bir çalışan." },
-  { "word": "effective", "meaning": "etkili", "example": "The new drug is highly effective.", "example_meaning": "Yeni ilaç son derece etkili." },
-  { "word": "productive", "meaning": "üretken", "example": "We had a very productive meeting.", "example_meaning": "Çok verimli bir toplantı yaptık." },
-  { "word": "competent", "meaning": "yetkin, yeterli", "example": "He is a competent teacher.", "example_meaning": "O, yetkin bir öğretmen." },
-  { "word": "attain", "meaning": "elde etmek, ulaşmak", "example": "He was able to attain his goal.", "example_meaning": "Amacına ulaşabildi." },
-  { "word": "obtain", "meaning": "edinmek, elde etmek", "example": "You need a permit to obtain a passport.", "example_meaning": "Pasaport almak için bir izne ihtiyacınız var." },
-  { "word": "gain", "meaning": "kazanmak, elde etmek", "example": "The company is gaining market share.", "example_meaning": "Şirket pazar payı kazanıyor." },
-  { "word": "devastating", "meaning": "yıkıcı", "example": "The earthquake caused devastating damage.", "example_meaning": "Deprem yıkıcı hasara neden oldu." },
-  { "word": "destructive", "meaning": "yıkıcı", "example": "His words were very destructive to her self-esteem.", "example_meaning": "Sözleri, özgüveni için çok yıkıcıydı." },
-  { "word": "catastrophic", "meaning": "felaket getiren", "example": "The failure of the bridge was catastrophic.", "example_meaning": "Köprünün çöküşü felaket getirdi." },
-  { "word": "ruinous", "meaning": "yıkıcı, harap edici", "example": "A ruinous debt can destroy a person's life.", "example_meaning": "Yıkıcı bir borç, bir insanın hayatını mahvedebilir." },
-  { "word": "even", "meaning": "eşit", "example": "We have an even number of men and women.", "example_meaning": "Eşit sayıda erkek ve kadınımız var." },
-  { "word": "equal", "meaning": "eşit", "example": "All citizens have equal rights.", "example_meaning": "Tüm vatandaşların eşit hakları var." },
-  { "word": "disparity", "meaning": "eşitsizlik, farklılık", "example": "There is a great disparity between the rich and the poor.", "example_meaning": "Zenginler ve fakirler arasında büyük bir eşitsizlik var." },
-  { "word": "irregular", "meaning": "düzensiz", "example": "He has an irregular heartbeat.", "example_meaning": "Düzensiz bir kalp atışı var." },
-  { "word": "uneven", "meaning": "düzensiz", "example": "The surface of the road is uneven.", "example_meaning": "Yolun yüzeyi düzensiz." },
-  { "word": "inconsistent", "meaning": "tutarsız", "example": "Her story was inconsistent with the facts.", "example_meaning": "Onun hikayesi gerçeklerle tutarsızdı." },
-  { "word": "sporadic", "meaning": "ara sıra, seyrek", "example": "The sporadic gunfire could be heard in the distance.", "example_meaning": "Uzaktan ara sıra silah sesleri duyulabiliyordu." },
-  { "word": "irrelevant", "meaning": "alakası olmayan, konu dışı", "example": "His comments were completely irrelevant to the discussion.", "example_meaning": "Onun yorumları tartışmayla tamamen alakasızdı." },
-  { "word": "unrelated", "meaning": "alakasız", "example": "These two events are completely unrelated.", "example_meaning": "Bu iki olay tamamen alakasız." },
-  { "word": "unconnected", "meaning": "bağlantısız", "example": "The two parts of the story are unconnected.", "example_meaning": "Hikayenin iki bölümü bağlantısız." },
-  { "word": "inevitable", "meaning": "kaçınılmaz", "example": "It was an inevitable consequence of her actions.", "example_meaning": "Bu, onun eylemlerinin kaçınılmaz bir sonucuydu." },
-  { "word": "unavoidable", "meaning": "kaçınılmaz", "example": "The accident was unavoidable.", "example_meaning": "Kaza kaçınılmazdı." },
-  { "word": "certain", "meaning": "kesin, belli", "example": "It is a certain fact that the sun will rise tomorrow.", "example_meaning": "Yarın güneşin doğacağı kesin bir gerçek." },
-  { "word": "inescapable", "meaning": "kaçınılmaz", "example": "The threat of war felt inescapable.", "example_meaning": "Savaş tehdidi kaçınılmaz hissediliyordu." },
-  { "word": "undeniable", "meaning": "inkar edilemez", "example": "The evidence is undeniable.", "example_meaning": "Kanıt inkar edilemez." },
-  { "word": "irrefutable", "meaning": "çürütülemez, reddedilemez", "example": "His argument was irrefutable.", "example_meaning": "Onun argümanı çürütülemezdi." },
-  { "word": "unquestionable", "meaning": "tartışmasız", "example": "His loyalty is unquestionable.", "example_meaning": "Sadakati tartışılmaz." },
-  { "word": "evident", "meaning": "açık, belli", "example": "It was evident that she was unhappy.", "example_meaning": "Onun mutsuz olduğu açıktı." },
-  { "word": "exact", "meaning": "tam, kesin", "example": "I need the exact amount of money.", "example_meaning": "Paranın tam miktarına ihtiyacım var." },
-  { "word": "irreversible", "meaning": "geri dönülemez", "example": "The damage to the environment is irreversible.", "example_meaning": "Çevreye verilen hasar geri dönülemez." },
-  { "word": "permanent", "meaning": "kalıcı", "example": "She has a permanent job now.", "example_meaning": "Şimdi kalıcı bir işi var." },
-  { "word": "unchangeable", "meaning": "değişmez", "example": "The laws of physics are unchangeable.", "example_meaning": "Fiziğin yasaları değişmez." },
-  { "word": "irrepairable", "meaning": "onarılmaz", "example": "The loss of life was an irreparable tragedy.", "example_meaning": "Can kaybı onarılamaz bir trajediydi." },
-  { "word": "unreliable", "meaning": "güvenilmez", "example": "The witness was found to be unreliable.", "example_meaning": "Tanığın güvenilmez olduğu anlaşıldı." },
-  { "word": "undependable", "meaning": "güvenilmez", "example": "The old car is undependable.", "example_meaning": "Eski araba güvenilmez." },
-  { "word": "uncertain", "meaning": "belirsiz", "example": "The future is still uncertain.", "example_meaning": "Gelecek hala belirsiz." },
-  { "word": "inconsistent", "meaning": "tutarsız", "example": "His behavior was inconsistent with his promises.", "example_meaning": "Davranışları, vaatleriyle tutarsızdı." },
-  { "word": "rely on", "meaning": "güvenmek, bağlı olmak", "example": "You can always rely on her.", "example_meaning": "Ona her zaman güvenebilirsin." },
-  { "word": "depend on", "meaning": "bağlı olmak", "example": "Our plans depend on the weather.", "example_meaning": "Planlarımız havaya bağlı." },
-  { "word": "count on", "meaning": "güvenmek", "example": "I'm counting on you to help me.", "example_meaning": "Bana yardım etmen için sana güveniyorum." },
-  { "word": "manageable", "meaning": "yönetilebilir", "example": "The project is difficult but manageable.", "example_meaning": "Proje zor ama yönetilebilir." },
-  { "word": "controllable", "meaning": "kontrol edilebilir", "example": "The fire was not easily controllable.", "example_meaning": "Yangın kolayca kontrol edilebilir değildi." },
-  { "word": "feasible", "meaning": "mümkün, yapılabilir", "example": "This plan is not feasible.", "example_meaning": "Bu plan uygulanabilir değil." },
-  { "word": "severe", "meaning": "şiddetli, sert", "example": "He was punished with a severe penalty.", "example_meaning": "Şiddetli bir cezayla cezalandırıldı." },
-  { "word": "harsh", "meaning": "sert, acımasız", "example": "The teacher gave them a harsh lecture.", "example_meaning": "Öğretmen onlara sert bir ders verdi." },
-  { "word": "precious", "meaning": "değerli, kıymetli", "example": "Her friendship is very precious to me.", "example_meaning": "Onun arkadaşlığı benim için çok değerli." },
-  { "word": "valuable", "meaning": "değerli", "example": "This is a very valuable painting.", "example_meaning": "Bu çok değerli bir tablo." },
-  { "word": "cherished", "meaning": "değer verilen, kıymetli", "example": "He kept the letter as a cherished memory.", "example_meaning": "Mektubu değerli bir anı olarak sakladı." },
-  { "word": "treasured", "meaning": "değerli, kıymetli", "example": "The old book was a treasured possession.", "example_meaning": "Eski kitap kıymetli bir eşyaydı." },
-  { "word": "frequent", "meaning": "sık, sık sık", "example": "He is a frequent visitor to our home.", "example_meaning": "Evimize sık sık gelen bir misafir." },
-  { "word": "common", "meaning": "yaygın, sık rastlanan", "example": "Flu is a common illness in winter.", "example_meaning": "Grip, kışın yaygın bir hastalıktır." },
-  { "word": "repeated", "meaning": "tekrarlanan", "example": "She made repeated attempts to contact him.", "example_meaning": "Onunla defalarca kez iletişim kurmaya çalıştı." },
-  { "word": "habitual", "meaning": "alışılmış, alışkanlık haline gelmiş", "example": "It was his habitual morning routine.", "example_meaning": "Bu, onun alışılmış sabah rutiniydi." },
-  { "word": "detectable", "meaning": "saptanabilir, fark edilebilir", "example": "The presence of the virus was not detectable.", "example_meaning": "Virüsün varlığı saptanamadı." },
-  { "word": "noticeable", "meaning": "fark edilebilir", "example": "The difference between the two colors is noticeable.", "example_meaning": "İki renk arasındaki fark fark edilebilir." },
-  { "word": "observable", "meaning": "gözlemlenebilir", "example": "His behavior was not observable to the public.", "example_meaning": "Davranışı halk tarafından gözlemlenebilir değildi." },
-  { "word": "identifiable", "meaning": "tanımlanabilir", "example": "The suspect was clearly identifiable in the video.", "example_meaning": "Şüpheli videoda net bir şekilde tanımlanabiliyordu." },
-  { "word": "determination", "meaning": "azim, kararlılık", "example": "Her determination helped her succeed.", "example_meaning": "Azmi, başarılı olmasına yardımcı oldu." },
-  { "word": "courage", "meaning": "cesaret", "example": "He showed great courage in the face of danger.", "example_meaning": "Tehlike karşısında büyük cesaret gösterdi." },
-  { "word": "resolute", "meaning": "kararlı", "example": "She was resolute in her decision.", "example_meaning": "Kararında kararlıydı." },
-  { "word": "pass down", "meaning": "nesilden nesile geçmek", "example": "This tradition has been passed down for generations.", "example_meaning": "Bu gelenek nesillerdir aktarılıyor." },
-  { "word": "transmit", "meaning": "göndermek, yaymak", "example": "The radio transmits signals over a long distance.", "example_meaning": "Radyo, sinyalleri uzun bir mesafeye gönderir." },
-  { "word": "put out", "meaning": "söndürmek, yayımlamak", "example": "Firefighters quickly put out the fire.", "example_meaning": "İtfaiyeciler ateşi hızla söndürdü." },
-  { "word": "end up", "meaning": "sonuçlanmak, bitmek", "example": "They didn't have a plan and ended up getting lost.", "example_meaning": "Bir planları yoktu ve sonunda kayboldular." },
-  { "word": "put forward", "meaning": "öne sürmek, teklif etmek", "example": "He put forward a new idea during the meeting.", "example_meaning": "Toplantıda yeni bir fikir öne sürdü." },
-  { "word": "get into", "meaning": "dahil olmak, bir şeye başlamak", "example": "She got into trouble for being late.", "example_meaning": "Geç kaldığı için başı belaya girdi." },
-  { "word": "settle down", "meaning": "yerleşmek, sakinleşmek", "example": "After a few years of traveling, he decided to settle down.", "example_meaning": "Birkaç yıl seyahat ettikten sonra yerleşmeye karar verdi." },
-  { "word": "give off", "meaning": "yaymak, salmak", "example": "The flowers give off a wonderful scent.", "example_meaning": "Çiçekler harika bir koku yayıyor." },
-  { "word": "carry on", "meaning": "devam etmek, sürdürmek", "example": "Please carry on with your work.", "example_meaning": "Lütfen işinize devam edin." },
-  { "word": "make out", "meaning": "anlamak, seçmek", "example": "I couldn't make out what he was saying.", "example_meaning": "Ne dediğini anlayamadım." },
-  { "word": "aim at", "meaning": "hedeflemek, amaçlamak", "example": "This campaign aims at reducing waste.", "example_meaning": "Bu kampanya atıkları azaltmayı amaçlıyor." },
-  { "word": "expose to", "meaning": "maruz bırakmak", "example": "Don't expose your skin to the sun for too long.", "example_meaning": "Cildinizi güneşe çok uzun süre maruz bırakmayın." },
-  { "word": "break down", "meaning": "bozulmak, ayrıştırmak", "example": "The car broke down on the highway.", "example_meaning": "Araba otoyolda bozuldu." },
-  { "word": "liken to", "meaning": "benzetmek, karşılaştırmak", "example": "He likened her voice to that of an angel.", "example_meaning": "Sesini bir meleğinkine benzetti." },
-  { "word": "relieve of", "meaning": "yükten kurtarmak, rahatlatmak", "example": "The new policy will relieve the burden on small businesses.", "example_meaning": "Yeni politika, küçük işletmelerin üzerindeki yükü hafifletecek." },
-  { "word": "perpetuate", "meaning": "sürdürmek, devam ettirmek", "example": "The film perpetuates negative stereotypes.", "example_meaning": "Film olumsuz stereotipleri devam ettiriyor." },
-  { "word": "eradicate", "meaning": "kökünü kazımak, yok etmek", "example": "They are working to eradicate the disease.", "example_meaning": "Hastalığı yok etmek için çalışıyorlar." },
-  { "word": "inundate", "meaning": "su altında bırakmak, boğmak", "example": "After the flood, the city was completely inundated.", "example_meaning": "Selden sonra şehir tamamen sular altında kaldı." },
-  { "word": "contain", "meaning": "içermek, kapsamak", "example": "The box contains several different items.", "example_meaning": "Kutu birkaç farklı eşya içeriyor." },
-  { "word": "embrace", "meaning": "kucaklamak, benimsemek", "example": "He embraced the challenge with a positive attitude.", "example_meaning": "Pozitif bir tutumla meydan okumayı benimsedi." },
-  { "word": "perish", "meaning": "yok olmak, can vermek", "example": "The ancient city perished in a great fire.", "example_meaning": "Antik şehir büyük bir yangında yok oldu." },
-  { "word": "diminish", "meaning": "azaltmak, eksiltmek", "example": "The value of the currency began to diminish.", "example_meaning": "Para biriminin değeri azalmaya başladı." },
-  { "word": "suppress", "meaning": "bastırmak, engellemek", "example": "The government tried to suppress the protests.", "example_meaning": "Hükümet protestoları bastırmaya çalıştı." },
-  { "word": "put off", "meaning": "ertelemek, soğutmak", "example": "Don't put off doing your homework.", "example_meaning": "Ödevini yapmayı erteleme." },
-  { "word": "suspend", "meaning": "askıya almak, durdurmak", "example": "The game was suspended due to heavy rain.", "example_meaning": "Şiddetli yağmur nedeniyle maç askıya alındı." },
-  { "word": "threaten", "meaning": "tehdit etmek", "example": "He was arrested for threatening a police officer.", "example_meaning": "Bir polis memurunu tehdit etmekten tutuklandı." },
-  { "word": "deliberate", "meaning": "kasıtlı, bilerek", "example": "His actions were a deliberate attempt to sabotage the project.", "example_meaning": "Eylemleri, projeyi sabote etmek için kasıtlı bir girişimdi." },
-  { "word": "irrelevant", "meaning": "konu dışı, alakasız", "example": "That comment is completely irrelevant to the discussion.", "example_meaning": "Bu yorum, tartışmayla tamamen alakasız." },
-  { "word": "unreliable", "meaning": "güvenilmez", "example": "The witness was found to be unreliable.", "example_meaning": "Tanığın güvenilmez olduğu anlaşıldı." },
-  { "word": "manageable", "meaning": "yönetilebilir", "example": "The project is difficult but manageable.", "example_meaning": "Proje zor ama yönetilebilir." },
-  { "word": "unavoidable", "meaning": "kaçınılmaz", "example": "The accident was unavoidable.", "example_meaning": "Kaza kaçınılmazdı." },
-  { "word": "detectable", "meaning": "saptanabilir, fark edilebilir", "example": "The presence of the virus was not detectable.", "example_meaning": "Virüsün varlığı saptanamadı." },
-  { "word": "irrefutable", "meaning": "çürütülemez, reddedilemez", "example": "His argument was irrefutable.", "example_meaning": "Onun argümanı çürütülemezdi." }
+  {
+    "word": "relieve",
+    "meaning": "rahatlatmak, hafifletmek",
+    "examples": [
+      { "en": "This medicine will relieve your pain.", "tr": "Bu ilaç ağrınızı hafifletecek." },
+      { "en": "He went to the beach to relieve his stress.", "tr": "Stresini atmak için plaja gitti." },
+      { "en": "The new policy will relieve the burden on small businesses.", "tr": "Yeni politika, küçük işletmelerin üzerindeki yükü hafifletecek." },
+      { "en": "She was relieved to hear that he was safe.", "tr": "Onun güvende olduğunu duyunca rahatladı." },
+      { "en": "The new manager will relieve the old one next week.", "tr": "Yeni yönetici gelecek hafta eskisinin yerini alacak." }
+    ]
+  },
+  {
+    "word": "alleviate",
+    "meaning": "dindirmek, hafifletmek",
+    "examples": [
+      { "en": "We should find a way to alleviate the suffering of the poor.", "tr": "Fakirlerin çektiği acıyı dindirmenin bir yolunu bulmalıyız." },
+      { "en": "The new government aims to alleviate poverty.", "tr": "Yeni hükümet yoksulluğu hafifletmeyi amaçlıyor." },
+      { "en": "Meditation can alleviate stress and anxiety.", "tr": "Meditasyon, stres ve kaygıyı hafifletebilir." },
+      { "en": "They took measures to alleviate the traffic congestion.", "tr": "Trafik sıkışıklığını azaltmak için önlemler aldılar." },
+      { "en": "A hot bath can help to alleviate muscle pain.", "tr": "Sıcak bir banyo, kas ağrısını hafifletmeye yardımcı olabilir." }
+    ]
+  },
+  {
+    "word": "rebellious",
+    "meaning": "asi, isyankar",
+    "examples": [
+      { "en": "The rebellious teenager refused to follow the rules.", "tr": "Asi genç kurallara uymayı reddetti." },
+      { "en": "She had a rebellious phase in her youth.", "tr": "Gençliğinde isyankar bir dönemden geçti." },
+      { "en": "The rebellious group planned to overthrow the government.", "tr": "Asi grup, hükümeti devirmeyi planladı." },
+      { "en": "His rebellious nature often got him into trouble.", "tr": "İsyankar doğası onu sık sık belaya sokardı." },
+      { "en": "They were known for their rebellious spirit.", "tr": "İsyankar ruhlarıyla tanınıyorlardı." }
+    ]
+  },
+  {
+    "word": "abolish",
+    "meaning": "feshetmek, ortadan kaldırmak",
+    "examples": [
+      { "en": "The government decided to abolish the old law.", "tr": "Hükümet eski yasayı feshetmeye karar verdi." },
+      { "en": "Slavery was officially abolished in the 19th century.", "tr": "Kölelik, 19. yüzyılda resmen kaldırıldı." },
+      { "en": "The president has promised to abolish the tax.", "tr": "Başkan vergiyi kaldırma sözü verdi." },
+      { "en": "Many people are calling to abolish the death penalty.", "tr": "Birçok insan idam cezasının kaldırılmasını talep ediyor." },
+      { "en": "The organization works to abolish human trafficking.", "tr": "Organizasyon, insan kaçakçılığını ortadan kaldırmak için çalışıyor." }
+    ]
+  },
+  {
+    "word": "cease",
+    "meaning": "durmak, sona ermek",
+    "examples": [
+      { "en": "The rain did not cease all day long.", "tr": "Yağmur bütün gün boyunca durmadı." },
+      { "en": "The company will cease operations next month.", "tr": "Şirket önümüzdeki ay faaliyetlerine son verecek." },
+      { "en": "They agreed to cease fire immediately.", "tr": "Derhal ateşkese razı oldular." },
+      { "en": "The noise ceased as the train passed by.", "tr": "Tren geçerken gürültü kesildi." },
+      { "en": "He hoped the conflict would cease soon.", "tr": "Çatışmanın yakında sona ermesini umuyordu." }
+    ]
+  },
+  {
+    "word": "mitigate",
+    "meaning": "hafifletmek, azaltmak",
+    "examples": [
+      { "en": "We need to mitigate the effects of climate change.", "tr": "İklim değişikliğinin etkilerini azaltmamız gerekiyor." },
+      { "en": "The storm was so strong that nothing could mitigate the damage.", "tr": "Fırtına o kadar şiddetliydi ki hasarı hiçbir şey hafifletemedi." },
+      { "en": "They took steps to mitigate the risks.", "tr": "Riskleri azaltmak için adımlar attılar." },
+      { "en": "The medicine helped to mitigate her headache.", "tr": "İlaç, baş ağrısını hafifletmeye yardımcı oldu." },
+      { "en": "Training can help to mitigate the impact of mistakes.", "tr": "Eğitim, hataların etkisini azaltmaya yardımcı olabilir." }
+    ]
+  },
+  {
+    "word": "diminish",
+    "meaning": "azaltmak, eksiltmek",
+    "examples": [
+      { "en": "The value of the currency began to diminish.", "tr": "Para biriminin değeri azalmaya başladı." },
+      { "en": "His enthusiasm for the project slowly diminished.", "tr": "Proje için olan hevesi yavaşça azaldı." },
+      { "en": "The new law aims to diminish the power of the central government.", "tr": "Yeni yasa, merkezi hükümetin gücünü azaltmayı amaçlıyor." },
+      { "en": "The light from the fire began to diminish.", "tr": "Ateşin ışığı azalmaya başladı." },
+      { "en": "The supply of natural resources is slowly diminishing.", "tr": "Doğal kaynakların tedariki yavaşça azalıyor." }
+    ]
+  },
+  {
+    "word": "resist",
+    "meaning": "direnmek, karşı koymak",
+    "examples": [
+      { "en": "The doctor's body could no longer resist the infection.", "tr": "Doktorun vücudu enfeksiyona artık direnemiyordu." },
+      { "en": "He couldn't resist the temptation of the chocolate cake.", "tr": "Çikolatalı pastanın cazibesine direnemedi." },
+      { "en": "The soldiers were ordered to resist the enemy attack.", "tr": "Askerlere düşman saldırısına direnmeleri emredildi." },
+      { "en": "She resisted the pressure to change her mind.", "tr": "Fikrini değiştirmesi için yapılan baskıya direndi." },
+      { "en": "The new material is designed to resist rust and corrosion.", "tr": "Yeni malzeme pas ve korozyona direnmek için tasarlandı." }
+    ]
+  },
+  {
+    "word": "defy",
+    "meaning": "karşı gelmek, karşı koymak",
+    "examples": [
+      { "en": "He defied his parents' wishes and traveled abroad.", "tr": "Ebeveynlerinin dileklerine karşı geldi ve yurt dışına seyahat etti." },
+      { "en": "The small country defied the larger nation's military threat.", "tr": "Küçük ülke, büyük ulusun askeri tehdidine karşı koydu." },
+      { "en": "The beautiful garden seemed to defy the harsh weather.", "tr": "Güzel bahçe, sert hava koşullarına meydan okuyor gibiydi." },
+      { "en": "The students defied the school's strict dress code.", "tr": "Öğrenciler, okulun katı kıyafet yönetmeliğine karşı geldi." },
+      { "en": "He was known for his courage to defy authority.", "tr": "Otoriteye karşı gelme cesaretiyle tanınıyordu." }
+    ]
+  },
+  {
+    "word": "threaten",
+    "meaning": "tehdit etmek",
+    "examples": [
+      { "en": "The dark clouds threatened to bring rain.", "tr": "Kara bulutlar yağmur getirmekle tehdit ediyordu." },
+      { "en": "He was arrested for threatening a police officer.", "tr": "Bir polis memurunu tehdit etmekten tutuklandı." },
+      { "en": "A new disease is threatening the local bird population.", "tr": "Yeni bir hastalık yerel kuş popülasyonunu tehdit ediyor." },
+      { "en": "The company's existence is threatened by its financial problems.", "tr": "Şirketin varlığı, finansal sorunları tarafından tehdit ediliyor." },
+      { "en": "He threatened to quit his job if he didn't get a raise.", "tr": "Zam alamazsa işi bırakmakla tehdit etti." }
+    ]
+  },
+  {
+    "word": "intimidating",
+    "meaning": "göz korkutucu, ürkütücü",
+    "examples": [
+      { "en": "The boss's silence was very intimidating.", "tr": "Patronun sessizliği çok göz korkutucuydu." },
+      { "en": "He has an intimidating presence in the room.", "tr": "Odada göz korkutucu bir varlığı var." },
+      { "en": "The large dog was intimidating to the children.", "tr": "Büyük köpek, çocuklar için ürkütücüydü." },
+      { "en": "Her reputation was a bit intimidating at first.", "tr": "İlk başta onun ünü biraz göz korkutucuydu." },
+      { "en": "The huge building seemed intimidating from the street.", "tr": "Devasa bina caddeden ürkütücü görünüyordu." }
+    ]
+  },
+  {
+    "word": "dangerous",
+    "meaning": "tehlikeli",
+    "examples": [
+      { "en": "It is dangerous to walk alone at night.", "tr": "Geceleri yalnız yürümek tehlikelidir." },
+      { "en": "He has a dangerous habit of driving too fast.", "tr": "Çok hızlı araba kullanmak gibi tehlikeli bir alışkanlığı var." },
+      { "en": "The dangerous chemicals must be stored carefully.", "tr": "Tehlikeli kimyasallar dikkatlice saklanmalı." },
+      { "en": "The mountain pass is considered dangerous during winter.", "tr": "Dağ geçidi kışın tehlikeli kabul edilir." },
+      { "en": "A dangerous animal was seen in the forest.", "tr": "Ormanda tehlikeli bir hayvan görüldü." }
+    ]
+  },
+  {
+    "word": "perilous",
+    "meaning": "tehlikeli, riskli",
+    "examples": [
+      { "en": "The climbers faced a perilous journey up the mountain.", "tr": "Dağcılar dağa tırmanırken tehlikeli bir yolculukla karşılaştılar." },
+      { "en": "They had to cross a perilous river to reach the other side.", "tr": "Diğer tarafa ulaşmak için tehlikeli bir nehri geçmeleri gerekti." },
+      { "en": "The mission was highly perilous, with a low chance of success.", "tr": "Görev, başarı şansı düşük olan son derece riskliydi." },
+      { "en": "He warned them about the perilous nature of the expedition.", "tr": "Onları seferin tehlikeli doğası hakkında uyardı." },
+      { "en": "Flying in the storm was a perilous undertaking.", "tr": "Fırtınada uçmak tehlikeli bir girişimdi." }
+    ]
+  },
+  {
+    "word": "deliberate",
+    "meaning": "kasıtlı, bilerek",
+    "examples": [
+      { "en": "His actions were a deliberate attempt to sabotage the project.", "tr": "Eylemleri, projeyi sabote etmek için kasıtlı bir girişimdi." },
+      { "en": "She made a deliberate choice to study abroad.", "tr": "Yurt dışında eğitim almak için bilinçli bir seçim yaptı." },
+      { "en": "The damage was not an accident; it was deliberate.", "tr": "Hasar bir kaza değildi; kasıtlıydı." },
+      { "en": "He speaks in a slow and deliberate manner.", "tr": "Yavaş ve kasıtlı bir şekilde konuşuyor." },
+      { "en": "The police believe the fire was a deliberate act of arson.", "tr": "Polis, yangının kasıtlı bir kundaklama eylemi olduğuna inanıyor." }
+    ]
+  },
+  {
+    "word": "intentional",
+    "meaning": "kasıtlı, amaçlı",
+    "examples": [
+      { "en": "It was an intentional foul during the game.", "tr": "Maç sırasında kasıtlı bir fauldü." },
+      { "en": "His silence was not accidental; it was intentional.", "tr": "Sessizliği tesadüfi değildi; kasıtlıydı." },
+      { "en": "The company's failure was an intentional act by the owner.", "tr": "Şirketin iflası, sahibinin kasıtlı bir eylemiydi." },
+      { "en": "Was the mistake intentional or just an oversight?", "tr": "Hata kasıtlı mıydı yoksa sadece bir gözden kaçırma mı?" },
+      { "en": "He claimed the harm was not intentional.", "tr": "Zararın kasıtlı olmadığını iddia etti." }
+    ]
+  },
+  {
+    "word": "intent",
+    "meaning": "niyet, amaç",
+    "examples": [
+      { "en": "He was full of good intent, but his plan failed.", "tr": "İyi niyetle doluydu, ama planı başarısız oldu." },
+      { "en": "Her intent was to help, but she only made things worse.", "tr": "Amacı yardım etmekti, ama işleri daha da kötüleştirdi." },
+      { "en": "He was arrested with the intent to steal the car.", "tr": "Arabayı çalma niyetiyle tutuklandı." },
+      { "en": "The law is clear about the intent behind the action.", "tr": "Yasa, eylemin arkasındaki niyet hakkında net." },
+      { "en": "The company's intent is to expand into new markets.", "tr": "Şirketin niyeti, yeni pazarlara açılmaktır." }
+    ]
+  },
+  {
+    "word": "bizarre",
+    "meaning": "tuhaf, acayip",
+    "examples": [
+      { "en": "We saw a bizarre sight in the sky.", "tr": "Gökyüzünde tuhaf bir manzara gördük." },
+      { "en": "The artist is known for his bizarre sculptures.", "tr": "Sanatçı, tuhaf heykelleriyle tanınıyor." },
+      { "en": "He told a bizarre story about his encounter with an alien.", "tr": "Bir uzaylıyla karşılaşması hakkında tuhaf bir hikaye anlattı." },
+      { "en": "The movie had a bizarre and unpredictable plot.", "tr": "Filmin tuhaf ve öngörülemez bir konusu vardı." },
+      { "en": "She wore a bizarre costume to the party.", "tr": "Partiye tuhaf bir kostüm giydi." }
+    ]
+  },
+  {
+    "word": "strange",
+    "meaning": "garip, tuhaf",
+    "examples": [
+      { "en": "I heard a strange noise in the other room.", "tr": "Diğer odadan garip bir ses duydum." },
+      { "en": "It's strange that she didn't call.", "tr": "Aramaması garip." },
+      { "en": "He has a strange way of looking at things.", "tr": "Olaylara bakış açısı garip." },
+      { "en": "I feel strange today, maybe I'm getting sick.", "tr": "Bugün garip hissediyorum, sanırım hasta oluyorum." },
+      { "en": "She met a strange man on the bus.", "tr": "Otobüste garip bir adamla tanıştı." }
+    ]
+  },
+  {
+    "word": "odd",
+    "meaning": "garip, tuhaf",
+    "examples": [
+      { "en": "He has some odd habits.", "tr": "Bazı tuhaf alışkanlıkları var." },
+      { "en": "It's an odd number, not even.", "tr": "Çift değil, tek bir sayı." },
+      { "en": "The house was decorated in a very odd way.", "tr": "Ev çok tuhaf bir şekilde dekore edilmişti." },
+      { "en": "I got an odd feeling that something was wrong.", "tr": "Bir şeylerin yanlış olduğuna dair garip bir hissim vardı." },
+      { "en": "The design seemed a bit odd to me.", "tr": "Tasarım bana biraz garip geldi." }
+    ]
+  },
+  {
+    "word": "weird",
+    "meaning": "tuhaf, acayip",
+    "examples": [
+      { "en": "That's a weird coincidence.", "tr": "Bu tuhaf bir tesadüf." },
+      { "en": "He's wearing a weird combination of clothes.", "tr": "Tuhaf bir kıyafet kombinasyonu giyiyor." },
+      { "en": "The ending of the movie was really weird.", "tr": "Filmin sonu gerçekten tuhaftı." },
+      { "en": "I had a weird dream last night.", "tr": "Dün gece tuhaf bir rüya gördüm." },
+      { "en": "It's weird that the store is closed on a Monday.", "tr": "Mağazanın pazartesi günü kapalı olması tuhaf." }
+    ]
+  },
+  {
+    "word": "trivial",
+    "meaning": "önemsiz, ufak",
+    "examples": [
+      { "en": "It's a trivial matter that doesn't require our attention.", "tr": "Bu, dikkatimizi gerektirmeyen önemsiz bir mesele." },
+      { "en": "He always complains about trivial things.", "tr": "Her zaman önemsiz şeyler hakkında şikayet eder." },
+      { "en": "The mistake was trivial and easily corrected.", "tr": "Hata önemsizdi ve kolayca düzeltildi." },
+      { "en": "Don't worry about such a trivial detail.", "tr": "Böylesine önemsiz bir detay için endişelenme." },
+      { "en": "The cost of the repair was trivial.", "tr": "Tamir maliyeti önemsizdi." }
+    ]
+  },
+  {
+    "word": "insignificant",
+    "meaning": "önemsiz, değersiz",
+    "examples": [
+      { "en": "The amount of money he lost was insignificant to him.", "tr": "Kaybettiği para miktarı onun için önemsizdi." },
+      { "en": "The changes were insignificant and made no difference.", "tr": "Değişiklikler önemsizdi ve hiçbir fark yaratmadı." },
+      { "en": "He felt insignificant in the large crowd.", "tr": "Büyük kalabalıkta kendini önemsiz hissetti." },
+      { "en": "His role in the project was insignificant.", "tr": "Projedeki rolü önemsizdi." },
+      { "en": "The town was an insignificant village.", "tr": "Kasaba, önemsiz bir köydü." }
+    ]
+  },
+  {
+    "word": "minor",
+    "meaning": "küçük, önemsiz",
+    "examples": [
+      { "en": "She suffered a minor injury.", "tr": "Hafif bir yaralanma geçirdi." },
+      { "en": "The differences between the two products are minor.", "tr": "İki ürün arasındaki farklar küçük." },
+      { "en": "He played a minor role in the film.", "tr": "Filmde küçük bir rol oynadı." },
+      { "en": "It's a minor issue, but we should fix it.", "tr": "Küçük bir mesele, ama düzeltmeliyiz." },
+      { "en": "He made a few minor changes to the plan.", "tr": "Plana birkaç küçük değişiklik yaptı." }
+    ]
+  },
+  {
+    "word": "unimportant",
+    "meaning": "önemsiz",
+    "examples": [
+      { "en": "His opinion is totally unimportant.", "tr": "Onun fikri tamamen önemsiz." },
+      { "en": "It's unimportant what he thinks.", "tr": "Ne düşündüğü önemsiz." },
+      { "en": "The detail seems unimportant, but it might be a clue.", "tr": "Detay önemsiz görünüyor, ama bir ipucu olabilir." },
+      { "en": "They argued over an unimportant matter.", "tr": "Önemsiz bir konu üzerinde tartıştılar." },
+      { "en": "His feelings were unimportant to her.", "tr": "Onun duyguları, onun için önemsizdi." }
+    ]
+  },
+  {
+    "word": "negligible",
+    "meaning": "önemsiz, ihmal edilebilir",
+    "examples": [
+      { "en": "The difference in weight is negligible.", "tr": "Ağırlıktaki fark ihmal edilebilir." },
+      { "en": "The cost of the repair was negligible.", "tr": "Tamir maliyeti ihmal edilebilir düzeydeydi." },
+      { "en": "His contribution to the project was negligible.", "tr": "Proje katkısı önemsizdi." },
+      { "en": "The risk of infection is negligible.", "tr": "Enfeksiyon riski ihmal edilebilir." },
+      { "en": "Her salary increase was so small it was almost negligible.", "tr": "Maaş artışı o kadar küçüktü ki neredeyse önemsizdi." }
+    ]
+  },
+  {
+    "word": "efficient",
+    "meaning": "verimli, etkili",
+    "examples": [
+      { "en": "She is a very efficient worker.", "tr": "O, çok verimli bir çalışan." },
+      { "en": "The new system is more efficient.", "tr": "Yeni sistem daha verimli." },
+      { "en": "An efficient use of time is crucial.", "tr": "Zamanın verimli kullanımı çok önemli." },
+      { "en": "The company needs to find a more efficient way to produce goods.", "tr": "Şirket, mal üretmenin daha verimli bir yolunu bulmalı." },
+      { "en": "The efficient organization of the team led to success.", "tr": "Ekibin verimli organizasyonu başarıya yol açtı." }
+    ]
+  },
+  {
+    "word": "effective",
+    "meaning": "etkili",
+    "examples": [
+      { "en": "The new drug is highly effective.", "tr": "Yeni ilaç son derece etkili." },
+      { "en": "The marketing strategy was very effective.", "tr": "Pazarlama stratejisi çok etkiliydi." },
+      { "en": "We need to find an effective solution.", "tr": "Etkili bir çözüm bulmamız gerekiyor." },
+      { "en": "His speech was very effective in convincing the audience.", "tr": "Konuşması, izleyicileri ikna etmede çok etkiliydi." },
+      { "en": "The new policy proved to be highly effective in reducing crime.", "tr": "Yeni politikanın suçu azaltmada son derece etkili olduğu kanıtlandı." }
+    ]
+  },
+  {
+    "word": "productive",
+    "meaning": "üretken",
+    "examples": [
+      { "en": "We had a very productive meeting.", "tr": "Çok verimli bir toplantı yaptık." },
+      { "en": "He is a productive writer, publishing a book every year.", "tr": "O, her yıl bir kitap yayınlayan üretken bir yazar." },
+      { "en": "Spending time outdoors can make you feel more productive.", "tr": "Dışarıda vakit geçirmek sizi daha üretken hissettirebilir." },
+      { "en": "The soil in this area is very productive.", "tr": "Bu bölgedeki toprak çok verimli." },
+      { "en": "A good manager knows how to create a productive work environment.", "tr": "İyi bir yönetici, üretken bir çalışma ortamı yaratmayı bilir." }
+    ]
+  },
+  {
+    "word": "competent",
+    "meaning": "yetkin, yeterli",
+    "examples": [
+      { "en": "He is a competent teacher.", "tr": "O, yetkin bir öğretmen." },
+      { "en": "She is a competent swimmer and can handle the waves.", "tr": "O, yetenekli bir yüzücü ve dalgalarla başa çıkabilir." },
+      { "en": "The company is looking for a competent manager.", "tr": "Şirket yetkin bir yönetici arıyor." },
+      { "en": "Are you competent to make that decision?", "tr": "Bu kararı vermek için yeterli misin?" },
+      { "en": "He is a highly competent professional.", "tr": "O, son derece yetkin bir profesyonel." }
+    ]
+  },
+  {
+    "word": "attain",
+    "meaning": "elde etmek, ulaşmak",
+    "examples": [
+      { "en": "He was able to attain his goal.", "tr": "Amacına ulaşabildi." },
+      { "en": "We must work hard to attain our objectives.", "tr": "Hedeflerimize ulaşmak için çok çalışmalıyız." },
+      { "en": "She hopes to attain a high level of proficiency in French.", "tr": "Fransızcada yüksek bir yeterlilik seviyesine ulaşmayı umuyor." },
+      { "en": "The government's plan to attain economic stability failed.", "tr": "Hükümetin ekonomik istikrarı sağlama planı başarısız oldu." },
+      { "en": "It's difficult to attain peace in the region.", "tr": "Bölgede barışı sağlamak zor." }
+    ]
+  },
+  {
+    "word": "obtain",
+    "meaning": "edinmek, elde etmek",
+    "examples": [
+      { "en": "You need a permit to obtain a passport.", "tr": "Pasaport almak için bir izne ihtiyacınız var." },
+      { "en": "She obtained a scholarship to study abroad.", "tr": "Yurt dışında okumak için bir burs edindi." },
+      { "en": "The police obtained a search warrant.", "tr": "Polis bir arama emri aldı." },
+      { "en": "Where did you obtain this information?", "tr": "Bu bilgiyi nereden edindin?" },
+      { "en": "The company has obtained permission to build a new factory.", "tr": "Şirket yeni bir fabrika inşa etmek için izin aldı." }
+    ]
+  },
+  {
+    "word": "gain",
+    "meaning": "kazanmak, elde etmek",
+    "examples": [
+      { "en": "The company is gaining market share.", "tr": "Şirket pazar payı kazanıyor." },
+      { "en": "He gained a lot of experience from his previous job.", "tr": "Önceki işinden çok fazla deneyim kazandı." },
+      { "en": "You have nothing to lose, but everything to gain.", "tr": "Kaybedecek hiçbir şeyin yok, ama kazanacak her şeyin var." },
+      { "en": "She gained a lot of weight over the holidays.", "tr": "Tatillerde çok kilo aldı." },
+      { "en": "The army gained control of the city.", "tr": "Ordu, şehrin kontrolünü ele geçirdi." }
+    ]
+  },
+  {
+    "word": "devastating",
+    "meaning": "yıkıcı",
+    "examples": [
+      { "en": "The earthquake caused devastating damage.", "tr": "Deprem yıkıcı hasara neden oldu." },
+      { "en": "The news of his death was devastating.", "tr": "Onun ölüm haberi yıkıcıydı." },
+      { "en": "A devastating fire destroyed the entire forest.", "tr": "Yıkıcı bir yangın tüm ormanı yok etti." },
+      { "en": "She received a devastating blow to her career.", "tr": "Kariyerinde yıkıcı bir darbe aldı." },
+      { "en": "The storm had a devastating effect on the crops.", "tr": "Fırtınanın mahsuller üzerinde yıkıcı bir etkisi oldu." }
+    ]
+  },
+  {
+    "word": "destructive",
+    "meaning": "yıkıcı",
+    "examples": [
+      { "en": "His words were very destructive to her self-esteem.", "tr": "Sözleri, özgüveni için çok yıkıcıydı." },
+      { "en": "A destructive wildfire spread across the country.", "tr": "Yıkıcı bir orman yangını ülke genelinde yayıldı." },
+      { "en": "He has a very destructive personality.", "tr": "Çok yıkıcı bir kişiliği var." },
+      { "en": "The tornado left a trail of destructive damage.", "tr": "Kasırga arkasında yıkıcı hasar izleri bıraktı." },
+      { "en": "The project was a destructive force on the environment.", "tr": "Proje, çevre üzerinde yıkıcı bir güçtü." }
+    ]
+  },
+  {
+    "word": "catastrophic",
+    "meaning": "felaket getiren",
+    "examples": [
+      { "en": "The failure of the bridge was catastrophic.", "tr": "Köprünün çöküşü felaket getirdi." },
+      { "en": "A catastrophic earthquake hit the region.", "tr": "Bölgeyi felaket getiren bir deprem vurdu." },
+      { "en": "The loss of his job was a catastrophic event in his life.", "tr": "İşini kaybetmesi, hayatında felaket getiren bir olaydı." },
+      { "en": "A catastrophic flood destroyed the entire town.", "tr": "Felaket getiren bir sel, tüm kasabayı yok etti." },
+      { "en": "The company faces a catastrophic financial crisis.", "tr": "Şirket, felaket getiren bir mali krizle karşı karşıya." }
+    ]
+  },
+  {
+    "word": "ruinous",
+    "meaning": "yıkıcı, harap edici",
+    "examples": [
+      { "en": "A ruinous debt can destroy a person's life.", "tr": "Yıkıcı bir borç, bir insanın hayatını mahvedebilir." },
+      { "en": "The war had a ruinous effect on the country's economy.", "tr": "Savaşın ülkenin ekonomisi üzerinde yıkıcı bir etkisi oldu." },
+      { "en": "His gambling habit proved to be ruinous.", "tr": "Kumar alışkanlığının yıkıcı olduğu kanıtlandı." },
+      { "en": "They made a ruinous investment.", "tr": "Yıkıcı bir yatırım yaptılar." },
+      { "en": "The long drought had a ruinous effect on the crops.", "tr": "Uzun süren kuraklığın mahsuller üzerinde yıkıcı bir etkisi oldu." }
+    ]
+  },
+  {
+    "word": "even",
+    "meaning": "eşit",
+    "examples": [
+      { "en": "We have an even number of men and women.", "tr": "Eşit sayıda erkek ve kadınımız var." },
+      { "en": "The score is now even at 2-2.", "tr": "Skor şimdi 2-2'de eşit." },
+      { "en": "The chances of winning are even.", "tr": "Kazanma şansları eşit." },
+      { "en": "The new furniture made the room look even more beautiful.", "tr": "Yeni mobilya, odayı daha da güzel gösterdi." },
+      { "en": "You should divide the pie into even pieces.", "tr": "Pastayı eşit parçalara bölmelisin." }
+    ]
+  },
+  {
+    "word": "equal",
+    "meaning": "eşit",
+    "examples": [
+      { "en": "All citizens have equal rights.", "tr": "Tüm vatandaşların eşit hakları var." },
+      { "en": "The two teams are equal in skill.", "tr": "İki takım da beceri açısından eşit." },
+      { "en": "He treats all his students as equals.", "tr": "Tüm öğrencilerine eşit davranır." },
+      { "en": "Ten and ten is equal to twenty.", "tr": "On ve on, yirmiye eşittir." },
+      { "en": "We need to ensure equal access to education.", "tr": "Eğitime eşit erişimi sağlamamız gerekiyor." }
+    ]
+  },
+  {
+    "word": "disparity",
+    "meaning": "eşitsizlik, farklılık",
+    "examples": [
+      { "en": "There is a great disparity between the rich and the poor.", "tr": "Zenginler ve fakirler arasında büyük bir eşitsizlik var." },
+      { "en": "The disparity in wages is a serious problem.", "tr": "Ücretlerdeki eşitsizlik ciddi bir sorun." },
+      { "en": "The report highlights the disparity in healthcare access.", "tr": "Rapor, sağlık hizmetlerine erişimdeki eşitsizliği vurguluyor." },
+      { "en": "We are working to reduce the disparity between urban and rural areas.", "tr": "Kentsel ve kırsal alanlar arasındaki eşitsizliği azaltmak için çalışıyoruz." },
+      { "en": "The economic disparity in the country is a major concern.", "tr": "Ülkedeki ekonomik eşitsizlik büyük bir endişe kaynağı." }
+    ]
+  },
+  {
+    "word": "irregular",
+    "meaning": "düzensiz",
+    "examples": [
+      { "en": "He has an irregular heartbeat.", "tr": "Düzensiz bir kalp atışı var." },
+      { "en": "His visits to his parents were irregular.", "tr": "Ailesine yaptığı ziyaretler düzensizdi." },
+      { "en": "The building has an irregular shape.", "tr": "Binanın düzensiz bir şekli var." },
+      { "en": "The team's performance has been very irregular.", "tr": "Takımın performansı çok düzensiz." },
+      { "en": "The doctor noted an irregular pattern in her breathing.", "tr": "Doktor, nefes alışında düzensiz bir örüntü fark etti." }
+    ]
+  },
+  {
+    "word": "uneven",
+    "meaning": "düzensiz",
+    "examples": [
+      { "en": "The surface of the road is uneven.", "tr": "Yolun yüzeyi düzensiz." },
+      { "en": "The table is uneven, so the glass keeps sliding off.", "tr": "Masa düzensiz, bu yüzden bardak sürekli kayıyor." },
+      { "en": "The ground was uneven and difficult to walk on.", "tr": "Zemin düzensizdi ve üzerinde yürümek zordu." },
+      { "en": "The distribution of wealth is very uneven.", "tr": "Zenginliğin dağılımı çok düzensiz." },
+      { "en": "The cake came out of the oven with an uneven surface.", "tr": "Pasta, fırından düzensiz bir yüzeyle çıktı." }
+    ]
+  },
+  {
+    "word": "inconsistent",
+    "meaning": "tutarsız",
+    "examples": [
+      { "en": "Her story was inconsistent with the facts.", "tr": "Onun hikayesi gerçeklerle tutarsızdı." },
+      { "en": "His performance at work has been inconsistent lately.", "tr": "İş performansı son zamanlarda tutarsız oldu." },
+      { "en": "The rules are inconsistent and confusing.", "tr": "Kurallar tutarsız ve kafa karıştırıcı." },
+      { "en": "He gave an inconsistent account of the event.", "tr": "Olay hakkında tutarsız bir açıklama yaptı." },
+      { "en": "The witness's testimony was inconsistent.", "tr": "Tanığın ifadesi tutarsızdı." }
+    ]
+  },
+  {
+    "word": "sporadic",
+    "meaning": "ara sıra, seyrek",
+    "examples": [
+      { "en": "The sporadic gunfire could be heard in the distance.", "tr": "Uzaktan ara sıra silah sesleri duyulabiliyordu." },
+      { "en": "His attendance at school was sporadic.", "tr": "Okula devamı ara sıra oluyordu." },
+      { "en": "We receive only sporadic reports from the remote area.", "tr": "Uzak bölgeden sadece ara sıra raporlar alıyoruz." },
+      { "en": "The rain was sporadic throughout the day.", "tr": "Yağmur gün boyunca ara sıra yağıyordu." },
+      { "en": "She had a few sporadic moments of happiness.", "tr": "Birkaç seyrek mutluluk anı yaşadı." }
+    ]
+  },
+  {
+    "word": "irrelevant",
+    "meaning": "alakası olmayan, konu dışı",
+    "examples": [
+      { "en": "His comments were completely irrelevant to the discussion.", "tr": "Onun yorumları tartışmayla tamamen alakasızdı." },
+      { "en": "The information you provided is irrelevant.", "tr": "Sağladığınız bilgi alakasız." },
+      { "en": "Why are you asking such an irrelevant question?", "tr": "Neden böylesine alakasız bir soru soruyorsun?" },
+      { "en": "Her point was irrelevant to the main argument.", "tr": "Onun söylediği şey ana argümanla alakasızdı." },
+      { "en": "The details are irrelevant to the big picture.", "tr": "Detaylar büyük resimle alakasız." }
+    ]
+  },
+  {
+    "word": "unrelated",
+    "meaning": "alakasız",
+    "examples": [
+      { "en": "These two events are completely unrelated.", "tr": "Bu iki olay tamamen alakasız." },
+      { "en": "The two crimes are unrelated.", "tr": "İki suç da birbiriyle alakasız." },
+      { "en": "His actions were unrelated to the company's success.", "tr": "Eylemleri, şirketin başarısıyla alakasızdı." },
+      { "en": "The two friends are completely unrelated to each other.", "tr": "İki arkadaş da birbiriyle tamamen alakasız." },
+      { "en": "He told a series of unrelated stories.", "tr": "Bir dizi alakasız hikaye anlattı." }
+    ]
+  },
+  {
+    "word": "unconnected",
+    "meaning": "bağlantısız",
+    "examples": [
+      { "en": "The two parts of the story are unconnected.", "tr": "Hikayenin iki bölümü bağlantısız." },
+      { "en": "The different events seemed to be unconnected.", "tr": "Farklı olaylar bağlantısız gibi görünüyordu." },
+      { "en": "He lives in a small, unconnected village.", "tr": "Küçük, bağlantısız bir köyde yaşıyor." },
+      { "en": "The two files are unconnected in the system.", "tr": "İki dosya da sistemde bağlantısız." },
+      { "en": "The detective found a series of unconnected clues.", "tr": "Dedektif, bir dizi bağlantısız ipucu buldu." }
+    ]
+  },
+  {
+    "word": "inevitable",
+    "meaning": "kaçınılmaz",
+    "examples": [
+      { "en": "It was an inevitable consequence of her actions.", "tr": "Bu, onun eylemlerinin kaçınılmaz bir sonucuydu." },
+      { "en": "Change is inevitable.", "tr": "Değişim kaçınılmazdır." },
+      { "en": "The conflict seemed inevitable.", "tr": "Çatışma kaçınılmaz görünüyordu." },
+      { "en": "He accepted his inevitable defeat.", "tr": "Kaçınılmaz yenilgisini kabul etti." },
+      { "en": "The decline of the empire was inevitable.", "tr": "İmparatorluğun çöküşü kaçınılmazdı." }
+    ]
+  },
+  {
+    "word": "unavoidable",
+    "meaning": "kaçınılmaz",
+    "examples": [
+      { "en": "The accident was unavoidable.", "tr": "Kaza kaçınılmazdı." },
+      { "en": "The rising cost of living is unavoidable.", "tr": "Artan yaşam maliyeti kaçınılmaz." },
+      { "en": "Paying taxes is an unavoidable part of life.", "tr": "Vergi ödemek, hayatın kaçınılmaz bir parçası." },
+      { "en": "There was an unavoidable delay in our flight.", "tr": "Uçuşumuzda kaçınılmaz bir gecikme oldu." },
+      { "en": "An unavoidable conflict arose between them.", "tr": "Aralarında kaçınılmaz bir çatışma çıktı." }
+    ]
+  },
+  {
+    "word": "certain",
+    "meaning": "kesin, belli",
+    "examples": [
+      { "en": "It is a certain fact that the sun will rise tomorrow.", "tr": "Yarın güneşin doğacağı kesin bir gerçek." },
+      { "en": "I am not certain about his plans.", "tr": "Onun planları hakkında emin değilim." },
+      { "en": "A certain amount of risk is involved.", "tr": "Belli bir miktar risk söz konusu." },
+      { "en": "It's not certain whether they will win.", "tr": "Kazanıp kazanacakları kesin değil." },
+      { "en": "The rules are not certain yet.", "tr": "Kurallar henüz kesin değil." }
+    ]
+  },
+  {
+    "word": "inescapable",
+    "meaning": "kaçınılmaz",
+    "examples": [
+      { "en": "The threat of war felt inescapable.", "tr": "Savaş tehdidi kaçınılmaz hissediliyordu." },
+      { "en": "The truth was inescapable.", "tr": "Gerçek kaçınılmazdı." },
+      { "en": "He felt an inescapable sense of doom.", "tr": "Kaçınılmaz bir kıyamet duygusu hissetti." },
+      { "en": "The conclusion was inescapable.", "tr": "Sonuç kaçınılmazdı." },
+      { "en": "She had to face the inescapable consequences of her actions.", "tr": "Eylemlerinin kaçınılmaz sonuçlarıyla yüzleşmek zorunda kaldı." }
+    ]
+  },
+  {
+    "word": "undeniable",
+    "meaning": "inkar edilemez",
+    "examples": [
+      { "en": "The evidence is undeniable.", "tr": "Kanıt inkar edilemez." },
+      { "en": "He has an undeniable talent for music.", "tr": "Müzik için inkar edilemez bir yeteneği var." },
+      { "en": "It is an undeniable fact that the climate is changing.", "tr": "İklimin değiştiği inkar edilemez bir gerçek." },
+      { "en": "His success is undeniable.", "tr": "Başarısı inkar edilemez." },
+      { "en": "The need for reform is undeniable.", "tr": "Reform ihtiyacı inkar edilemez." }
+    ]
+  },
+  {
+    "word": "irrefutable",
+    "meaning": "çürütülemez, reddedilemez",
+    "examples": [
+      { "en": "His argument was irrefutable.", "tr": "Onun argümanı çürütülemezdi." },
+      { "en": "The evidence was irrefutable.", "tr": "Kanıt çürütülemezdi." },
+      { "en": "The proof of his guilt was irrefutable.", "tr": "Suçluluğunun kanıtı çürütülemezdi." },
+      { "en": "He presented irrefutable evidence in court.", "tr": "Mahkemede çürütülemez kanıtlar sundu." },
+      { "en": "Her logic was irrefutable.", "tr": "Mantığı çürütülemezdi." }
+    ]
+  },
+  {
+    "word": "unquestionable",
+    "meaning": "tartışmasız",
+    "examples": [
+      { "en": "His loyalty is unquestionable.", "tr": "Sadakati tartışılmaz." },
+      { "en": "He has an unquestionable authority.", "tr": "Tartışmasız bir otoritesi var." },
+      { "en": "The quality of the product is unquestionable.", "tr": "Ürünün kalitesi tartışılmaz." },
+      { "en": "His influence on the team is unquestionable.", "tr": "Takım üzerindeki etkisi tartışılmaz." },
+      { "en": "It is an unquestionable fact that he is a good leader.", "tr": "İyi bir lider olduğu tartışılmaz bir gerçek." }
+    ]
+  },
+  {
+    "word": "evident",
+    "meaning": "açık, belli",
+    "examples": [
+      { "en": "It was evident that she was unhappy.", "tr": "Onun mutsuz olduğu açıktı." },
+      { "en": "The stress was evident on his face.", "tr": "Stres yüzünden belli oluyordu." },
+      { "en": "Her talent was evident from a young age.", "tr": "Yeteneği genç yaşta belliydi." },
+      { "en": "It is evident that the company is in trouble.", "tr": "Şirketin başının belada olduğu açık." },
+      { "en": "His guilt was evident to everyone.", "tr": "Suçluluğu herkes için açıktı." }
+    ]
+  },
+  {
+    "word": "exact",
+    "meaning": "tam, kesin",
+    "examples": [
+      { "en": "I need the exact amount of money.", "tr": "Paranın tam miktarına ihtiyacım var." },
+      { "en": "What is the exact time?", "tr": "Kesin saat kaç?" },
+      { "en": "The model is an exact replica of the original.", "tr": "Model, orijinalinin tam bir kopyası." },
+      { "en": "We don't know the exact location of the treasure.", "tr": "Hazinanın kesin yerini bilmiyoruz." },
+      { "en": "The painting is an exact copy of the original.", "tr": "Tablo, orijinalinin tam bir kopyası." }
+    ]
+  },
+  {
+    "word": "irreversible",
+    "meaning": "geri dönülemez",
+    "examples": [
+      { "en": "The damage to the environment is irreversible.", "tr": "Çevreye verilen hasar geri dönülemez." },
+      { "en": "The changes were irreversible.", "tr": "Değişiklikler geri dönülemezdi." },
+      { "en": "He made an irreversible mistake.", "tr": "Geri dönülemez bir hata yaptı." },
+      { "en": "The decision to leave was irreversible.", "tr": "Ayrılma kararı geri dönülemezdi." },
+      { "en": "The illness caused irreversible brain damage.", "tr": "Hastalık geri dönülemez beyin hasarına neden oldu." }
+    ]
+  },
+  {
+    "word": "permanent",
+    "meaning": "kalıcı",
+    "examples": [
+      { "en": "She has a permanent job now.", "tr": "Şimdi kalıcı bir işi var." },
+      { "en": "The scar is permanent.", "tr": "Yara izi kalıcı." },
+      { "en": "He made a permanent move to another country.", "tr": "Başka bir ülkeye kalıcı olarak taşındı." },
+      { "en": "This is a permanent solution to the problem.", "tr": "Bu, soruna kalıcı bir çözüm." },
+      { "en": "The ink is permanent and won't wash out.", "tr": "Mürekkep kalıcıdır ve yıkanmaz." }
+    ]
+  },
+  {
+    "word": "unchangeable",
+    "meaning": "değişmez",
+    "examples": [
+      { "en": "The laws of physics are unchangeable.", "tr": "Fiziğin yasaları değişmez." },
+      { "en": "His mind is unchangeable.", "tr": "Fikri değişmez." },
+      { "en": "The unchangeable reality of life is that we all grow old.", "tr": "Hayatın değişmez gerçeği, hepimizin yaşlanmasıdır." },
+      { "en": "The rules are unchangeable.", "tr": "Kurallar değişmez." },
+      { "en": "He had an unchangeable opinion on the matter.", "tr": "Konu hakkında değişmez bir fikri vardı." }
+    ]
+  },
+  {
+    "word": "irrepairable",
+    "meaning": "onarılmaz",
+    "examples": [
+      { "en": "The loss of life was an irreparable tragedy.", "tr": "Can kaybı onarılamaz bir trajediydi." },
+      { "en": "The damage to the painting was irreparable.", "tr": "Tabloya verilen hasar onarılamazdı." },
+      { "en": "He caused irreparable harm to his reputation.", "tr": "İtibarında onarılamaz bir hasara neden oldu." },
+      { "en": "The company suffered irreparable losses.", "tr": "Şirket onarılamaz kayıplar yaşadı." },
+      { "en": "The old vase was considered irreparable.", "tr": "Eski vazo onarılamaz kabul edildi." }
+    ]
+  },
+  {
+    "word": "unreliable",
+    "meaning": "güvenilmez",
+    "examples": [
+      { "en": "The witness was found to be unreliable.", "tr": "Tanığın güvenilmez olduğu anlaşıldı." },
+      { "en": "His information is completely unreliable.", "tr": "Bilgileri tamamen güvenilmez." },
+      { "en": "The old car is unreliable and often breaks down.", "tr": "Eski araba güvenilmezdir ve sık sık bozulur." },
+      { "en": "He is an unreliable source of information.", "tr": "O, güvenilmez bir bilgi kaynağı." },
+      { "en": "The weather forecast is unreliable.", "tr": "Hava tahmini güvenilmez." }
+    ]
+  },
+  {
+    "word": "undependable",
+    "meaning": "güvenilmez",
+    "examples": [
+      { "en": "The old car is undependable.", "tr": "Eski araba güvenilmez." },
+      { "en": "He is an undependable person; he never keeps his promises.", "tr": "O, güvenilmez bir insan; asla sözünü tutmaz." },
+      { "en": "The undependable internet connection was frustrating.", "tr": "Güvenilmez internet bağlantısı sinir bozucuydu." },
+      { "en": "You can't rely on him; he is completely undependable.", "tr": "Ona güvenemezsin; tamamen güvenilmez." },
+      { "en": "His performance has been undependable lately.", "tr": "Performansı son zamanlarda güvenilmez oldu." }
+    ]
+  },
+  {
+    "word": "uncertain",
+    "meaning": "belirsiz",
+    "examples": [
+      { "en": "The future is still uncertain.", "tr": "Gelecek hala belirsiz." },
+      { "en": "The outcome of the game is uncertain.", "tr": "Maçın sonucu belirsiz." },
+      { "en": "She was uncertain about what to do next.", "tr": "Sonra ne yapacağı konusunda belirsizdi." },
+      { "en": "An uncertain number of people attended the event.", "tr": "Etkinliğe belirsiz sayıda insan katıldı." },
+      { "en": "The weather is uncertain.", "tr": "Hava durumu belirsiz." }
+    ]
+  },
+  {
+    "word": "inconsistent",
+    "meaning": "tutarsız",
+    "examples": [
+      { "en": "Her story was inconsistent with the facts.", "tr": "Onun hikayesi gerçeklerle tutarsızdı." },
+      { "en": "His performance at work has been inconsistent lately.", "tr": "İş performansı son zamanlarda tutarsız oldu." },
+      { "en": "The rules are inconsistent and confusing.", "tr": "Kurallar tutarsız ve kafa karıştırıcı." },
+      { "en": "He gave an inconsistent account of the event.", "tr": "Olay hakkında tutarsız bir açıklama yaptı." },
+      { "en": "The witness's testimony was inconsistent.", "tr": "Tanığın ifadesi tutarsızdı." }
+    ]
+  },
+  {
+    "word": "rely on",
+    "meaning": "güvenmek, bağlı olmak",
+    "examples": [
+      { "en": "You can always rely on her.", "tr": "Ona her zaman güvenebilirsin." },
+      { "en": "We have to rely on ourselves to get this done.", "tr": "Bunu yapmak için kendimize güvenmek zorundayız." },
+      { "en": "The company relies on its long-term customers.", "tr": "Şirket, uzun vadeli müşterilerine güveniyor." },
+      { "en": "You can rely on me to keep your secret.", "tr": "Sırrını saklamam için bana güvenebilirsin." },
+      { "en": "She relies heavily on her parents for financial support.", "tr": "Mali destek için büyük ölçüde ailesine güveniyor." }
+    ]
+  },
+  {
+    "word": "depend on",
+    "meaning": "bağlı olmak",
+    "examples": [
+      { "en": "Our plans depend on the weather.", "tr": "Planlarımız havaya bağlı." },
+      { "en": "You can depend on me; I won't let you down.", "tr": "Bana güvenebilirsin; seni hayal kırıklığına uğratmayacağım." },
+      { "en": "The success of the project will depend on our team's effort.", "tr": "Projenin başarısı, ekibimizin çabasına bağlı olacak." },
+      { "en": "The price depends on the size of the product.", "tr": "Fiyat, ürünün boyutuna bağlı." },
+      { "en": "He depends on his brother for help.", "tr": "Yardım için kardeşine bağlı." }
+    ]
+  },
+  {
+    "word": "count on",
+    "meaning": "güvenmek",
+    "examples": [
+      { "en": "I'm counting on you to help me.", "tr": "Bana yardım etmen için sana güveniyorum." },
+      { "en": "You can count on me; I'll be there.", "tr": "Bana güvenebilirsin; orada olacağım." },
+      { "en": "We can't count on the forecast being accurate.", "tr": "Tahminlerin doğru olacağına güvenemeyiz." },
+      { "en": "He can't count on his friends for support.", "tr": "Destek için arkadaşlarına güvenemez." },
+      { "en": "I was counting on him to arrive on time.", "tr": "Zamanında geleceğine güveniyordum." }
+    ]
+  },
+  {
+    "word": "manageable",
+    "meaning": "yönetilebilir",
+    "examples": [
+      { "en": "The project is difficult but manageable.", "tr": "Proje zor ama yönetilebilir." },
+      { "en": "The task was divided into smaller, more manageable parts.", "tr": "Görev daha küçük, daha yönetilebilir parçalara bölündü." },
+      { "en": "She has a very manageable hairstyle.", "tr": "Çok kolay yönetilebilir bir saç stili var." },
+      { "en": "The workload is manageable if you organize your time.", "tr": "Zamanınızı düzenlerseniz, iş yükü yönetilebilir." },
+      { "en": "We need to find a manageable solution.", "tr": "Yönetilebilir bir çözüm bulmamız gerekiyor." }
+    ]
+  },
+  {
+    "word": "controllable",
+    "meaning": "kontrol edilebilir",
+    "examples": [
+      { "en": "The fire was not easily controllable.", "tr": "Yangın kolayca kontrol edilebilir değildi." },
+      { "en": "His emotions are not always controllable.", "tr": "Duyguları her zaman kontrol edilebilir değil." },
+      { "en": "The spread of the disease is a controllable threat.", "tr": "Hastalığın yayılması kontrol edilebilir bir tehdit." },
+      { "en": "The car's speed is easily controllable.", "tr": "Arabanın hızı kolayca kontrol edilebilir." },
+      { "en": "The experiment's variables were not controllable.", "tr": "Deneyin değişkenleri kontrol edilebilir değildi." }
+    ]
+  },
+  {
+    "word": "feasible",
+    "meaning": "mümkün, yapılabilir",
+    "examples": [
+      { "en": "This plan is not feasible.", "tr": "Bu plan uygulanabilir değil." },
+      { "en": "It's not feasible to travel so far in a single day.", "tr": "Tek bir günde o kadar uzağa seyahat etmek mümkün değil." },
+      { "en": "We need a feasible solution to the problem.", "tr": "Soruna uygulanabilir bir çözüm bulmamız gerekiyor." },
+      { "en": "The project seemed feasible at first.", "tr": "Proje ilk başta uygulanabilir görünüyordu." },
+      { "en": "Is it a feasible idea to open a new restaurant?", "tr": "Yeni bir restoran açmak uygulanabilir bir fikir mi?" }
+    ]
+  },
+  {
+    "word": "severe",
+    "meaning": "şiddetli, sert",
+    "examples": [
+      { "en": "He was punished with a severe penalty.", "tr": "Şiddetli bir cezayla cezalandırıldı." },
+      { "en": "The storm caused severe damage to the coast.", "tr": "Fırtına, sahil şeridinde şiddetli hasara neden oldu." },
+      { "en": "She is suffering from a severe headache.", "tr": "Şiddetli bir baş ağrısından muzdarip." },
+      { "en": "The judge gave him a severe sentence.", "tr": "Yargıç ona ağır bir ceza verdi." },
+      { "en": "His illness is more severe than we thought.", "tr": "Hastalığı düşündüğümüzden daha ciddi." }
+    ]
+  },
+  {
+    "word": "harsh",
+    "meaning": "sert, acımasız",
+    "examples": [
+      { "en": "The teacher gave them a harsh lecture.", "tr": "Öğretmen onlara sert bir ders verdi." },
+      { "en": "They had to endure the harsh winter conditions.", "tr": "Sert kış koşullarına katlanmak zorunda kaldılar." },
+      { "en": "His criticism was too harsh.", "tr": "Eleştirisi çok sertti." },
+      { "en": "The desert is a harsh environment.", "tr": "Çöl, sert bir çevre." },
+      { "en": "She was given a harsh punishment for her mistake.", "tr": "Hatası için sert bir ceza aldı." }
+    ]
+  },
+  {
+    "word": "precious",
+    "meaning": "değerli, kıymetli",
+    "examples": [
+      { "en": "Her friendship is very precious to me.", "tr": "Onun arkadaşlığı benim için çok değerli." },
+      { "en": "Precious memories filled his mind.", "tr": "Kıymetli anılar zihnini doldurdu." },
+      { "en": "This is a precious family heirloom.", "tr": "Bu, değerli bir aile yadigarı." },
+      { "en": "Don't waste precious time on unimportant things.", "tr": "Önemsiz şeylere değerli zamanını harcama." },
+      { "en": "He held the precious jewel in his hands.", "tr": "Değerli mücevheri ellerinde tuttu." }
+    ]
+  },
+  {
+    "word": "valuable",
+    "meaning": "değerli",
+    "examples": [
+      { "en": "This is a very valuable painting.", "tr": "Bu çok değerli bir tablo." },
+      { "en": "Her advice was very valuable to me.", "tr": "Tavsiyesi benim için çok değerliydi." },
+      { "en": "The company has some valuable assets.", "tr": "Şirketin bazı değerli varlıkları var." },
+      { "en": "Time is a valuable resource.", "tr": "Zaman, değerli bir kaynaktır." },
+      { "en": "He gained valuable experience from the trip.", "tr": "Yolculuktan değerli deneyim kazandı." }
+    ]
+  },
+  {
+    "word": "cherished",
+    "meaning": "değer verilen, kıymetli",
+    "examples": [
+      { "en": "He kept the letter as a cherished memory.", "tr": "Mektubu değerli bir anı olarak sakladı." },
+      { "en": "She cherished every moment she spent with her grandchildren.", "tr": "Torunlarıyla geçirdiği her anı kıymetli sayıyordu." },
+      { "en": "The ring was a cherished family heirloom.", "tr": "Yüzük, değerli bir aile yadigarıydı." },
+      { "en": "His cherished dream was to become an astronaut.", "tr": "Değer verdiği hayali astronot olmaktı." },
+      { "en": "She cherished his friendship above all else.", "tr": "Onun arkadaşlığını her şeyin üstünde tutuyordu." }
+    ]
+  },
+  {
+    "word": "treasured",
+    "meaning": "değerli, kıymetli",
+    "examples": [
+      { "en": "The old book was a treasured possession.", "tr": "Eski kitap kıymetli bir eşyaydı." },
+      { "en": "She treasured the memory of her grandfather.", "tr": "Büyükbabasının anısını değerli buluyordu." },
+      { "en": "The letter was one of her most treasured possessions.", "tr": "Mektup, en kıymetli eşyalarından biriydi." },
+      { "en": "He kept the coin as a treasured souvenir.", "tr": "Parayı kıymetli bir hatıra olarak sakladı." },
+      { "en": "The treasured family recipes were passed down through generations.", "tr": "Kıymetli aile tarifleri nesilden nesile aktarılıyordu." }
+    ]
+  },
+  {
+    "word": "frequent",
+    "meaning": "sık, sık sık",
+    "examples": [
+      { "en": "He is a frequent visitor to our home.", "tr": "Evimize sık sık gelen bir misafir." },
+      { "en": "Frequent headaches can be a sign of stress.", "tr": "Sık sık baş ağrıları stresin bir işareti olabilir." },
+      { "en": "She makes frequent calls to her family abroad.", "tr": "Yurtdışındaki ailesini sık sık arıyor." },
+      { "en": "The bus service is frequent in this area.", "tr": "Bu bölgede otobüs seferleri sıktır." },
+      { "en": "He makes frequent mistakes.", "tr": "Sık sık hata yapar." }
+    ]
+  },
+  {
+    "word": "common",
+    "meaning": "yaygın, sık rastlanan",
+    "examples": [
+      { "en": "Flu is a common illness in winter.", "tr": "Grip, kışın yaygın bir hastalıktır." },
+      { "en": "It is common knowledge that he is a good musician.", "tr": "İyi bir müzisyen olduğu yaygın bir bilgidir." },
+      { "en": "The bird is very common in this region.", "tr": "Bu kuş bu bölgede çok yaygın." },
+      { "en": "That is a common problem among teenagers.", "tr": "Bu, gençler arasında yaygın bir sorun." },
+      { "en": "They have many common interests.", "tr": "Birçok ortak ilgi alanları var." }
+    ]
+  },
+  {
+    "word": "repeated",
+    "meaning": "tekrarlanan",
+    "examples": [
+      { "en": "She made repeated attempts to contact him.", "tr": "Onunla defalarca kez iletişim kurmaya çalıştı." },
+      { "en": "The test requires a series of repeated trials.", "tr": "Test, bir dizi tekrarlanan deneme gerektiriyor." },
+      { "en": "His repeated lies made it difficult to trust him.", "tr": "Tekrarlanan yalanları, ona güvenmeyi zorlaştırdı." },
+      { "en": "The alarm made a loud, repeated sound.", "tr": "Alarm, yüksek, tekrarlanan bir ses çıkardı." },
+      { "en": "We must avoid repeated mistakes.", "tr": "Tekrarlanan hatalardan kaçınmalıyız." }
+    ]
+  },
+  {
+    "word": "habitual",
+    "meaning": "alışılmış, alışkanlık haline gelmiş",
+    "examples": [
+      { "en": "It was his habitual morning routine.", "tr": "Bu, onun alışılmış sabah rutiniydi." },
+      { "en": "He has a habitual way of scratching his head when he is nervous.", "tr": "Gergin olduğunda kafasını kaşıma gibi alışkanlık haline gelmiş bir yolu var." },
+      { "en": "The criminal was a habitual liar.", "tr": "Suçlu alışkanlık haline getirmiş bir yalancıydı." },
+      { "en": "His habitual lateness was a problem for the team.", "tr": "Alışkanlık haline getirdiği geç kalmaları, takım için bir sorundu." },
+      { "en": "The habitual use of the phrase became annoying.", "tr": "İfadenin alışılmış kullanımı sinir bozucu olmaya başladı." }
+    ]
+  },
+  {
+    "word": "detectable",
+    "meaning": "saptanabilir, fark edilebilir",
+    "examples": [
+      { "en": "The presence of the virus was not detectable.", "tr": "Virüsün varlığı saptanamadı." },
+      { "en": "The smell of gas was barely detectable.", "tr": "Gaz kokusu zar zor saptanabiliyordu." },
+      { "en": "The change in his voice was barely detectable.", "tr": "Sesindeki değişiklik zar zor fark ediliyordu." },
+      { "en": "The planet's movement is not detectable with the naked eye.", "tr": "Gezegenin hareketi çıplak gözle saptanamaz." },
+      { "en": "The problem is not easily detectable.", "tr": "Sorun kolayca saptanamaz." }
+    ]
+  },
+  {
+    "word": "noticeable",
+    "meaning": "fark edilebilir",
+    "examples": [
+      { "en": "The difference between the two colors is noticeable.", "tr": "İki renk arasındaki fark fark edilebilir." },
+      { "en": "There was a noticeable change in his attitude.", "tr": "Tutumunda fark edilebilir bir değişiklik vardı." },
+      { "en": "The lack of rain has had a noticeable effect on the crops.", "tr": "Yağmur eksikliği, mahsuller üzerinde fark edilebilir bir etki yarattı." },
+      { "en": "His progress in English is very noticeable.", "tr": "İngilizcedeki ilerlemesi çok fark edilebilir." },
+      { "en": "There was a noticeable silence after his speech.", "tr": "Konuşmasından sonra fark edilebilir bir sessizlik vardı." }
+    ]
+  },
+  {
+    "word": "observable",
+    "meaning": "gözlemlenebilir",
+    "examples": [
+      { "en": "His behavior was not observable to the public.", "tr": "Davranışı halk tarafından gözlemlenebilir değildi." },
+      { "en": "The effects of the medicine were not immediately observable.", "tr": "İlacın etkileri hemen gözlemlenebilir değildi." },
+      { "en": "The stars are not observable from the city.", "tr": "Yıldızlar şehirden gözlemlenemez." },
+      { "en": "Her reaction to the news was observable to everyone.", "tr": "Haberlere tepkisi herkes tarafından gözlemlenebilirdi." },
+      { "en": "The planet's orbit is observable with a telescope.", "tr": "Gezegenin yörüngesi bir teleskopla gözlemlenebilir." }
+    ]
+  },
+  {
+    "word": "identifiable",
+    "meaning": "tanımlanabilir",
+    "examples": [
+      { "en": "The suspect was clearly identifiable in the video.", "tr": "Şüpheli videoda net bir şekilde tanımlanabiliyordu." },
+      { "en": "The remains were not easily identifiable.", "tr": "Kalıntılar kolayca tanımlanamıyordu." },
+      { "en": "The building is easily identifiable by its unique shape.", "tr": "Bina, eşsiz şekli sayesinde kolayca tanımlanabilir." },
+      { "en": "He has an identifiable style of writing.", "tr": "Tanımlanabilir bir yazı stili var." },
+      { "en": "The voice on the phone was not identifiable.", "tr": "Telefondaki ses tanımlanabilir değildi." }
+    ]
+  },
+  {
+    "word": "determination",
+    "meaning": "azim, kararlılık",
+    "examples": [
+      { "en": "Her determination helped her succeed.", "tr": "Azmi, başarılı olmasına yardımcı oldu." },
+      { "en": "He showed great determination to finish the race.", "tr": "Yarışı bitirmek için büyük bir kararlılık gösterdi." },
+      { "en": "The team's determination to win was evident.", "tr": "Takımın kazanma azmi açıktı." },
+      { "en": "His determination never wavered.", "tr": "Kararlılığı asla sarsılmadı." },
+      { "en": "She faced the challenge with a lot of determination.", "tr": "Meydan okumayla büyük bir azimle yüzleşti." }
+    ]
+  },
+  {
+    "word": "courage",
+    "meaning": "cesaret",
+    "examples": [
+      { "en": "He showed great courage in the face of danger.", "tr": "Tehlike karşısında büyük cesaret gösterdi." },
+      { "en": "It takes courage to admit you were wrong.", "tr": "Yanıldığınızı kabul etmek cesaret ister." },
+      { "en": "She had the courage to speak up against injustice.", "tr": "Haksızlığa karşı konuşma cesaretini gösterdi." },
+      { "en": "He is a man of great courage.", "tr": "O, büyük cesaret sahibi bir adam." },
+      { "en": "The soldiers fought with courage.", "tr": "Askerler cesaretle savaştı." }
+    ]
+  },
+  {
+    "word": "resolute",
+    "meaning": "kararlı",
+    "examples": [
+      { "en": "She was resolute in her decision.", "tr": "Kararında kararlıydı." },
+      { "en": "He has a resolute desire to succeed.", "tr": "Başarılı olmak için kararlı bir arzusu var." },
+      { "en": "The team remained resolute despite the setbacks.", "tr": "Takım, aksiliklere rağmen kararlı kaldı." },
+      { "en": "He spoke with a resolute voice.", "tr": "Kararlı bir ses tonuyla konuştu." },
+      { "en": "The government is resolute in its fight against corruption.", "tr": "Hükümet, yolsuzlukla mücadelede kararlı." }
+    ]
+  },
+  {
+    "word": "pass down",
+    "meaning": "nesilden nesile geçmek",
+    "examples": [
+      { "en": "This tradition has been passed down for generations.", "tr": "Bu gelenek nesillerdir aktarılıyor." },
+      { "en": "The old stories were passed down orally.", "tr": "Eski hikayeler sözlü olarak aktarılıyordu." },
+      { "en": "The family recipe was passed down from mother to daughter.", "tr": "Aile tarifi anneden kıza aktarıldı." },
+      { "en": "He passed down his knowledge to his students.", "tr": "Bilgisini öğrencilerine aktardı." },
+      { "en": "The values were passed down through the family.", "tr": "Değerler aile aracılığıyla nesilden nesile aktarıldı." }
+    ]
+  },
+  {
+    "word": "transmit",
+    "meaning": "göndermek, yaymak",
+    "examples": [
+      { "en": "The radio transmits signals over a long distance.", "tr": "Radyo, sinyalleri uzun bir mesafeye gönderir." },
+      { "en": "The virus can be transmitted through contact.", "tr": "Virüs temas yoluyla bulaşabilir." },
+      { "en": "The information was transmitted via satellite.", "tr": "Bilgi uydu aracılığıyla iletildi." },
+      { "en": "Parents transmit their values to their children.", "tr": "Ebeveynler, değerlerini çocuklarına aktarır." },
+      { "en": "The disease is transmitted by mosquitoes.", "tr": "Hastalık sivrisinekler tarafından bulaşıyor." }
+    ]
+  },
+  {
+    "word": "put out",
+    "meaning": "söndürmek, yayımlamak",
+    "examples": [
+      { "en": "Firefighters quickly put out the fire.", "tr": "İtfaiyeciler ateşi hızla söndürdü." },
+      { "en": "The company will put out a press release tomorrow.", "tr": "Şirket yarın bir basın bülteni yayımlayacak." },
+      { "en": "Don't put out the candle yet.", "tr": "Mumu henüz söndürme." },
+      { "en": "He was asked to put out his cigarette.", "tr": "Sigarasını söndürmesi istendi." },
+      { "en": "The government will put out a new report on the economy.", "tr": "Hükümet, ekonomi hakkında yeni bir rapor yayımlayacak." }
+    ]
+  },
+  {
+    "word": "end up",
+    "meaning": "sonuçlanmak, bitmek",
+    "examples": [
+      { "en": "They didn't have a plan and ended up getting lost.", "tr": "Bir planları yoktu ve sonunda kayboldular." },
+      { "en": "If you keep practicing, you will end up being a great musician.", "tr": "Pratik yapmaya devam edersen, sonunda harika bir müzisyen olursun." },
+      { "en": "He ended up going to bed late.", "tr": "Sonunda geç yattı." },
+      { "en": "The long road trip ended up being a great adventure.", "tr": "Uzun yolculuk sonunda harika bir maceraya dönüştü." },
+      { "en": "She might end up moving to another city.", "tr": "Sonunda başka bir şehre taşınabilir." }
+    ]
+  },
+  {
+    "word": "put forward",
+    "meaning": "öne sürmek, teklif etmek",
+    "examples": [
+      { "en": "He put forward a new idea during the meeting.", "tr": "Toplantıda yeni bir fikir öne sürdü." },
+      { "en": "The committee will put forward a new proposal.", "tr": "Komite, yeni bir öneri sunacak." },
+      { "en": "She put forward a strong argument in favor of the plan.", "tr": "Plan lehine güçlü bir argüman sundu." },
+      { "en": "The candidate put forward a plan for economic reform.", "tr": "Aday, ekonomik reform için bir plan öne sürdü." },
+      { "en": "He put himself forward as a leader.", "tr": "Kendini lider olarak öne sürdü." }
+    ]
+  },
+  {
+    "word": "get into",
+    "meaning": "dahil olmak, bir şeye başlamak",
+    "examples": [
+      { "en": "She got into trouble for being late.", "tr": "Geç kaldığı için başı belaya girdi." },
+      { "en": "He wants to get into the film industry.", "tr": "Film endüstrisine girmek istiyor." },
+      { "en": "Don't get into an argument with him.", "tr": "Onunla bir tartışmaya girme." },
+      { "en": "She got into a new hobby: gardening.", "tr": "Yeni bir hobiye başladı: bahçecilik." },
+      { "en": "He got into college with a scholarship.", "tr": "Bursla üniversiteye girdi." }
+    ]
+  },
+  {
+    "word": "settle down",
+    "meaning": "yerleşmek, sakinleşmek",
+    "examples": [
+      { "en": "After a few years of traveling, he decided to settle down.", "tr": "Birkaç yıl seyahat ettikten sonra yerleşmeye karar verdi." },
+      { "en": "The children settled down to listen to the story.", "tr": "Çocuklar hikayeyi dinlemek için sakinleşti." },
+      { "en": "She wants to settle down and start a family.", "tr": "Yerleşip bir aile kurmak istiyor." },
+      { "en": "The dust will settle down in a few minutes.", "tr": "Toz birkaç dakika içinde çökecek." },
+      { "en": "The noise began to settle down after midnight.", "tr": "Gürültü gece yarısından sonra azalmaya başladı." }
+    ]
+  },
+  {
+    "word": "give off",
+    "meaning": "yaymak, salmak",
+    "examples": [
+      { "en": "The flowers give off a wonderful scent.", "tr": "Çiçekler harika bir koku yayıyor." },
+      { "en": "The machine gives off a lot of heat.", "tr": "Makine çok fazla ısı yayıyor." },
+      { "en": "The fire gives off a warm glow.", "tr": "Ateş sıcak bir parıltı yayıyor." },
+      { "en": "The substance gave off a strange odor.", "tr": "Madde tuhaf bir koku yayıyordu." },
+      { "en": "The dying star gives off light and energy.", "tr": "Ölmekte olan yıldız ışık ve enerji yayıyor." }
+    ]
+  },
+  {
+    "word": "carry on",
+    "meaning": "devam etmek, sürdürmek",
+    "examples": [
+      { "en": "Please carry on with your work.", "tr": "Lütfen işinize devam edin." },
+      { "en": "They carried on the family business.", "tr": "Aile işini sürdürdüler." },
+      { "en": "She carried on singing despite the noise.", "tr": "Gürültüye rağmen şarkı söylemeye devam etti." },
+      { "en": "The conversation carried on for hours.", "tr": "Sohbet saatlerce devam etti." },
+      { "en": "He carried on his research in the new lab.", "tr": "Yeni laboratuvarda araştırmasına devam etti." }
+    ]
+  },
+  {
+    "word": "make out",
+    "meaning": "anlamak, seçmek",
+    "examples": [
+      { "en": "I couldn't make out what he was saying.", "tr": "Ne dediğini anlayamadım." },
+      { "en": "Can you make out the sign in the distance?", "tr": "Uzaktaki tabelayı seçebiliyor musun?" },
+      { "en": "They were able to make out a figure in the fog.", "tr": "Sisin içinde bir figürü seçebildiler." },
+      { "en": "She couldn't make out the details of the painting.", "tr": "Tablonun detaylarını anlayamadı." },
+      { "en": "I can't make out his handwriting.", "tr": "Onun el yazısını anlayamıyorum." }
+    ]
+  },
+  {
+    "word": "aim at",
+    "meaning": "hedeflemek, amaçlamak",
+    "examples": [
+      { "en": "This campaign aims at reducing waste.", "tr": "Bu kampanya atıkları azaltmayı amaçlıyor." },
+      { "en": "The new law is aimed at improving public health.", "tr": "Yeni yasa, halk sağlığını iyileştirmeyi hedefliyor." },
+      { "en": "He aimed the gun at the target.", "tr": "Silahı hedefe doğrulttu." },
+      { "en": "The program is aimed at helping unemployed people.", "tr": "Program, işsiz insanlara yardım etmeyi amaçlıyor." },
+      { "en": "The project is aimed at solving the problem of pollution.", "tr": "Proje, kirlilik sorununu çözmeyi amaçlıyor." }
+    ]
+  },
+  {
+    "word": "expose to",
+    "meaning": "maruz bırakmak",
+    "examples": [
+      { "en": "Don't expose your skin to the sun for too long.", "tr": "Cildinizi güneşe çok uzun süre maruz bırakmayın." },
+      { "en": "The film will expose the corruption in the government.", "tr": "Film, hükümetteki yolsuzluğu ifşa edecek." },
+      { "en": "Children should not be exposed to violence.", "tr": "Çocuklar şiddete maruz bırakılmamalı." },
+      { "en": "The journalist was exposed to a lot of danger during the war.", "tr": "Gazeteci, savaş sırasında birçok tehlikeye maruz kaldı." },
+      { "en": "He didn't want to expose his family to any risk.", "tr": "Ailesini herhangi bir riske maruz bırakmak istemedi." }
+    ]
+  },
+  {
+    "word": "break down",
+    "meaning": "bozulmak, ayrıştırmak",
+    "examples": [
+      { "en": "The car broke down on the highway.", "tr": "Araba otoyolda bozuldu." },
+      { "en": "The food will break down in the stomach.", "tr": "Yiyecek midede ayrışacak." },
+      { "en": "His health began to break down under the stress.", "tr": "Stres altında sağlığı bozulmaya başladı." },
+      { "en": "We need to break down the problem into smaller parts.", "tr": "Sorunu daha küçük parçalara ayırmamız gerekiyor." },
+      { "en": "She broke down in tears after hearing the news.", "tr": "Haberi duyduktan sonra gözyaşlarına boğuldu." }
+    ]
+  },
+  {
+    "word": "liken to",
+    "meaning": "benzetmek, karşılaştırmak",
+    "examples": [
+      { "en": "He likened her voice to that of an angel.", "tr": "Sesini bir meleğinkine benzetti." },
+      { "en": "The movie was likened to a classic film.", "tr": "Film klasik bir filme benzetildi." },
+      { "en": "She likened her relationship to a rollercoaster.", "tr": "İlişkisini bir hız trenine benzetti." },
+      { "en": "He was likened to a great leader.", "tr": "Büyük bir lidere benzetildi." },
+      { "en": "The writer likened the city to a jungle.", "tr": "Yazar, şehri bir ormana benzetti." }
+    ]
+  },
+  {
+    "word": "relieve of",
+    "meaning": "yükten kurtarmak, rahatlatmak",
+    "examples": [
+      { "en": "The new policy will relieve the burden on small businesses.", "tr": "Yeni politika, küçük işletmelerin üzerindeki yükü hafifletecek." },
+      { "en": "He was relieved of his duties.", "tr": "Görevlerinden alındı." },
+      { "en": "The tax cuts will relieve the financial pressure on families.", "tr": "Vergi indirimleri, aileler üzerindeki mali baskıyı hafifletecek." },
+      { "en": "She was relieved of the heavy responsibility.", "tr": "Ağır sorumluluktan kurtuldu." },
+      { "en": "He relieved her of her suitcase.", "tr": "El çantasını ondan aldı (yükünü hafifletti)." }
+    ]
+  },
+  {
+    "word": "perpetuate",
+    "meaning": "sürdürmek, devam ettirmek",
+    "examples": [
+      { "en": "The film perpetuates negative stereotypes.", "tr": "Film olumsuz stereotipleri devam ettiriyor." },
+      { "en": "The tradition has been perpetuated for centuries.", "tr": "Gelenek yüzyıllardır devam ettiriliyor." },
+      { "en": "He perpetuated the myth about his wealth.", "tr": "Zenginliği hakkındaki efsaneyi devam ettirdi." },
+      { "en": "Poverty is often perpetuated by a lack of education.", "tr": "Yoksulluk genellikle eğitim eksikliğiyle devam ettirilir." },
+      { "en": "The cycle of violence continues to perpetuate itself.", "tr": "Şiddet döngüsü kendini devam ettiriyor." }
+    ]
+  },
+  {
+    "word": "eradicate",
+    "meaning": "kökünü kazımak, yok etmek",
+    "examples": [
+      { "en": "They are working to eradicate the disease.", "tr": "Hastalığı yok etmek için çalışıyorlar." },
+      { "en": "The goal is to eradicate poverty in the region.", "tr": "Amaç, bölgedeki yoksulluğu ortadan kaldırmaktır." },
+      { "en": "We must eradicate all forms of discrimination.", "tr": "Her türlü ayrımcılığı ortadan kaldırmalıyız." },
+      { "en": "It is difficult to eradicate a pest from the garden.", "tr": "Bahçedeki bir haşereyi yok etmek zordur." },
+      { "en": "The government launched a campaign to eradicate illiteracy.", "tr": "Hükümet, okuma yazma bilmezliği ortadan kaldırmak için bir kampanya başlattı." }
+    ]
+  },
+  {
+    "word": "inundate",
+    "meaning": "su altında bırakmak, boğmak",
+    "examples": [
+      { "en": "After the flood, the city was completely inundated.", "tr": "Selden sonra şehir tamamen sular altında kaldı." },
+      { "en": "We were inundated with calls after the advertisement aired.", "tr": "Reklam yayınlandıktan sonra telefon yağmuruna tutulduk." },
+      { "en": "The river will inundate the fields during the rainy season.", "tr": "Nehir, yağmur mevsiminde tarlaları sular altında bırakacak." },
+      { "en": "The company was inundated with customer complaints.", "tr": "Şirket, müşteri şikayetleriyle boğuldu." },
+      { "en": "The celebrity was inundated with messages from fans.", "tr": "Ünlü, hayranlarından gelen mesajlarla boğuldu." }
+    ]
+  },
+  {
+    "word": "contain",
+    "meaning": "içermek, kapsamak",
+    "examples": [
+      { "en": "The box contains several different items.", "tr": "Kutu birkaç farklı eşya içeriyor." },
+      { "en": "The report contains important information.", "tr": "Rapor önemli bilgiler içeriyor." },
+      { "en": "The fire was difficult to contain.", "tr": "Yangını kontrol altına almak zordu." },
+      { "en": "She couldn't contain her excitement.", "tr": "Heyecanını dizginleyemedi." },
+      { "en": "The document contains a list of all employees.", "tr": "Belge, tüm çalışanların bir listesini içeriyor." }
+    ]
+  },
+  {
+    "word": "embrace",
+    "meaning": "kucaklamak, benimsemek",
+    "examples": [
+      { "en": "He embraced the challenge with a positive attitude.", "tr": "Pozitif bir tutumla meydan okumayı benimsedi." },
+      { "en": "The couple embraced warmly.", "tr": "Çift sıcak bir şekilde kucaklaştı." },
+      { "en": "The city has embraced the new technology.", "tr": "Şehir, yeni teknolojiyi benimsedi." },
+      { "en": "She embraced her old friend after many years.", "tr": "Yıllar sonra eski arkadaşını kucakladı." },
+      { "en": "We must embrace new ideas to progress.", "tr": "İlerlemek için yeni fikirleri benimsemeliyiz." }
+    ]
+  },
+  {
+    "word": "perish",
+    "meaning": "yok olmak, can vermek",
+    "examples": [
+      { "en": "The ancient city perished in a great fire.", "tr": "Antik şehir büyük bir yangında yok oldu." },
+      { "en": "Many animals perished during the long drought.", "tr": "Uzun kuraklık sırasında birçok hayvan yok oldu." },
+      { "en": "The documents were left to perish in the basement.", "tr": "Belgeler bodrum katında çürümeye bırakıldı." },
+      { "en": "The plant will perish without water.", "tr": "Bitki susuz yok olur." },
+      { "en": "The hopes of the team perished after the last goal was scored.", "tr": "Son gol atıldıktan sonra takımın umutları yok oldu." }
+    ]
+  },
+  {
+    "word": "diminish",
+    "meaning": "azaltmak, eksiltmek",
+    "examples": [
+      { "en": "The value of the currency began to diminish.", "tr": "Para biriminin değeri azalmaya başladı." },
+      { "en": "His enthusiasm for the project slowly diminished.", "tr": "Proje için olan hevesi yavaşça azaldı." },
+      { "en": "The new law aims to diminish the power of the central government.", "tr": "Yeni yasa, merkezi hükümetin gücünü azaltmayı amaçlıyor." },
+      { "en": "The light from the fire began to diminish.", "tr": "Ateşin ışığı azalmaya başladı." },
+      { "en": "The supply of natural resources is slowly diminishing.", "tr": "Doğal kaynakların tedariki yavaşça azalıyor." }
+    ]
+  },
+  {
+    "word": "suppress",
+    "meaning": "bastırmak, engellemek",
+    "examples": [
+      { "en": "The government tried to suppress the protests.", "tr": "Hükümet protestoları bastırmaya çalıştı." },
+      { "en": "He could not suppress a smile.", "tr": "Gülümsemesini bastıramadı." },
+      { "en": "The new manager was unable to suppress the rumors.", "tr": "Yeni yönetici, söylentileri bastıramadı." },
+      { "en": "The military was called in to suppress the rebellion.", "tr": "İsyanı bastırmak için ordu çağrıldı." },
+      { "en": "She suppressed her anger.", "tr": "Öfkesini bastırdı." }
+    ]
+  },
+  {
+    "word": "put off",
+    "meaning": "ertelemek, soğutmak",
+    "examples": [
+      { "en": "Don't put off doing your homework.", "tr": "Ödevini yapmayı erteleme." },
+      { "en": "The meeting was put off until next week.", "tr": "Toplantı gelecek haftaya ertelendi." },
+      { "en": "His rude behavior put me off the idea of dating him.", "tr": "Kaba davranışı, onunla çıkma fikrinden beni soğuttu." },
+      { "en": "I keep putting off going to the dentist.", "tr": "Dişçiye gitmeyi sürekli erteliyorum." },
+      { "en": "The bad smell put me off my food.", "tr": "Kötü koku, yemekten beni soğuttu." }
+    ]
+  },
+  {
+    "word": "suspend",
+    "meaning": "askıya almak, durdurmak",
+    "examples": [
+      { "en": "The game was suspended due to heavy rain.", "tr": "Şiddetli yağmur nedeniyle maç askıya alındı." },
+      { "en": "He was suspended from school for two weeks.", "tr": "Okuldan iki hafta uzaklaştırıldı." },
+      { "en": "The company decided to suspend operations.", "tr": "Şirket, faaliyetlerini durdurmaya karar verdi." },
+      { "en": "The lamp was suspended from the ceiling.", "tr": "Lamba, tavandan asılıydı." },
+      { "en": "His license was suspended for a month.", "tr": "Ehliyeti bir ay askıya alındı." }
+    ]
+  },
+  {
+    "word": "threaten",
+    "meaning": "tehdit etmek",
+    "examples": [
+      { "en": "He was arrested for threatening a police officer.", "tr": "Bir polis memurunu tehdit etmekten tutuklandı." },
+      { "en": "A new disease is threatening the local bird population.", "tr": "Yeni bir hastalık yerel kuş popülasyonunu tehdit ediyor." },
+      { "en": "The company's existence is threatened by its financial problems.", "tr": "Şirketin varlığı, finansal sorunları tarafından tehdit ediliyor." },
+      { "en": "He threatened to quit his job if he didn't get a raise.", "tr": "Zam alamazsa işi bırakmakla tehdit etti." },
+      { "en": "The clouds threatened rain.", "tr": "Bulutlar yağmurla tehdit ediyordu." }
+    ]
+  },
+  {
+    "word": "deliberate",
+    "meaning": "kasıtlı, bilerek",
+    "examples": [
+      { "en": "His actions were a deliberate attempt to sabotage the project.", "tr": "Eylemleri, projeyi sabote etmek için kasıtlı bir girişimdi." },
+      { "en": "She made a deliberate choice to study abroad.", "tr": "Yurt dışında eğitim almak için bilinçli bir seçim yaptı." },
+      { "en": "The damage was not an accident; it was deliberate.", "tr": "Hasar bir kaza değildi; kasıtlıydı." },
+      { "en": "He speaks in a slow and deliberate manner.", "tr": "Yavaş ve kasıtlı bir şekilde konuşuyor." },
+      { "en": "The police believe the fire was a deliberate act of arson.", "tr": "Polis, yangının kasıtlı bir kundaklama eylemi olduğuna inanıyor." }
+    ]
+  },
+  {
+    "word": "irrelevant",
+    "meaning": "konu dışı, alakasız",
+    "examples": [
+      { "en": "That comment is completely irrelevant to the discussion.", "tr": "Bu yorum, tartışmayla tamamen alakasız." },
+      { "en": "The information you provided is irrelevant.", "tr": "Sağladığınız bilgi alakasız." },
+      { "en": "Why are you asking such an irrelevant question?", "tr": "Neden böylesine alakasız bir soru soruyorsun?" },
+      { "en": "Her point was irrelevant to the main argument.", "tr": "Onun söylediği şey ana argümanla alakasızdı." },
+      { "en": "The details are irrelevant to the big picture.", "tr": "Detaylar büyük resimle alakasız." }
+    ]
+  },
+  {
+    "word": "unreliable",
+    "meaning": "güvenilmez",
+    "examples": [
+      { "en": "The witness was found to be unreliable.", "tr": "Tanığın güvenilmez olduğu anlaşıldı." },
+      { "en": "His information is completely unreliable.", "tr": "Bilgileri tamamen güvenilmez." },
+      { "en": "The old car is unreliable and often breaks down.", "tr": "Eski araba güvenilmezdir ve sık sık bozulur." },
+      { "en": "He is an unreliable source of information.", "tr": "O, güvenilmez bir bilgi kaynağı." },
+      { "en": "The weather forecast is unreliable.", "tr": "Hava tahmini güvenilmez." }
+    ]
+  },
+  {
+    "word": "manageable",
+    "meaning": "yönetilebilir",
+    "examples": [
+      { "en": "The project is difficult but manageable.", "tr": "Proje zor ama yönetilebilir." },
+      { "en": "The task was divided into smaller, more manageable parts.", "tr": "Görev daha küçük, daha yönetilebilir parçalara bölündü." },
+      { "en": "She has a very manageable hairstyle.", "tr": "Çok kolay yönetilebilir bir saç stili var." },
+      { "en": "The workload is manageable if you organize your time.", "tr": "Zamanınızı düzenlerseniz, iş yükü yönetilebilir." },
+      { "en": "We need to find a manageable solution.", "tr": "Yönetilebilir bir çözüm bulmamız gerekiyor." }
+    ]
+  },
+  {
+    "word": "unavoidable",
+    "meaning": "kaçınılmaz",
+    "examples": [
+      { "en": "The accident was unavoidable.", "tr": "Kaza kaçınılmazdı." },
+      { "en": "The rising cost of living is unavoidable.", "tr": "Artan yaşam maliyeti kaçınılmaz." },
+      { "en": "Paying taxes is an unavoidable part of life.", "tr": "Vergi ödemek, hayatın kaçınılmaz bir parçası." },
+      { "en": "There was an unavoidable delay in our flight.", "tr": "Uçuşumuzda kaçınılmaz bir gecikme oldu." },
+      { "en": "An unavoidable conflict arose between them.", "tr": "Aralarında kaçınılmaz bir çatışma çıktı." }
+    ]
+  },
+  {
+    "word": "detectable",
+    "meaning": "saptanabilir, fark edilebilir",
+    "examples": [
+      { "en": "The presence of the virus was not detectable.", "tr": "Virüsün varlığı saptanamadı." },
+      { "en": "The smell of gas was barely detectable.", "tr": "Gaz kokusu zar zor saptanabiliyordu." },
+      { "en": "The change in his voice was barely detectable.", "tr": "Sesindeki değişiklik zar zor fark ediliyordu." },
+      { "en": "The planet's movement is not detectable with the naked eye.", "tr": "Gezegenin hareketi çıplak gözle saptanamaz." },
+      { "en": "The problem is not easily detectable.", "tr": "Sorun kolayca saptanamaz." }
+    ]
+  },
+  {
+    "word": "irrefutable",
+    "meaning": "çürütülemez, reddedilemez",
+    "examples": [
+      { "en": "His argument was irrefutable.", "tr": "Onun argümanı çürütülemezdi." },
+      { "en": "The evidence was irrefutable.", "tr": "Kanıt çürütülemezdi." },
+      { "en": "The proof of his guilt was irrefutable.", "tr": "Suçluluğunun kanıtı çürütülemezdi." },
+      { "en": "He presented irrefutable evidence in court.", "tr": "Mahkemede çürütülemez kanıtlar sundu." },
+      { "en": "Her logic was irrefutable.", "tr": "Mantığı çürütülemezdi." }
+    ]
+  }
 ]
