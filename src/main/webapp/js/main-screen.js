@@ -36,11 +36,14 @@ async function getRandomWord() {
 
         seenWords.push(randomWord.word);
 
+        currentWord = randomWord;
+        currentExampleIndex = 0;
+
         // Kelime bilgilerini ekrana yazdırma
-        document.getElementById('word').innerText = randomWord.word;
-        document.getElementById('meaning').innerText = randomWord.meaning;
-        document.getElementById('example').innerText = randomWord.example;
-        document.getElementById('example-meaning').innerText = randomWord.example_meaning;
+        document.getElementById('word').innerText = currentWord.word;
+        document.getElementById('meaning').innerText = currentWord.meaning;
+        document.getElementById('example').innerText = currentWord.examples[currentExampleIndex].en;
+        document.getElementById('example-meaning').innerText = currentWord.examples[currentExampleIndex].tr;        
 
     } catch (error) {
         console.error('Kelime listesi yüklenirken bir hata oluştu:', error);
@@ -61,15 +64,5 @@ nextExampleBtn.addEventListener('click', () => {
     }
 });
 
-async function getRandomWord() {
-    // ... (Diğer kodlar)
-    
-    // Kelimeyi çektikten sonra
-    currentWord = randomWord;
-    currentExampleIndex = 0;
 
-    document.getElementById('word').innerText = currentWord.word;
-    document.getElementById('meaning').innerText = currentWord.meaning;
-    document.getElementById('example').innerText = currentWord.examples[currentExampleIndex].en;
-    document.getElementById('example-meaning').innerText = currentWord.examples[currentExampleIndex].tr;
-}
+
