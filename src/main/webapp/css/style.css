@@ -161,3 +161,11 @@ input, textarea {
     margin-top: 10px;
 }
 }
+#next-example-btn {
+    background-color: var(--primary-color);
+    margin-top: 15px;
+}
+
+#next-example-btn:hover {
+    background-color: var(--secondary-color);
+}
