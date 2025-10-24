@@ -47,3 +47,29 @@ async function getRandomWord() {
         document.getElementById('word').innerText = "Hata oluştu.";
     }
 }
+// ... (Diğer kodlar)
+
+let currentWord = null;
+let currentExampleIndex = 0;
+
+const nextExampleBtn = document.getElementById('next-example-btn');
+nextExampleBtn.addEventListener('click', () => {
+    if (currentWord && currentWord.examples.length > 1) {
+        currentExampleIndex = (currentExampleIndex + 1) % currentWord.examples.length;
+        document.getElementById('example').innerText = currentWord.examples[currentExampleIndex].en;
+        document.getElementById('example-meaning').innerText = currentWord.examples[currentExampleIndex].tr;
+    }
+});
+
+async function getRandomWord() {
+    // ... (Diğer kodlar)
+    
+    // Kelimeyi çektikten sonra
+    currentWord = randomWord;
+    currentExampleIndex = 0;
+
+    document.getElementById('word').innerText = currentWord.word;
+    document.getElementById('meaning').innerText = currentWord.meaning;
+    document.getElementById('example').innerText = currentWord.examples[currentExampleIndex].en;
+    document.getElementById('example-meaning').innerText = currentWord.examples[currentExampleIndex].tr;
+}
