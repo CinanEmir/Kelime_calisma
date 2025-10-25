@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Animasyon bittikten sonra yönlendir
         setTimeout(() => {
             window.location.href = 'main-screen.html';
-        }, 1000); // 500ms sonra yönlendir
+        }, 200); // 500ms sonra yönlendir
         
     }, 1000); // 1 saniye sonra animasyonu başlat
 });
