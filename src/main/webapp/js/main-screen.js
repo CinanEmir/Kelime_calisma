@@ -1,22 +1,52 @@
 // main-screen.js
 
-const getWordBtn = document.getElementById('getWordBtn');
-const clickSound = new Audio('/sounds/clickk.mp3'); 
+// Global Değişkenler
+let currentWord = null;
+let currentExampleIndex = 0;
+let seenWords = [];
+const allWords = [];
+const clickSound = new Audio('/sounds/click.mp3');
 
+// DOM Elementleri
+const getWordBtn = document.getElementById('getWordBtn');
+const speakBtn = document.getElementById('speakBtn');
+const nextExampleBtn = document.getElementById('next-example-btn');
+
+// Telaffuz işlevi
+const speakWord = (text) => {
+    if ('speechSynthesis' in window) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-US';
+        utterance.rate = 0.6;
+        window.speechSynthesis.speak(utterance);
+    } else {
+        console.warn("Tarayıcı telaffuz özelliğini desteklemiyor.");
+    }
+};
+
+// Olay Dinleyicileri (Listeners)
 if (getWordBtn) {
     getWordBtn.addEventListener('click', getRandomWord);
 }
 
-let seenWords = [];
-const allWords = [];
+if (nextExampleBtn) {
+    nextExampleBtn.addEventListener('click', getNextExample);
+}
 
+if (speakBtn) {
+    speakBtn.addEventListener('click', () => {
+        // Kelime metnini doğru span etiketinden al
+        const wordText = document.getElementById('word-text').innerText.trim();
+        speakWord(wordText);
+    });
+}
+
+// Rastgele Kelime Getirme Ana İşlevi
 async function getRandomWord() {
     try {
-        // Butona tıklandığında sesi çal
         clickSound.play();
 
         if (allWords.length === 0) {
-            // Node.js sunucusu için doğru yolu kullan
             const response = await fetch('/words.json');
             const words = await response.json();
             allWords.push(...words);
@@ -36,33 +66,28 @@ async function getRandomWord() {
 
         seenWords.push(randomWord.word);
 
+        // Yeni kelimeyi kaydet ve ilk örneği göster
         currentWord = randomWord;
         currentExampleIndex = 0;
 
-        // Kelime bilgilerini ekrana yazdırma
-        document.getElementById('word').innerText = currentWord.word;
+        // KELİME VE ANLAMLARINI DOĞRU ID'LERLE GÜNCELLE
+        document.getElementById('word-text').innerText = currentWord.word;
         document.getElementById('meaning').innerText = currentWord.meaning;
         document.getElementById('example').innerText = currentWord.examples[currentExampleIndex].en;
-        document.getElementById('example-meaning').innerText = currentWord.examples[currentExampleIndex].tr;        
+        document.getElementById('example-meaning').innerText = currentWord.examples[currentExampleIndex].tr;
 
     } catch (error) {
         console.error('Kelime listesi yüklenirken bir hata oluştu:', error);
-        document.getElementById('word').innerText = "Hata oluştu.";
+        document.getElementById('word-text').innerText = "Hata!";
+        document.getElementById('meaning').innerText = "Veri yüklenemedi.";
     }
 }
-// ... (Diğer kodlar)
 
-let currentWord = null;
-let currentExampleIndex = 0;
-
-const nextExampleBtn = document.getElementById('next-example-btn');
-nextExampleBtn.addEventListener('click', () => {
-    if (currentWord && currentWord.examples.length > 1) {
+// Başka Cümle Getirme İşlevi
+function getNextExample() {
+    if (currentWord && currentWord.examples && currentWord.examples.length > 1) {
         currentExampleIndex = (currentExampleIndex + 1) % currentWord.examples.length;
         document.getElementById('example').innerText = currentWord.examples[currentExampleIndex].en;
         document.getElementById('example-meaning').innerText = currentWord.examples[currentExampleIndex].tr;
     }
-});
-
-
-
+}
