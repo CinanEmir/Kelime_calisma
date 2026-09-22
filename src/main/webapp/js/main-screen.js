@@ -78,7 +78,7 @@ function playStarSound() {
 }
 
 // ==========================================================================
-// 2. Uygulama Durumu ve LocalStorage Yönetimi
+// 2. Uygulama Durumu ve LocalStorage Yönetimi (Vercel / APK Uyumlu)
 // ==========================================================================
 let allWords = [];
 let availableIndices = [];
@@ -86,10 +86,11 @@ let currentWord = null;
 let currentExampleIndex = 0;
 let isMeaningRevealed = false;
 
-// LocalStorage Set'leri
 const STORAGE_KEYS = {
     LEARNED: 'kelime_learned_words',
     STARRED: 'kelime_starred_words',
+    CUSTOM: 'kelime_custom_words',
+    DELETED: 'kelime_deleted_words',
     AUTO_REVEAL: 'kelime_auto_reveal'
 };
 
@@ -108,9 +109,46 @@ function saveSetToStorage(key, set) {
     } catch (e) {}
 }
 
+function loadArrayFromStorage(key) {
+    try {
+        const raw = localStorage.getItem(key);
+        return raw ? JSON.parse(raw) : [];
+    } catch (e) {
+        return [];
+    }
+}
+
 let learnedWords = loadSetFromStorage(STORAGE_KEYS.LEARNED);
 let starredWords = loadSetFromStorage(STORAGE_KEYS.STARRED);
 let autoRevealEnabled = localStorage.getItem(STORAGE_KEYS.AUTO_REVEAL) === 'true';
+
+// Birleştirilmiş Kelime Listesi (Dahili JSON + Kullanıcının Ekledikleri - Silinenler)
+function loadMergedWords(builtInWords) {
+    const customWords = loadArrayFromStorage(STORAGE_KEYS.CUSTOM);
+    const deletedSet = loadSetFromStorage(STORAGE_KEYS.DELETED);
+
+    const wordMap = new Map();
+
+    // 1. Dahili kelimeleri ekle (silinenler hariç)
+    if (Array.isArray(builtInWords)) {
+        builtInWords.forEach(w => {
+            if (w && w.word && !deletedSet.has(w.word.toLowerCase())) {
+                wordMap.set(w.word.toLowerCase(), w);
+            }
+        });
+    }
+
+    // 2. Kullanıcının eklediği özel kelimeleri ekle (silinenler hariç)
+    if (Array.isArray(customWords)) {
+        customWords.forEach(w => {
+            if (w && w.word && !deletedSet.has(w.word.toLowerCase())) {
+                wordMap.set(w.word.toLowerCase(), w);
+            }
+        });
+    }
+
+    return Array.from(wordMap.values());
+}
 
 // DOM Elementleri
 const getWordBtn = document.getElementById('getWordBtn');
@@ -165,7 +203,6 @@ const speakWord = (text) => {
 function updateProgress() {
     if (allWords.length === 0) return;
 
-    // Gerçekte havuzda olan öğrenilmiş kelimeler
     const actualLearned = allWords.filter(w => learnedWords.has(w.word.toLowerCase())).length;
     const total = allWords.length;
     const percent = Math.round((actualLearned / total) * 100);
@@ -184,7 +221,7 @@ function updateProgress() {
 
     // Modal Sekme Sayıları
     if (tabAll) tabAll.innerText = `Tümü (${total})`;
-    if (tabStarred) tabStarred.innerText = `⭐ Favoriler (${starredWords.size})`;
+    if (tabStarred) tabStarred.innerText = `⭐ Favoriler (${allWords.filter(w => starredWords.has(w.word.toLowerCase())).length})`;
     if (tabLearned) tabLearned.innerText = `✅ Öğrenilenler (${actualLearned})`;
     if (modalTotalCount) modalTotalCount.innerText = total;
 }
@@ -264,7 +301,6 @@ function renderWord(word) {
     }
 
     // Rozet
-    const activeIndices = getActivePoolIndices();
     if (wordBadgeEl) {
         wordBadgeEl.style.display = 'inline-flex';
         wordBadgeEl.innerText = `#${allWords.indexOf(currentWord) + 1}`;
@@ -304,9 +340,17 @@ async function getRandomWord() {
         playClickSound();
 
         if (allWords.length === 0) {
-            const response = await fetch('/words.json');
-            if (!response.ok) throw new Error('words.json yüklenemedi');
-            allWords = await response.json();
+            let builtIn = [];
+            try {
+                const response = await fetch('/words.json');
+                if (response.ok) {
+                    builtIn = await response.json();
+                }
+            } catch (e) {
+                console.warn("words.json uzaktan alınamadı.");
+            }
+
+            allWords = loadMergedWords(builtIn);
             availableIndices = getActivePoolIndices();
             updateProgress();
         }
@@ -324,7 +368,7 @@ async function getRandomWord() {
             availableIndices = [...activeIndices];
         }
 
-        // Havuzdan öğrenilmemiş rastgele bir kelime seç
+        // Havuzdan rastgele bir kelime seç
         const pickPos = Math.floor(Math.random() * availableIndices.length);
         const selectedIndex = availableIndices.splice(pickPos, 1)[0];
         const randomWord = allWords[selectedIndex];
@@ -342,7 +386,7 @@ function showAllLearnedCelebration() {
     if (wordEl) wordEl.innerText = "Tebrikler! 🎉";
     if (meaningEl) {
         meaningEl.classList.remove('meaning-blurred');
-        meaningEl.innerHTML = "Tüm kelimeleri öğrendiniz!<br><button class='btn-secondary' id='resetLearnedBtn' style='margin-top:14px;'>İlerlemeyi Sıfırla ve Tekrar Başla</button>";
+        meaningEl.innerHTML = "Tüm kelimeleri öğrendiniz!<br><button class='btn-secondary' id='resetLearnedBtn' style='margin-top:14px;'>İlerlemeyi Sıfırla ve Baştan Başla</button>";
         const resetBtn = document.getElementById('resetLearnedBtn');
         if (resetBtn) {
             resetBtn.addEventListener('click', () => {
@@ -519,41 +563,48 @@ function renderDictionary() {
     });
 }
 
-// Kelimeyi Sunucudan ve Hafızadan Silme
+// Kelimeyi Sunucudan ve Hafızadan Silme (Vercel & Yerel Uyumlu)
 async function deleteWord(wordName) {
     if (!confirm(`"${wordName}" kelimesini havuzdan tamamen silmek istediğinize emin misiniz?`)) {
         return;
     }
 
+    const cleanWord = wordName.toLowerCase();
+    playClickSound();
+
+    // 1. Silinenler listesine (LocalStorage) ekle
+    const deletedSet = loadSetFromStorage(STORAGE_KEYS.DELETED);
+    deletedSet.add(cleanWord);
+    saveSetToStorage(STORAGE_KEYS.DELETED, deletedSet);
+
+    // 2. Özel eklenenler listesindeyse kaldır
+    let customWords = loadArrayFromStorage(STORAGE_KEYS.CUSTOM);
+    customWords = customWords.filter(w => w.word.toLowerCase() !== cleanWord);
+    localStorage.setItem(STORAGE_KEYS.CUSTOM, JSON.stringify(customWords));
+
+    // 3. Çalışma hafızasından kaldır
+    allWords = allWords.filter(w => w.word.toLowerCase() !== cleanWord);
+    starredWords.delete(cleanWord);
+    learnedWords.delete(cleanWord);
+    saveSetToStorage(STORAGE_KEYS.STARRED, starredWords);
+    saveSetToStorage(STORAGE_KEYS.LEARNED, learnedWords);
+
+    // 4. Eğer aktif Node sunucusu varsa oradan da sil
     try {
-        const response = await fetch('/delete-word', {
+        await fetch('/delete-word', {
             method: 'DELETE',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ word: wordName })
         });
-
-        if (response.ok) {
-            playClickSound();
-            // Yerel havuzdan sil
-            allWords = allWords.filter(w => w.word.toLowerCase() !== wordName.toLowerCase());
-            starredWords.delete(wordName.toLowerCase());
-            learnedWords.delete(wordName.toLowerCase());
-            saveSetToStorage(STORAGE_KEYS.STARRED, starredWords);
-            saveSetToStorage(STORAGE_KEYS.LEARNED, learnedWords);
-
-            updateProgress();
-            renderDictionary();
-
-            // Eğer şu an ekrandaki kelime silindiyse yeni kelime getir
-            if (currentWord && currentWord.word.toLowerCase() === wordName.toLowerCase()) {
-                getRandomWord();
-            }
-        } else {
-            const err = await response.text();
-            alert("Kelime silinemedi: " + err);
-        }
     } catch (e) {
-        alert("Bağlantı hatası: Kelime silinemedi.");
+        // Vercel veya statik ortamda sessizce devam et
+    }
+
+    updateProgress();
+    renderDictionary();
+
+    if (currentWord && currentWord.word.toLowerCase() === cleanWord) {
+        getRandomWord();
     }
 }
 
@@ -605,7 +656,6 @@ if (dictionarySearch) {
 // 11. Klavye Kısayolları
 // ==========================================================================
 document.addEventListener('keydown', (e) => {
-    // Arama kutusunda yazarken kısayolları engelle
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
         if (e.key === 'Escape') closeDictionary();
         return;
