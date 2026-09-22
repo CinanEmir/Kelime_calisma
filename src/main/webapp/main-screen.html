@@ -3,27 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelime Uygulaması</title>
+    <title>KelimePulse - İngilizce Kelime Çalışma</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="main-screen">
-        <div class="card">
-            <h2><span id="word-text">Kelime</span> <button id="speakBtn" class="speak-btn">🔊</button></h2>
-            <p id="meaning">Anlamı</p>
-            
-            <div id="example-container">
-                <p id="example" class="example-text">Örnek Cümle</p>
-                <p id="example-meaning" class="example-meaning-text">Örnek Cümle Anlamı</p>
+    <div class="app-container">
+        <!-- Üst Başlık ve Durum Çubuğu -->
+        <header class="app-header">
+            <div class="brand">
+                <span class="brand-icon">✨</span>
+                <span>KelimePulse</span>
             </div>
-            
-            <button id="next-example-btn" class="sub-btn">Başka Cümle Getir</button>
+            <div class="header-actions">
+                <div class="stat-badge" title="Aktif çalışma havuzu">
+                    <span>📦</span>
+                    <span id="pool-count">Yükleniyor...</span>
+                </div>
+                <button class="btn-header-action" id="openDictionaryBtn" title="Kelime Defteri (Kısayol: D)">
+                    <span>📋</span>
+                    <span>Kelimeler</span>
+                </button>
+                <a href="add-word.html" class="btn-icon-link" title="Yeni Kelime Ekle">
+                    <span>➕</span>
+                    <span>Kelime Ekle</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Canlı İlerleme Çubuğu -->
+        <div class="progress-card">
+            <div class="progress-info">
+                <div class="progress-label">
+                    <span>📊</span>
+                    <span>Öğrenme İlerlemesi</span>
+                </div>
+                <div class="progress-percent" id="progressPercentText">0% (0 / 119)</div>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
         </div>
 
-        <button id="getWordBtn" class="main-btn">Rastgele Kelime Getir</button>
-        
-        
+        <!-- Ana Kelime Kartı (Hero Flashcard) -->
+        <main class="card" id="mainCard">
+            <div class="card-top-bar">
+                <div class="card-top-left">
+                    <span class="word-tag" id="word-tag">KELİME ÇALIŞMASI</span>
+                    <span class="stat-badge" id="word-badge" style="display: none;">#1</span>
+                </div>
+                <div class="card-top-right">
+                    <button class="btn-fav" id="favBtn" aria-label="Favorilere Ekle" title="Favorilere Ekle/Çıkar (Kısayol: F)">
+                        ☆
+                    </button>
+                </div>
+            </div>
+
+            <div class="word-wrapper">
+                <h1 class="word-title" id="word-text">Kelime Yükleniyor...</h1>
+                <button id="speakBtn" class="speak-btn" aria-label="Telaffuzu Dinle" title="Telaffuzu Dinle (Kısayol: S)">
+                    🔊
+                </button>
+            </div>
+
+            <!-- Türkçe Anlamı (Tahmin / Gizleme Konteyneri) -->
+            <div class="meaning-container" id="meaningContainer" title="Anlamı görmek için tıklayın (Kısayol: Enter)">
+                <p class="meaning-text meaning-blurred" id="meaning">Lütfen bekleyin...</p>
+                <div class="reveal-overlay-btn" id="revealBtn">
+                    <span>👁️</span>
+                    <span>Anlamı Gör</span>
+                </div>
+            </div>
+            
+            <!-- Örnek Cümle Alanı -->
+            <div class="example-box" id="example-container">
+                <div class="example-box-header">
+                    <span class="example-label">Örnek Cümle</span>
+                    <span class="example-counter" id="example-counter">1 / 1</span>
+                </div>
+                <p class="example-text" id="example"></p>
+                <p class="example-meaning-text meaning-blurred" id="example-meaning"></p>
+                
+                <div class="example-footer">
+                    <button id="next-example-btn" class="btn-secondary" aria-label="Başka örnek cümle getir" title="Başka Örnek Cümle (Kısayol: B)">
+                        <span>🔄</span>
+                        <span>Başka Cümle (B)</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Kart Alt Aksiyonları (Öğrendim ve Görünürlük Ayarı) -->
+            <div class="card-actions-bar">
+                <button class="btn-learned" id="markLearnedBtn" title="Bu kelimeyi öğrendim olarak işaretle (Kısayol: L)">
+                    <span>✅</span>
+                    <span id="learnedBtnText">Öğrendim</span>
+                </button>
+
+                <button class="btn-toggle-reveal" id="toggleAutoRevealBtn" title="Anlamları varsayılan olarak gizli veya her zaman açık yap">
+                    <span>⚙️</span>
+                    <span id="autoRevealStatus">Anlamlar: Gizli</span>
+                </button>
+            </div>
+        </main>
+
+        <!-- Birincil Kontrol Butonu -->
+        <div class="controls-area">
+            <button id="getWordBtn" class="btn-primary" aria-label="Rastgele Yeni Kelime Getir">
+                <span>🎲</span>
+                <span>Rastgele Yeni Kelime</span>
+            </button>
+        </div>
+
+        <!-- Alt Klavye Kısayolları -->
+        <footer class="shortcuts-footer">
+            <div class="shortcut-item"><span class="kbd-badge">Space</span> Yeni</div>
+            <div class="shortcut-item"><span class="kbd-badge">Enter</span> Anlam</div>
+            <div class="shortcut-item"><span class="kbd-badge">S</span> Ses</div>
+            <div class="shortcut-item"><span class="kbd-badge">B</span> Cümle</div>
+            <div class="shortcut-item"><span class="kbd-badge">L</span> Öğrendim</div>
+            <div class="shortcut-item"><span class="kbd-badge">F</span> Favori</div>
+            <div class="shortcut-item"><span class="kbd-badge">D</span> Sözlük</div>
+        </footer>
     </div>
+
+    <!-- ==========================================================================
+         Kelime Defteri Modal (Sözlük & Yönetim)
+         ========================================================================== -->
+    <div class="modal-overlay" id="dictionaryModal" aria-hidden="true">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div class="modal-title">
+                    <span>📋</span>
+                    <span>Kelime Defteri (<span id="modalTotalCount">0</span>)</span>
+                </div>
+                <button class="modal-close-btn" id="closeDictionaryBtn" aria-label="Kapat">✕</button>
+            </div>
+
+            <div class="modal-search-bar">
+                <div class="search-input-wrapper">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="dictionarySearch" class="search-input" placeholder="İngilizce veya Türkçe kelime ara..." autocomplete="off">
+                </div>
+                <div class="modal-tabs">
+                    <button class="tab-btn active" data-tab="all" id="tabAll">Tümü (0)</button>
+                    <button class="tab-btn" data-tab="starred" id="tabStarred">⭐ Favoriler (0)</button>
+                    <button class="tab-btn" data-tab="learned" id="tabLearned">✅ Öğrenilenler (0)</button>
+                </div>
+            </div>
+
+            <div class="modal-words-list" id="dictionaryList">
+                <!-- Dinamik olarak JS tarafından doldurulacak -->
+            </div>
+        </div>
+    </div>
+
     <script src="js/main-screen.js"></script>
 </body>
 </html>
