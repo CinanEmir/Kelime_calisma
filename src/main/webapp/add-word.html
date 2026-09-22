@@ -24,7 +24,7 @@
             <header class="form-header">
                 <div class="form-title-group">
                     <h2><span>✨</span> Yeni Kelime Ekle</h2>
-                    <p class="form-subtitle">Kelime havuzuna yeni bir İngilizce kelime ve örnek cümle kaydedin.</p>
+                    <p class="form-subtitle">Kelime havuzuna yeni bir İngilizce kelime kaydedin. Örnek cümle eklemek isteğe bağlıdır.</p>
                 </div>
                 <a href="main-screen.html" class="back-link" title="Ana ekrana geri dön">
                     <span>←</span>
@@ -34,17 +34,17 @@
 
             <form id="addWordForm" onsubmit="return false;">
                 <div class="form-group">
-                    <label for="newWord"><span>🔤</span> İngilizce Kelime</label>
+                    <label for="newWord"><span>🔤</span> İngilizce Kelime <small style="color:var(--accent-red); font-size: 0.8rem;">*Zorunlu</small></label>
                     <input type="text" id="newWord" placeholder="Örn: resilient" autocomplete="off" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="newMeaning"><span>🇹🇷</span> Türkçe Karşılığı</label>
+                    <label for="newMeaning"><span>🇹🇷</span> Türkçe Karşılığı <small style="color:var(--accent-red); font-size: 0.8rem;">*Zorunlu</small></label>
                     <input type="text" id="newMeaning" placeholder="Örn: dirençli, çabuk toparlanan" autocomplete="off" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="newWordType"><span>🏷️</span> Kelime Türü (YDS)</label>
+                    <label for="newWordType"><span>🏷️</span> Kelime Türü (YDS - İsteğe Bağlı)</label>
                     <select id="newWordType">
                         <option value="">Belirtilmemiş</option>
                         <option value="Fiil">Fiil (Verb)</option>
@@ -56,13 +56,13 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="newExampleEn"><span>🇬🇧</span> Örnek Cümle (İngilizce)</label>
-                    <textarea id="newExampleEn" placeholder="Örn: She is a resilient person who never gives up." required></textarea>
+                    <label for="newExampleEn"><span>🇬🇧</span> Örnek Cümle (İngilizce - İsteğe Bağlı)</label>
+                    <textarea id="newExampleEn" placeholder="İsteğe bağlı: Örn: She is a resilient person who never gives up."></textarea>
                 </div>
 
                 <div class="form-group">
-                    <label for="newExampleTr"><span>🇹🇷</span> Örnek Cümlenin Çevirisi (Türkçe)</label>
-                    <textarea id="newExampleTr" placeholder="Örn: O, asla pes etmeyen dirençli bir insandır." required></textarea>
+                    <label for="newExampleTr"><span>🇹🇷</span> Örnek Cümlenin Çevirisi (Türkçe - İsteğe Bağlı)</label>
+                    <textarea id="newExampleTr" placeholder="İsteğe bağlı: Örn: O, asla pes etmeyen dirençli bir insandır."></textarea>
                 </div>
 
                 <div class="form-actions">

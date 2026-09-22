@@ -77,8 +77,8 @@ async function saveNewWord() {
     const newExampleEn = exampleEnInput ? exampleEnInput.value.trim() : '';
     const newExampleTr = exampleTrInput ? exampleTrInput.value.trim() : '';
 
-    if (!newWord || !newMeaning || !newExampleEn || !newExampleTr) {
-        alert("Lütfen tüm alanları doldurun.");
+    if (!newWord || !newMeaning) {
+        alert("Lütfen en azından İngilizce kelimeyi ve Türkçe karşılığını doldurun.");
         return;
     }
 
@@ -107,16 +107,20 @@ async function saveNewWord() {
         // Çevrimdışıysa devam et
     }
 
+    // Örnek cümle varsa ekle, yoksa boş dizi olarak kaydet
+    const examples = [];
+    if (newExampleEn) {
+        examples.push({
+            en: newExampleEn,
+            tr: newExampleTr || ''
+        });
+    }
+
     const newWordObject = {
         word: cleanWord,
         type: newWordType || undefined,
         meaning: newMeaning,
-        examples: [
-            {
-                en: newExampleEn,
-                tr: newExampleTr
-            }
-        ]
+        examples: examples
     };
 
     // 2. Her Zaman LocalStorage'a Kaydet (Vercel & APK & Çevrimdışı için garanti)

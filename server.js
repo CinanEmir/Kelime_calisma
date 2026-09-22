@@ -17,20 +17,17 @@ app.post('/add-word', (req, res) => {
 
     // Temel veri doğrulaması (Validation)
     if (!newWord || typeof newWord.word !== 'string' || !newWord.word.trim() ||
-        typeof newWord.meaning !== 'string' || !newWord.meaning.trim() ||
-        !Array.isArray(newWord.examples) || newWord.examples.length === 0) {
-        return res.status(400).send('Geçersiz kelime verisi. Lütfen tüm alanları doldurun.');
+        typeof newWord.meaning !== 'string' || !newWord.meaning.trim()) {
+        return res.status(400).send('Geçersiz kelime verisi. Kelime ve anlam zorunludur.');
     }
 
     const cleanWord = newWord.word.trim().toLowerCase();
     const cleanMeaning = newWord.meaning.trim();
-    const cleanExamples = newWord.examples
-        .filter(ex => ex && typeof ex.en === 'string' && typeof ex.tr === 'string' && ex.en.trim() && ex.tr.trim())
-        .map(ex => ({ en: ex.en.trim(), tr: ex.tr.trim() }));
-
-    if (cleanExamples.length === 0) {
-        return res.status(400).send('Lütfen geçerli en az bir örnek cümle ekleyin.');
-    }
+    const cleanExamples = Array.isArray(newWord.examples)
+        ? newWord.examples
+            .filter(ex => ex && typeof ex.en === 'string' && ex.en.trim())
+            .map(ex => ({ en: ex.en.trim(), tr: (ex.tr && typeof ex.tr === 'string') ? ex.tr.trim() : '' }))
+        : [];
 
     const wordToSave = {
         word: cleanWord,
