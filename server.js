@@ -34,6 +34,7 @@ app.post('/add-word', (req, res) => {
 
     const wordToSave = {
         word: cleanWord,
+        ...(newWord.type && typeof newWord.type === 'string' ? { type: newWord.type.trim() } : {}),
         meaning: cleanMeaning,
         examples: cleanExamples
     };

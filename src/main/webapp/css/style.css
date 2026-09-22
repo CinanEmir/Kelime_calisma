@@ -807,6 +807,19 @@ body {
     gap: 8px;
 }
 
+.badge-type-tag {
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: var(--radius-full);
+    background: rgba(6, 182, 212, 0.12);
+    border: 1px solid rgba(6, 182, 212, 0.25);
+    color: var(--accent-cyan);
+    letter-spacing: 0.3px;
+    display: inline-flex;
+    align-items: center;
+}
+
 .word-item-meaning {
     font-size: 0.88rem;
     color: var(--accent-cyan);

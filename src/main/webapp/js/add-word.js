@@ -67,11 +67,13 @@ if (saveWordBtn) {
 async function saveNewWord() {
     const wordInput = document.getElementById('newWord');
     const meaningInput = document.getElementById('newMeaning');
+    const wordTypeInput = document.getElementById('newWordType');
     const exampleEnInput = document.getElementById('newExampleEn');
     const exampleTrInput = document.getElementById('newExampleTr');
 
     const newWord = wordInput ? wordInput.value.trim() : '';
     const newMeaning = meaningInput ? meaningInput.value.trim() : '';
+    const newWordType = wordTypeInput ? wordTypeInput.value.trim() : '';
     const newExampleEn = exampleEnInput ? exampleEnInput.value.trim() : '';
     const newExampleTr = exampleTrInput ? exampleTrInput.value.trim() : '';
 
@@ -107,6 +109,7 @@ async function saveNewWord() {
 
     const newWordObject = {
         word: cleanWord,
+        type: newWordType || undefined,
         meaning: newMeaning,
         examples: [
             {

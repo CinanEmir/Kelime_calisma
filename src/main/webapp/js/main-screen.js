@@ -300,10 +300,13 @@ function renderWord(word) {
         learnedBtnText.innerText = isLearned ? 'Öğrenildi' : 'Öğrendim';
     }
 
-    // Rozet
+    // Rozet (Sıra ve Kelime Türü)
     if (wordBadgeEl) {
         wordBadgeEl.style.display = 'inline-flex';
-        wordBadgeEl.innerText = `#${allWords.indexOf(currentWord) + 1}`;
+        const wordIndex = allWords.indexOf(currentWord) + 1;
+        wordBadgeEl.innerText = currentWord.type 
+            ? `#${wordIndex} · ${currentWord.type}` 
+            : `#${wordIndex}`;
     }
 
     renderExample();
@@ -501,7 +504,9 @@ function renderDictionary() {
         if (currentDictionaryTab === 'learned' && !learnedWords.has(wordKey)) return false;
         
         if (!query) return true;
-        return w.word.toLowerCase().includes(query) || (w.meaning && w.meaning.toLowerCase().includes(query));
+        return w.word.toLowerCase().includes(query) || 
+               (w.meaning && w.meaning.toLowerCase().includes(query)) ||
+               (w.type && w.type.toLowerCase().includes(query));
     });
 
     if (list.length === 0) {
@@ -519,6 +524,7 @@ function renderDictionary() {
                 <div class="word-item-content">
                     <div class="word-item-title">
                         <span>${item.word}</span>
+                        ${item.type ? `<span class="badge-type-tag">${item.type}</span>` : ''}
                     </div>
                     <div class="word-item-meaning">${item.meaning}</div>
                 </div>

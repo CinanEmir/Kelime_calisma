@@ -23,7 +23,8 @@
         "en": "The new manager will relieve the old one next week.",
         "tr": "Yeni yönetici gelecek hafta eskisinin yerini alacak."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "alleviate",
@@ -49,7 +50,8 @@
         "en": "A hot bath can help to alleviate muscle pain.",
         "tr": "Sıcak bir banyo, kas ağrısını hafifletmeye yardımcı olabilir."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "rebellious",
@@ -75,7 +77,8 @@
         "en": "They were known for their rebellious spirit.",
         "tr": "İsyankar ruhlarıyla tanınıyorlardı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "abolish",
@@ -101,7 +104,8 @@
         "en": "The organization works to abolish human trafficking.",
         "tr": "Organizasyon, insan kaçakçılığını ortadan kaldırmak için çalışıyor."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "cease",
@@ -127,7 +131,8 @@
         "en": "He hoped the conflict would cease soon.",
         "tr": "Çatışmanın yakında sona ermesini umuyordu."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "mitigate",
@@ -153,7 +158,8 @@
         "en": "Training can help to mitigate the impact of mistakes.",
         "tr": "Eğitim, hataların etkisini azaltmaya yardımcı olabilir."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "diminish",
@@ -179,7 +185,8 @@
         "en": "The supply of natural resources is slowly diminishing.",
         "tr": "Doğal kaynakların tedariki yavaşça azalıyor."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "resist",
@@ -205,7 +212,8 @@
         "en": "The new material is designed to resist rust and corrosion.",
         "tr": "Yeni malzeme pas ve korozyona direnmek için tasarlandı."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "defy",
@@ -231,7 +239,8 @@
         "en": "He was known for his courage to defy authority.",
         "tr": "Otoriteye karşı gelme cesaretiyle tanınıyordu."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "threaten",
@@ -257,7 +266,8 @@
         "en": "He threatened to quit his job if he didn't get a raise.",
         "tr": "Zam alamazsa işi bırakmakla tehdit etti."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "intimidating",
@@ -283,7 +293,8 @@
         "en": "The huge building seemed intimidating from the street.",
         "tr": "Devasa bina caddeden ürkütücü görünüyordu."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "dangerous",
@@ -309,7 +320,8 @@
         "en": "A dangerous animal was seen in the forest.",
         "tr": "Ormanda tehlikeli bir hayvan görüldü."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "perilous",
@@ -335,7 +347,8 @@
         "en": "Flying in the storm was a perilous undertaking.",
         "tr": "Fırtınada uçmak tehlikeli bir girişimdi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "deliberate",
@@ -361,7 +374,8 @@
         "en": "The police believe the fire was a deliberate act of arson.",
         "tr": "Polis, yangının kasıtlı bir kundaklama eylemi olduğuna inanıyor."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "intentional",
@@ -387,7 +401,8 @@
         "en": "He claimed the harm was not intentional.",
         "tr": "Zararın kasıtlı olmadığını iddia etti."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "intent",
@@ -413,7 +428,8 @@
         "en": "The company's intent is to expand into new markets.",
         "tr": "Şirketin niyeti, yeni pazarlara açılmaktır."
       }
-    ]
+    ],
+    "type": "İsim"
   },
   {
     "word": "bizarre",
@@ -439,7 +455,8 @@
         "en": "She wore a bizarre costume to the party.",
         "tr": "Partiye tuhaf bir kostüm giydi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "strange",
@@ -465,7 +482,8 @@
         "en": "She met a strange man on the bus.",
         "tr": "Otobüste garip bir adamla tanıştı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "odd",
@@ -491,7 +509,8 @@
         "en": "The design seemed a bit odd to me.",
         "tr": "Tasarım bana biraz garip geldi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "weird",
@@ -517,7 +536,8 @@
         "en": "It's weird that the store is closed on a Monday.",
         "tr": "Mağazanın pazartesi günü kapalı olması tuhaf."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "trivial",
@@ -543,7 +563,8 @@
         "en": "The cost of the repair was trivial.",
         "tr": "Tamir maliyeti önemsizdi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "insignificant",
@@ -569,7 +590,8 @@
         "en": "The town was an insignificant village.",
         "tr": "Kasaba, önemsiz bir köydü."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "minor",
@@ -595,7 +617,8 @@
         "en": "He made a few minor changes to the plan.",
         "tr": "Plana birkaç küçük değişiklik yaptı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "unimportant",
@@ -621,7 +644,8 @@
         "en": "His feelings were unimportant to her.",
         "tr": "Onun duyguları, onun için önemsizdi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "negligible",
@@ -647,7 +671,8 @@
         "en": "Her salary increase was so small it was almost negligible.",
         "tr": "Maaş artışı o kadar küçüktü ki neredeyse önemsizdi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "efficient",
@@ -673,7 +698,8 @@
         "en": "The efficient organization of the team led to success.",
         "tr": "Ekibin verimli organizasyonu başarıya yol açtı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "effective",
@@ -699,7 +725,8 @@
         "en": "The new policy proved to be highly effective in reducing crime.",
         "tr": "Yeni politikanın suçu azaltmada son derece etkili olduğu kanıtlandı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "productive",
@@ -725,7 +752,8 @@
         "en": "A good manager knows how to create a productive work environment.",
         "tr": "İyi bir yönetici, üretken bir çalışma ortamı yaratmayı bilir."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "competent",
@@ -751,7 +779,8 @@
         "en": "He is a highly competent professional.",
         "tr": "O, son derece yetkin bir profesyonel."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "attain",
@@ -777,7 +806,8 @@
         "en": "It's difficult to attain peace in the region.",
         "tr": "Bölgede barışı sağlamak zor."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "obtain",
@@ -803,7 +833,8 @@
         "en": "The company has obtained permission to build a new factory.",
         "tr": "Şirket yeni bir fabrika inşa etmek için izin aldı."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "gain",
@@ -829,7 +860,8 @@
         "en": "The army gained control of the city.",
         "tr": "Ordu, şehrin kontrolünü ele geçirdi."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "devastating",
@@ -855,7 +887,8 @@
         "en": "The storm had a devastating effect on the crops.",
         "tr": "Fırtınanın mahsuller üzerinde yıkıcı bir etkisi oldu."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "destructive",
@@ -881,7 +914,8 @@
         "en": "The project was a destructive force on the environment.",
         "tr": "Proje, çevre üzerinde yıkıcı bir güçtü."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "catastrophic",
@@ -907,7 +941,8 @@
         "en": "The company faces a catastrophic financial crisis.",
         "tr": "Şirket, felaket getiren bir mali krizle karşı karşıya."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "ruinous",
@@ -933,7 +968,8 @@
         "en": "The long drought had a ruinous effect on the crops.",
         "tr": "Uzun süren kuraklığın mahsuller üzerinde yıkıcı bir etkisi oldu."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "even",
@@ -959,7 +995,8 @@
         "en": "You should divide the pie into even pieces.",
         "tr": "Pastayı eşit parçalara bölmelisin."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "equal",
@@ -985,7 +1022,8 @@
         "en": "We need to ensure equal access to education.",
         "tr": "Eğitime eşit erişimi sağlamamız gerekiyor."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "disparity",
@@ -1011,7 +1049,8 @@
         "en": "The economic disparity in the country is a major concern.",
         "tr": "Ülkedeki ekonomik eşitsizlik büyük bir endişe kaynağı."
       }
-    ]
+    ],
+    "type": "İsim"
   },
   {
     "word": "irregular",
@@ -1037,7 +1076,8 @@
         "en": "The doctor noted an irregular pattern in her breathing.",
         "tr": "Doktor, nefes alışında düzensiz bir örüntü fark etti."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "uneven",
@@ -1063,7 +1103,8 @@
         "en": "The cake came out of the oven with an uneven surface.",
         "tr": "Pasta, fırından düzensiz bir yüzeyle çıktı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "inconsistent",
@@ -1089,7 +1130,8 @@
         "en": "The witness's testimony was inconsistent.",
         "tr": "Tanığın ifadesi tutarsızdı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "sporadic",
@@ -1115,7 +1157,8 @@
         "en": "She had a few sporadic moments of happiness.",
         "tr": "Birkaç seyrek mutluluk anı yaşadı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "irrelevant",
@@ -1141,7 +1184,8 @@
         "en": "The details are irrelevant to the big picture.",
         "tr": "Detaylar büyük resimle alakasız."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "unrelated",
@@ -1167,7 +1211,8 @@
         "en": "He told a series of unrelated stories.",
         "tr": "Bir dizi alakasız hikaye anlattı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "unconnected",
@@ -1193,7 +1238,8 @@
         "en": "The detective found a series of unconnected clues.",
         "tr": "Dedektif, bir dizi bağlantısız ipucu buldu."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "inevitable",
@@ -1219,7 +1265,8 @@
         "en": "The decline of the empire was inevitable.",
         "tr": "İmparatorluğun çöküşü kaçınılmazdı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "unavoidable",
@@ -1245,7 +1292,8 @@
         "en": "An unavoidable conflict arose between them.",
         "tr": "Aralarında kaçınılmaz bir çatışma çıktı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "certain",
@@ -1271,7 +1319,8 @@
         "en": "The rules are not certain yet.",
         "tr": "Kurallar henüz kesin değil."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "inescapable",
@@ -1297,7 +1346,8 @@
         "en": "She had to face the inescapable consequences of her actions.",
         "tr": "Eylemlerinin kaçınılmaz sonuçlarıyla yüzleşmek zorunda kaldı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "undeniable",
@@ -1323,7 +1373,8 @@
         "en": "The need for reform is undeniable.",
         "tr": "Reform ihtiyacı inkar edilemez."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "irrefutable",
@@ -1349,7 +1400,8 @@
         "en": "Her logic was irrefutable.",
         "tr": "Mantığı çürütülemezdi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "unquestionable",
@@ -1375,7 +1427,8 @@
         "en": "It is an unquestionable fact that he is a good leader.",
         "tr": "İyi bir lider olduğu tartışılmaz bir gerçek."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "evident",
@@ -1401,7 +1454,8 @@
         "en": "His guilt was evident to everyone.",
         "tr": "Suçluluğu herkes için açıktı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "exact",
@@ -1427,7 +1481,8 @@
         "en": "The painting is an exact copy of the original.",
         "tr": "Tablo, orijinalinin tam bir kopyası."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "irreversible",
@@ -1453,7 +1508,8 @@
         "en": "The illness caused irreversible brain damage.",
         "tr": "Hastalık geri dönülemez beyin hasarına neden oldu."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "permanent",
@@ -1479,7 +1535,8 @@
         "en": "The ink is permanent and won't wash out.",
         "tr": "Mürekkep kalıcıdır ve yıkanmaz."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "unchangeable",
@@ -1505,7 +1562,8 @@
         "en": "He had an unchangeable opinion on the matter.",
         "tr": "Konu hakkında değişmez bir fikri vardı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "irrepairable",
@@ -1531,7 +1589,8 @@
         "en": "The old vase was considered irreparable.",
         "tr": "Eski vazo onarılamaz kabul edildi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "unreliable",
@@ -1557,7 +1616,8 @@
         "en": "The weather forecast is unreliable.",
         "tr": "Hava tahmini güvenilmez."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "undependable",
@@ -1583,7 +1643,8 @@
         "en": "His performance has been undependable lately.",
         "tr": "Performansı son zamanlarda güvenilmez oldu."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "uncertain",
@@ -1609,7 +1670,8 @@
         "en": "The weather is uncertain.",
         "tr": "Hava durumu belirsiz."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "inconsistent",
@@ -1635,7 +1697,8 @@
         "en": "The witness's testimony was inconsistent.",
         "tr": "Tanığın ifadesi tutarsızdı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "rely on",
@@ -1661,7 +1724,8 @@
         "en": "She relies heavily on her parents for financial support.",
         "tr": "Mali destek için büyük ölçüde ailesine güveniyor."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "depend on",
@@ -1687,7 +1751,8 @@
         "en": "He depends on his brother for help.",
         "tr": "Yardım için kardeşine bağlı."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "count on",
@@ -1713,7 +1778,8 @@
         "en": "I was counting on him to arrive on time.",
         "tr": "Zamanında geleceğine güveniyordum."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "manageable",
@@ -1739,7 +1805,8 @@
         "en": "We need to find a manageable solution.",
         "tr": "Yönetilebilir bir çözüm bulmamız gerekiyor."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "controllable",
@@ -1765,7 +1832,8 @@
         "en": "The experiment's variables were not controllable.",
         "tr": "Deneyin değişkenleri kontrol edilebilir değildi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "feasible",
@@ -1791,7 +1859,8 @@
         "en": "Is it a feasible idea to open a new restaurant?",
         "tr": "Yeni bir restoran açmak uygulanabilir bir fikir mi?"
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "severe",
@@ -1817,7 +1886,8 @@
         "en": "His illness is more severe than we thought.",
         "tr": "Hastalığı düşündüğümüzden daha ciddi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "harsh",
@@ -1843,7 +1913,8 @@
         "en": "She was given a harsh punishment for her mistake.",
         "tr": "Hatası için sert bir ceza aldı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "precious",
@@ -1869,7 +1940,8 @@
         "en": "He held the precious jewel in his hands.",
         "tr": "Değerli mücevheri ellerinde tuttu."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "valuable",
@@ -1895,7 +1967,8 @@
         "en": "He gained valuable experience from the trip.",
         "tr": "Yolculuktan değerli deneyim kazandı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "cherished",
@@ -1921,7 +1994,8 @@
         "en": "She cherished his friendship above all else.",
         "tr": "Onun arkadaşlığını her şeyin üstünde tutuyordu."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "treasured",
@@ -1947,7 +2021,8 @@
         "en": "The treasured family recipes were passed down through generations.",
         "tr": "Kıymetli aile tarifleri nesilden nesile aktarılıyordu."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "frequent",
@@ -1973,7 +2048,8 @@
         "en": "He makes frequent mistakes.",
         "tr": "Sık sık hata yapar."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "common",
@@ -1999,7 +2075,8 @@
         "en": "They have many common interests.",
         "tr": "Birçok ortak ilgi alanları var."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "repeated",
@@ -2025,7 +2102,8 @@
         "en": "We must avoid repeated mistakes.",
         "tr": "Tekrarlanan hatalardan kaçınmalıyız."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "habitual",
@@ -2051,7 +2129,8 @@
         "en": "The habitual use of the phrase became annoying.",
         "tr": "İfadenin alışılmış kullanımı sinir bozucu olmaya başladı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "detectable",
@@ -2077,7 +2156,8 @@
         "en": "The problem is not easily detectable.",
         "tr": "Sorun kolayca saptanamaz."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "noticeable",
@@ -2103,7 +2183,8 @@
         "en": "There was a noticeable silence after his speech.",
         "tr": "Konuşmasından sonra fark edilebilir bir sessizlik vardı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "observable",
@@ -2129,7 +2210,8 @@
         "en": "The planet's orbit is observable with a telescope.",
         "tr": "Gezegenin yörüngesi bir teleskopla gözlemlenebilir."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "identifiable",
@@ -2155,7 +2237,8 @@
         "en": "The voice on the phone was not identifiable.",
         "tr": "Telefondaki ses tanımlanabilir değildi."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "determination",
@@ -2181,7 +2264,8 @@
         "en": "She faced the challenge with a lot of determination.",
         "tr": "Meydan okumayla büyük bir azimle yüzleşti."
       }
-    ]
+    ],
+    "type": "İsim"
   },
   {
     "word": "courage",
@@ -2207,7 +2291,8 @@
         "en": "The soldiers fought with courage.",
         "tr": "Askerler cesaretle savaştı."
       }
-    ]
+    ],
+    "type": "İsim"
   },
   {
     "word": "resolute",
@@ -2233,7 +2318,8 @@
         "en": "The government is resolute in its fight against corruption.",
         "tr": "Hükümet, yolsuzlukla mücadelede kararlı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "pass down",
@@ -2259,7 +2345,8 @@
         "en": "The values were passed down through the family.",
         "tr": "Değerler aile aracılığıyla nesilden nesile aktarıldı."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "transmit",
@@ -2285,7 +2372,8 @@
         "en": "The disease is transmitted by mosquitoes.",
         "tr": "Hastalık sivrisinekler tarafından bulaşıyor."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "put out",
@@ -2311,7 +2399,8 @@
         "en": "The government will put out a new report on the economy.",
         "tr": "Hükümet, ekonomi hakkında yeni bir rapor yayımlayacak."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "end up",
@@ -2337,7 +2426,8 @@
         "en": "She might end up moving to another city.",
         "tr": "Sonunda başka bir şehre taşınabilir."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "put forward",
@@ -2363,7 +2453,8 @@
         "en": "He put himself forward as a leader.",
         "tr": "Kendini lider olarak öne sürdü."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "get into",
@@ -2389,7 +2480,8 @@
         "en": "He got into college with a scholarship.",
         "tr": "Bursla üniversiteye girdi."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "settle down",
@@ -2415,7 +2507,8 @@
         "en": "The noise began to settle down after midnight.",
         "tr": "Gürültü gece yarısından sonra azalmaya başladı."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "give off",
@@ -2441,7 +2534,8 @@
         "en": "The dying star gives off light and energy.",
         "tr": "Ölmekte olan yıldız ışık ve enerji yayıyor."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "carry on",
@@ -2467,7 +2561,8 @@
         "en": "He carried on his research in the new lab.",
         "tr": "Yeni laboratuvarda araştırmasına devam etti."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "make out",
@@ -2493,7 +2588,8 @@
         "en": "I can't make out his handwriting.",
         "tr": "Onun el yazısını anlayamıyorum."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "aim at",
@@ -2519,7 +2615,8 @@
         "en": "The project is aimed at solving the problem of pollution.",
         "tr": "Proje, kirlilik sorununu çözmeyi amaçlıyor."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "expose to",
@@ -2545,7 +2642,8 @@
         "en": "He didn't want to expose his family to any risk.",
         "tr": "Ailesini herhangi bir riske maruz bırakmak istemedi."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "break down",
@@ -2571,7 +2669,8 @@
         "en": "She broke down in tears after hearing the news.",
         "tr": "Haberi duyduktan sonra gözyaşlarına boğuldu."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "liken to",
@@ -2597,7 +2696,8 @@
         "en": "The writer likened the city to a jungle.",
         "tr": "Yazar, şehri bir ormana benzetti."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "relieve of",
@@ -2623,7 +2723,8 @@
         "en": "He relieved her of her suitcase.",
         "tr": "El çantasını ondan aldı (yükünü hafifletti)."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "perpetuate",
@@ -2649,7 +2750,8 @@
         "en": "The cycle of violence continues to perpetuate itself.",
         "tr": "Şiddet döngüsü kendini devam ettiriyor."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "eradicate",
@@ -2675,7 +2777,8 @@
         "en": "The government launched a campaign to eradicate illiteracy.",
         "tr": "Hükümet, okuma yazma bilmezliği ortadan kaldırmak için bir kampanya başlattı."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "inundate",
@@ -2701,7 +2804,8 @@
         "en": "The celebrity was inundated with messages from fans.",
         "tr": "Ünlü, hayranlarından gelen mesajlarla boğuldu."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "contain",
@@ -2727,7 +2831,8 @@
         "en": "The document contains a list of all employees.",
         "tr": "Belge, tüm çalışanların bir listesini içeriyor."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "embrace",
@@ -2753,7 +2858,8 @@
         "en": "We must embrace new ideas to progress.",
         "tr": "İlerlemek için yeni fikirleri benimsemeliyiz."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "perish",
@@ -2779,7 +2885,8 @@
         "en": "The hopes of the team perished after the last goal was scored.",
         "tr": "Son gol atıldıktan sonra takımın umutları yok oldu."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "diminish",
@@ -2805,7 +2912,8 @@
         "en": "The supply of natural resources is slowly diminishing.",
         "tr": "Doğal kaynakların tedariki yavaşça azalıyor."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "suppress",
@@ -2831,7 +2939,8 @@
         "en": "She suppressed her anger.",
         "tr": "Öfkesini bastırdı."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "put off",
@@ -2857,7 +2966,8 @@
         "en": "The bad smell put me off my food.",
         "tr": "Kötü koku, yemekten beni soğuttu."
       }
-    ]
+    ],
+    "type": "Phrasal Verb"
   },
   {
     "word": "suspend",
@@ -2883,7 +2993,8 @@
         "en": "His license was suspended for a month.",
         "tr": "Ehliyeti bir ay askıya alındı."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "threaten",
@@ -2909,7 +3020,8 @@
         "en": "The clouds threatened rain.",
         "tr": "Bulutlar yağmurla tehdit ediyordu."
       }
-    ]
+    ],
+    "type": "Fiil"
   },
   {
     "word": "deliberate",
@@ -2935,7 +3047,8 @@
         "en": "The police believe the fire was a deliberate act of arson.",
         "tr": "Polis, yangının kasıtlı bir kundaklama eylemi olduğuna inanıyor."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "irrelevant",
@@ -2961,7 +3074,8 @@
         "en": "The details are irrelevant to the big picture.",
         "tr": "Detaylar büyük resimle alakasız."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "unreliable",
@@ -2987,7 +3101,8 @@
         "en": "The weather forecast is unreliable.",
         "tr": "Hava tahmini güvenilmez."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "manageable",
@@ -3013,7 +3128,8 @@
         "en": "We need to find a manageable solution.",
         "tr": "Yönetilebilir bir çözüm bulmamız gerekiyor."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "unavoidable",
@@ -3039,7 +3155,8 @@
         "en": "An unavoidable conflict arose between them.",
         "tr": "Aralarında kaçınılmaz bir çatışma çıktı."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "detectable",
@@ -3065,7 +3182,8 @@
         "en": "The problem is not easily detectable.",
         "tr": "Sorun kolayca saptanamaz."
       }
-    ]
+    ],
+    "type": "Sıfat"
   },
   {
     "word": "irrefutable",
@@ -3090,6 +3208,2137 @@
       {
         "en": "Her logic was irrefutable.",
         "tr": "Mantığı çürütülemezdi."
+      }
+    ],
+    "type": "Sıfat"
+  },
+  {
+    "word": "accelerate",
+    "type": "Fiil",
+    "meaning": "hızlandırmak, ivme kazanmak",
+    "examples": [
+      {
+        "en": "Rising global temperatures are expected to accelerate the melting of polar ice caps.",
+        "tr": "Küresel sıcaklık artışının kutup buzullarının erimesini hızlandırması bekleniyor."
+      },
+      {
+        "en": "The government took emergency measures to accelerate economic growth.",
+        "tr": "Hükümet, ekonomik büyümeyi hızlandırmak için acil önlemler aldı."
+      }
+    ]
+  },
+  {
+    "word": "advocate",
+    "type": "Fiil",
+    "meaning": "savunmak, desteklemek",
+    "examples": [
+      {
+        "en": "Many environmental scientists advocate the adoption of renewable energy sources.",
+        "tr": "Birçok çevre bilimci, yenilenebilir enerji kaynaklarının benimsenmesini savunmaktadır."
+      },
+      {
+        "en": "She has long advocated for the legal rights of marginalized communities.",
+        "tr": "Ötekileştirilmiş toplulukların yasal haklarını uzun süredir savunmaktadır."
+      }
+    ]
+  },
+  {
+    "word": "articulate",
+    "type": "Fiil",
+    "meaning": "açıkça ifade etmek, dile getirmek",
+    "examples": [
+      {
+        "en": "The researcher was able to articulate the complex theory in simple terms.",
+        "tr": "Araştırmacı, karmaşık teoriyi basit terimlerle açıkça ifade edebildi."
+      },
+      {
+        "en": "Patients often struggle to articulate the exact nature of their symptoms.",
+        "tr": "Hastalar genellikle semptomlarının tam niteliğini dile getirmekte güçlük çekerler."
+      }
+    ]
+  },
+  {
+    "word": "compensate",
+    "type": "Fiil",
+    "meaning": "telafi etmek, karşılamak, tazmin etmek",
+    "examples": [
+      {
+        "en": "Technology cannot fully compensate for the lack of qualified teachers in rural schools.",
+        "tr": "Teknoloji, kırsal okullardaki nitelikli öğretmen eksikliğini tamamen telafi edemez."
+      },
+      {
+        "en": "The company offered financial compensation to the residents affected by the chemical spill.",
+        "tr": "Şirket, kimyasal sızıntıdan etkilenen sakinlere maddi tazminat teklif etti."
+      }
+    ]
+  },
+  {
+    "word": "contend",
+    "type": "Fiil",
+    "meaning": "iddia etmek, ileri sürmek; mücadele etmek",
+    "examples": [
+      {
+        "en": "Some historians contend that the empire collapsed due to severe internal conflicts.",
+        "tr": "Bazı tarihçiler, imparatorluğun şiddetli iç çatışmalar nedeniyle çöktüğünü iddia etmektedir."
+      },
+      {
+        "en": "Developing nations must contend with increasing climate challenges.",
+        "tr": "Gelişmekte olan ülkeler, artan iklim zorluklarıyla mücadele etmek zorundadır."
+      }
+    ]
+  },
+  {
+    "word": "curb",
+    "type": "Fiil",
+    "meaning": "dizginlemek, sınırlandırmak, kontrol altına almak",
+    "examples": [
+      {
+        "en": "Strict international regulations are needed to curb greenhouse gas emissions.",
+        "tr": "Sera gazı salınımlarını dizginlemek için katı uluslararası düzenlemeler gereklidir."
+      },
+      {
+        "en": "Central banks raised interest rates in an effort to curb inflation.",
+        "tr": "Merkez bankaları, enflasyonu kontrol altına alma çabasıyla faiz oranlarını artırdı."
+      }
+    ]
+  },
+  {
+    "word": "deteriorate",
+    "type": "Fiil",
+    "meaning": "kötüleşmek, bozulmak, gerilemek",
+    "examples": [
+      {
+        "en": "Relations between the two neighboring states began to deteriorate rapidly after the border incident.",
+        "tr": "İki komşu devlet arasındaki ilişkiler, sınır olayının ardından hızla kötüleşmeye başladı."
+      },
+      {
+        "en": "Without proper medical treatment, the patient's condition could deteriorate overnight.",
+        "tr": "Uygun tıbbi tedavi olmaksızın, hastanın durumu bir gecede kötüleşebilir."
+      }
+    ]
+  },
+  {
+    "word": "foster",
+    "type": "Fiil",
+    "meaning": "teşvik etmek, geliştirmek, büyütmek",
+    "examples": [
+      {
+        "en": "Collaborative projects foster critical thinking and teamwork among students.",
+        "tr": "İş birlikli projeler, öğrenciler arasında eleştirel düşünmeyi ve takım çalışmasını teşvik eder."
+      },
+      {
+        "en": "The trade pact was designed to foster economic cooperation in the region.",
+        "tr": "Ticaret anlaşması, bölgede ekonomik iş birliğini geliştirmek üzere tasarlandı."
+      }
+    ]
+  },
+  {
+    "word": "impede",
+    "type": "Fiil",
+    "meaning": "engellemek, mani olmak, güçleştirmek",
+    "examples": [
+      {
+        "en": "Severe budget deficits may impede the implementation of crucial infrastructure projects.",
+        "tr": "Ciddi bütçe açıkları, kritik altyapı projelerinin uygulanmasını engelleyebilir."
+      },
+      {
+        "en": "Dense fog impeded the rescue operation in the mountainous area.",
+        "tr": "Yoğun sis, dağlık bölgedeki kurtarma operasyonunu güçleştirdi."
+      }
+    ]
+  },
+  {
+    "word": "induce",
+    "type": "Fiil",
+    "meaning": "tetiklemek, yol açmak, ikna etmek",
+    "examples": [
+      {
+        "en": "Chronic sleep deprivation can induce severe psychological and physiological disorders.",
+        "tr": "Kronik uykusuzluk, ciddi psikolojik ve fizyolojik bozuklukları tetikleyebilir."
+      },
+      {
+        "en": "Nothing could induce him to sign the unfair business contract.",
+        "tr": "Hiçbir şey onu bu adaletsiz iş sözleşmesini imzalamaya ikna edemedi."
+      }
+    ]
+  },
+  {
+    "word": "jeopardize",
+    "type": "Fiil",
+    "meaning": "tehlikeye atmak, riske sokmak",
+    "examples": [
+      {
+        "en": "A reckless diplomatic move could jeopardize years of delicate peace negotiations.",
+        "tr": "Pervasızca bir diplomatik hamle, yıllar süren hassas barış müzakerelerini tehlikeye atabilir."
+      },
+      {
+        "en": "Failing to submit the final report will jeopardize your scholarship.",
+        "tr": "Nihai raporu teslim etmemek bursunuzu riske atacaktır."
+      }
+    ]
+  },
+  {
+    "word": "pioneer",
+    "type": "Fiil",
+    "meaning": "öncülük etmek, çığır açmak",
+    "examples": [
+      {
+        "en": "Marie Curie pioneered research on radioactivity, transforming modern physics.",
+        "tr": "Marie Curie radyoaktivite araştırmalarına öncülük ederek modern fiziği dönüştürdü."
+      },
+      {
+        "en": "The university pioneered the use of artificial intelligence in early cancer detection.",
+        "tr": "Üniversite, erken kanser teşhisinde yapay zeka kullanımına öncülük etti."
+      }
+    ]
+  },
+  {
+    "word": "reconcile",
+    "type": "Fiil",
+    "meaning": "uzlaştırmak, aralarını bulmak, bağdaştırmak",
+    "examples": [
+      {
+        "en": "It is often difficult to reconcile economic development with environmental conservation.",
+        "tr": "Ekonomik kalkınmayı çevre korumasıyla bağdaştırmak genellikle zordur."
+      },
+      {
+        "en": "The mediator worked tirelessly to reconcile the conflicting political parties.",
+        "tr": "Arabulucu, çatışan siyasi partileri uzlaştırmak için yorulmadan çalıştı."
+      }
+    ]
+  },
+  {
+    "word": "relinquish",
+    "type": "Fiil",
+    "meaning": "feragat etmek, bırakmak, vazgeçmek",
+    "examples": [
+      {
+        "en": "Under public pressure, the corrupt official agreed to relinquish his administrative power.",
+        "tr": "Kamuoyu baskısı altında, yozlaşmış yetkili idari yetkilerini bırakmayı kabul etti."
+      },
+      {
+        "en": "She was unwilling to relinquish custody of her research data to competitors.",
+        "tr": "Araştırma verilerinin kontrolünü rakiplerine devretmeye gönülsüzdü."
+      }
+    ]
+  },
+  {
+    "word": "surpass",
+    "type": "Fiil",
+    "meaning": "aşmak, geride bırakmak, üstün olmak",
+    "examples": [
+      {
+        "en": "The solar energy plant's power output surpassed all initial expectations.",
+        "tr": "Güneş enerjisi santralinin güç çıktısı, tüm ilk beklentileri aştı."
+      },
+      {
+        "en": "His academic achievements surpassed those of his predecessors.",
+        "tr": "Onun akademik başarıları, seleflerinin başarılarını geride bıraktı."
+      }
+    ]
+  },
+  {
+    "word": "thrive",
+    "type": "Fiil",
+    "meaning": "serpilmek, çok iyi gelişmek, başarılı olmak",
+    "examples": [
+      {
+        "en": "Certain species of bacteria thrive even in the most extreme geothermal vents.",
+        "tr": "Belirli bakteri türleri, en zorlu jeotermal bacalarda bile çok iyi gelişip çoğalır."
+      },
+      {
+        "en": "Start-ups tend to thrive in competitive, innovation-driven ecosystems.",
+        "tr": "Girişimler, rekabetçi ve inovasyon odaklı ekosistemlerde serpilip başarı kazanma eğilimindedir."
+      }
+    ]
+  },
+  {
+    "word": "trigger",
+    "type": "Fiil",
+    "meaning": "tetiklemek, başlatmak, yol açmak",
+    "examples": [
+      {
+        "en": "A sudden sharp decline in the stock market triggered widespread financial panic.",
+        "tr": "Borsadaki ani ve keskin bir düşüş, geniş çaplı bir mali paniği tetikledi."
+      },
+      {
+        "en": "Exposure to allergen particles can trigger severe asthma attacks.",
+        "tr": "Alerjen partiküllere maruz kalmak, şiddetli astım krizlerini tetikleyebilir."
+      }
+    ]
+  },
+  {
+    "word": "undermine",
+    "type": "Fiil",
+    "meaning": "baltalamak, zayıflatmak, temelini sarsmak",
+    "examples": [
+      {
+        "en": "Persistent corruption undermines citizens' trust in democratic institutions.",
+        "tr": "Süregelen yolsuzluk, vatandaşların demokratik kurumlara olan güvenini baltalamaktadır."
+      },
+      {
+        "en": "False propaganda was deliberately spread to undermine public health guidelines.",
+        "tr": "Halk sağlığı yönergelerini zayıflatmak amacıyla kasıtlı olarak asılsız propaganda yayıldı."
+      }
+    ]
+  },
+  {
+    "word": "withstand",
+    "type": "Fiil",
+    "meaning": "dayanmak, direnmek, karşı koymak",
+    "examples": [
+      {
+        "en": "Modern skyscrapers in Tokyo are engineered to withstand major earthquakes.",
+        "tr": "Tokyo'daki modern gökdelenler, büyük depremlere dayanabilecek şekilde tasarlanmıştır."
+      },
+      {
+        "en": "The military fort managed to withstand a prolonged enemy siege.",
+        "tr": "Askeri kale, uzun süren düşman kuşatmasına karşı direnmeyi başardı."
+      }
+    ]
+  },
+  {
+    "word": "yield",
+    "type": "Fiil",
+    "meaning": "ürün vermek; yol açmak; boyun eğmek",
+    "examples": [
+      {
+        "en": "The experimental agricultural techniques yielded a bumper harvest this season.",
+        "tr": "Deneysel tarım teknikleri bu sezon rekor düzeyde ürün verdi."
+      },
+      {
+        "en": "Years of scientific investigation finally yielded conclusive results.",
+        "tr": "Yıllar süren bilimsel araştırmalar nihayet kesin sonuçlar verdi."
+      }
+    ]
+  },
+  {
+    "word": "abstain",
+    "type": "Fiil",
+    "meaning": "kaçınmak, çekimser kalmak, uzak durmak",
+    "examples": [
+      {
+        "en": "Several member states chose to abstain from voting on the controversial resolution.",
+        "tr": "Birçok üye devlet, tartışmalı karar tasarısında oylamaya katılmayıp çekimser kalmayı tercih etti."
+      },
+      {
+        "en": "Doctors strongly advised the heart patient to abstain from smoking.",
+        "tr": "Doktorlar, kalp hastasına sigaradan kesinlikle uzak durmasını tavsiye etti."
+      }
+    ]
+  },
+  {
+    "word": "deprive",
+    "type": "Fiil",
+    "meaning": "mahrum bırakmak, yoksun bırakmak",
+    "examples": [
+      {
+        "en": "Poverty deprives millions of children of their fundamental right to quality education.",
+        "tr": "Yoksulluk, milyonlarca çocuğu kaliteli eğitim alma temel hakkından mahrum bırakmaktadır."
+      },
+      {
+        "en": "Prolonged solitary confinement deprives inmates of essential human contact.",
+        "tr": "Uzun süreli hücre hapsi, mahkumları vazgeçilmez insani iletişimden yoksun bırakır."
+      }
+    ]
+  },
+  {
+    "word": "exploit",
+    "type": "Fiil",
+    "meaning": "sömürmek; faydalanmak, istismar etmek",
+    "examples": [
+      {
+        "en": "Colonial powers ruthlessly exploited the rich natural minerals of the continent.",
+        "tr": "Sömürgeci güçler, kıtanın zengin doğal madenlerini acımasızca sömürdü."
+      },
+      {
+        "en": "Companies must exploit renewable technologies to reduce operational costs.",
+        "tr": "Şirketler, operasyonel maliyetleri düşürmek için yenilenebilir teknolojilerden faydalanmalıdır."
+      }
+    ]
+  },
+  {
+    "word": "fluctuate",
+    "type": "Fiil",
+    "meaning": "dalgalanmak, istikrarsız olmak, inip çıkmak",
+    "examples": [
+      {
+        "en": "Oil prices fluctuate unpredictably in response to political instability in the Middle East.",
+        "tr": "Petrol fiyatları, Orta Doğu'daki siyasi istikrarsızlığa bağlı olarak öngörülemez biçimde dalgalanmaktadır."
+      },
+      {
+        "en": "Body temperature can fluctuate slightly throughout the course of a day.",
+        "tr": "Vücut ısısı gün boyunca hafif dalgalanmalar gösterebilir."
+      }
+    ]
+  },
+  {
+    "word": "reinforce",
+    "type": "Fiil",
+    "meaning": "pekiştirmek, güçlendirmek, desteklemek",
+    "examples": [
+      {
+        "en": "Recent genetic studies reinforce the hypothesis that modern humans originated in Africa.",
+        "tr": "Son genetik araştırmalar, modern insanın Afrika kökenli olduğu hipotezini pekiştirmektedir."
+      },
+      {
+        "en": "Engineers added steel beams to reinforce the aging bridge structure.",
+        "tr": "Mühendisler, eskiyen köprü yapısını güçlendirmek için çelik kirişler ekledi."
+      }
+    ]
+  },
+  {
+    "word": "sustain",
+    "type": "Fiil",
+    "meaning": "sürdürmek, devam ettirmek, ayakta tutmak",
+    "examples": [
+      {
+        "en": "The planet cannot indefinitely sustain our current levels of natural resource consumption.",
+        "tr": "Gezegenimiz, mevcut doğal kaynak tüketim seviyelerimizi sonsuza kadar sürdüremez."
+      },
+      {
+        "en": "Proper nutrition is vital to sustain energy throughout intense athletic training.",
+        "tr": "Yoğun atletik antrenmanlar boyunca enerjiyi sürdürmek için doğru beslenme hayati önem taşır."
+      }
+    ]
+  },
+  {
+    "word": "enhance",
+    "type": "Fiil",
+    "meaning": "artırmak, geliştirmek, yükseltmek",
+    "examples": [
+      {
+        "en": "Regular physical exercise can significantly enhance cognitive performance and memory.",
+        "tr": "Düzenli fiziksel egzersiz, bilişsel performansı ve hafızayı önemli ölçüde geliştirebilir."
+      },
+      {
+        "en": "The new software update is designed to enhance cybersecurity defense systems.",
+        "tr": "Yeni yazılım güncellemesi, siber güvenlik savunma sistemlerini güçlendirmek için tasarlandı."
+      }
+    ]
+  },
+  {
+    "word": "preclude",
+    "type": "Fiil",
+    "meaning": "engellemek, olanaksız kılmak, önüne geçmek",
+    "examples": [
+      {
+        "en": "His prior legal convictions precluded him from holding any public office.",
+        "tr": "Geçmişteki adli mahkumiyetleri, onun herhangi bir kamu görevinde bulunmasını engelledi."
+      },
+      {
+        "en": "Adverse weather conditions precluded any attempt to launch the satellite.",
+        "tr": "Olumsuz hava koşulları, uydunun fırlatılmasına yönelik her türlü girişimi olanaksız kıldı."
+      }
+    ]
+  },
+  {
+    "word": "dispute",
+    "type": "Fiil",
+    "meaning": "itiraz etmek, tartışmak, çekişmek",
+    "examples": [
+      {
+        "en": "Several independent climatologists dispute the accuracy of the government's climate model.",
+        "tr": "Birkaç bağımsız iklimbilimci, hükümetin iklim modelinin doğruluğuna itiraz etmektedir."
+      },
+      {
+        "en": "The heirs disputed the ownership of the vast ancestral estate in court.",
+        "tr": "Mirasçılar, devasa ata mülkünün mülkiyeti konusunda mahkemede çekiştiler."
+      }
+    ]
+  },
+  {
+    "word": "implement",
+    "type": "Fiil",
+    "meaning": "uygulamak, yürürlüğe koymak, hayata geçirmek",
+    "examples": [
+      {
+        "en": "The ministry plans to implement strict environmental safety standards next month.",
+        "tr": "Bakanlık, gelecek ay katı çevre güvenliği standartlarını yürürlüğe koymayı planlıyor."
+      },
+      {
+        "en": "Hospitals successfully implemented a new digital triage protocol for incoming patients.",
+        "tr": "Hastaneler, gelen hastalar için yeni bir dijital triyaj protokolünü başarıyla uyguladı."
+      }
+    ]
+  },
+  {
+    "word": "acknowledge",
+    "type": "Fiil",
+    "meaning": "kabul etmek, doğruluğunu onaylamak",
+    "examples": [
+      {
+        "en": "The administration finally acknowledged that severe mistakes had been made during the crisis.",
+        "tr": "Yönetim nihayet kriz sırasında ciddi hataların yapıldığını kabul etti."
+      },
+      {
+        "en": "She refused to acknowledge the contribution of her research assistants.",
+        "tr": "Araştırma görevlilerinin katkısını onaylamayı reddetti."
+      }
+    ]
+  },
+  {
+    "word": "allege",
+    "type": "Fiil",
+    "meaning": "iddia etmek, ileri sürmek (kanıtsız)",
+    "examples": [
+      {
+        "en": "The prosecutor alleged that the corporation had deliberately falsified emissions data.",
+        "tr": "Savcı, şirketin emisyon verilerini kasıtlı olarak tahrif ettiğini iddia etti."
+      },
+      {
+        "en": "The article alleges widespread financial fraud within the charity organization.",
+        "tr": "Makale, yardım kuruluşu içinde geniş çaplı mali dolandırıcılık olduğunu ileri sürüyor."
+      }
+    ]
+  },
+  {
+    "word": "assess",
+    "type": "Fiil",
+    "meaning": "değerlendirmek, paha biçmek, analiz etmek",
+    "examples": [
+      {
+        "en": "Experts were dispatched to assess the structural damage caused by the earthquake.",
+        "tr": "Depremin yol açtığı yapısal hasarı değerlendirmek üzere uzmanlar sevk edildi."
+      },
+      {
+        "en": "Teachers use various testing methods to assess students' language proficiency.",
+        "tr": "Öğretmenler, öğrencilerin dil yeterliliğini değerlendirmek için çeşitli sınav yöntemleri kullanır."
+      }
+    ]
+  },
+  {
+    "word": "attribute",
+    "type": "Fiil",
+    "meaning": "-e bağlamak, -e atfetmek (attribute to)",
+    "examples": [
+      {
+        "en": "Doctors attribute the patient's swift recovery to early medical intervention.",
+        "tr": "Doktorlar, hastanın hızlı iyileşmesini erken tıbbi müdahaleye bağlamaktadır."
+      },
+      {
+        "en": "Economists attribute the sudden drop in unemployment to flourishing tech industries.",
+        "tr": "Ekonomistler, işsizlikteki ani düşüşü gelişen teknoloji sektörlerine atfetmektedir."
+      }
+    ]
+  },
+  {
+    "word": "coincide",
+    "type": "Fiil",
+    "meaning": "aynı zamana rastlamak, çakışmak (coincide with)",
+    "examples": [
+      {
+        "en": "The publication of the scientific paper coincided with the annual global summit.",
+        "tr": "Bilimsel makalenin yayımlanması, yıllık küresel zirve ile aynı zamana rastladı."
+      },
+      {
+        "en": "Her personal political views rarely coincide with those of the current administration.",
+        "tr": "Onun kişisel siyasi görüşleri mevcut yönetimin görüşleriyle nadiren örtüşür."
+      }
+    ]
+  },
+  {
+    "word": "evolve",
+    "type": "Fiil",
+    "meaning": "evrilmek, aşama aşama gelişmek, dönüşmek",
+    "examples": [
+      {
+        "en": "Human languages evolve continuously as new technological concepts emerge.",
+        "tr": "Yeni teknolojik kavramlar ortaya çıktıkça insan dilleri sürekli evrilir."
+      },
+      {
+        "en": "The small workshop evolved into a multinational electronics manufacturer.",
+        "tr": "Küçük atölye, çok uluslu bir elektronik üreticisine dönüştü."
+      }
+    ]
+  },
+  {
+    "word": "generate",
+    "type": "Fiil",
+    "meaning": "üretmek, oluşturmak, meydana getirmek",
+    "examples": [
+      {
+        "en": "Wind turbines generate sufficient electricity to power thousands of rural homes.",
+        "tr": "Rüzgar türbinleri, binlerce kırsal hanenin elektriğini karşılamaya yetecek enerji üretir."
+      },
+      {
+        "en": "The scientific breakthrough generated intense excitement across the academic community.",
+        "tr": "Bilimsel çığır açıcı gelişme, akademik camiada yoğun bir heyecan meydana getirdi."
+      }
+    ]
+  },
+  {
+    "word": "hinder",
+    "type": "Fiil",
+    "meaning": "engel olmak, aksatmak, yavaşlatmak",
+    "examples": [
+      {
+        "en": "Excessive bureaucratic paperwork hinders the growth of innovative small businesses.",
+        "tr": "Aşırı bürokratik evrak işleri, yenilikçi küçük işletmelerin büyümesine engel olmaktadır."
+      },
+      {
+        "en": "Poor sleep hygiene will inevitably hinder your academic productivity.",
+        "tr": "Kötü uyku hijyeni, akademik verimliliğinizi kaçınılmaz olarak aksatacaktır."
+      }
+    ]
+  },
+  {
+    "word": "overlook",
+    "type": "Fiil",
+    "meaning": "gözden kaçırmak, görmezden gelmek",
+    "examples": [
+      {
+        "en": "Scientists must not overlook subtle statistical anomalies in their experimental data.",
+        "tr": "Bilim insanları, deney verilerindeki ince istatistiksel anomalileri gözden kaçırmamalıdır."
+      },
+      {
+        "en": "The committee agreed to overlook his minor mistake due to his outstanding overall record.",
+        "tr": "Komite, genel başarılı geçmişi nedeniyle onun bu küçük hatasını görmezden gelmeyi kabul etti."
+      }
+    ]
+  },
+  {
+    "word": "scrutinize",
+    "type": "Fiil",
+    "meaning": "dikkatle incelemek, didik didik etmek, mercek altına almak",
+    "examples": [
+      {
+        "en": "Auditors arrived to scrutinize the university's financial expenditure records.",
+        "tr": "Denetçiler, üniversitenin mali harcama kayıtlarını dikkatle incelemek üzere geldi."
+      },
+      {
+        "en": "Every clause in the diplomatic treaty was thoroughly scrutinized before signing.",
+        "tr": "Diplomatik anlaşmadaki her madde imzalanmadan önce enine boyuna incelendi."
+      }
+    ]
+  },
+  {
+    "word": "vulnerable",
+    "type": "Sıfat",
+    "meaning": "savunmasız, kırılgan, hassas (vulnerable to)",
+    "examples": [
+      {
+        "en": "Coastal lowlands are exceptionally vulnerable to the catastrophic impacts of rising sea levels.",
+        "tr": "Kıyı alçak alanları, yükselen deniz seviyelerinin yıkıcı etkilerine karşı son derece savunmasızdır."
+      },
+      {
+        "en": "Infants and the elderly are the most vulnerable segments of the population during heatwaves.",
+        "tr": "Sıcak hava dalgaları sırasında bebekler ve yaşlılar nüfusun en hassas kesimleridir."
+      }
+    ]
+  },
+  {
+    "word": "susceptible",
+    "type": "Sıfat",
+    "meaning": "hassas, kolay etkilenen, yatkın (susceptible to)",
+    "examples": [
+      {
+        "en": "Individuals with compromised immune systems are highly susceptible to infectious bacterial diseases.",
+        "tr": "Bağışıklık sistemi zayıflamış bireyler, bulaşıcı bakteriyel hastalıklara karşı son derece hassastır."
+      },
+      {
+        "en": "Young children are particularly susceptible to advertisements on digital media.",
+        "tr": "Küçük çocuklar, dijital medyadaki reklamlardan kolayca etkilenmeye özellikle yatkındır."
+      }
+    ]
+  },
+  {
+    "word": "profound",
+    "type": "Sıfat",
+    "meaning": "derin, esaslı, çok etkili, köklü",
+    "examples": [
+      {
+        "en": "The invention of the printing press had a profound impact on European literacy and culture.",
+        "tr": "Matbaanın icadı, Avrupa'daki okuryazarlık ve kültür üzerinde derin ve köklü bir etki yarattı."
+      },
+      {
+        "en": "The philosopher's lectures offered profound insights into human morality.",
+        "tr": "Filozofun dersleri, insan ahlakına dair derin içgörüler sundu."
+      }
+    ]
+  },
+  {
+    "word": "intricate",
+    "type": "Sıfat",
+    "meaning": "karmaşık, ince ayrıntılı, girift",
+    "examples": [
+      {
+        "en": "The human brain possesses an intricate network of billions of interconnected neurons.",
+        "tr": "İnsan beyni, birbirine bağlı milyarlarca nöronun oluşturduğu karmaşık ve girift bir ağa sahiptir."
+      },
+      {
+        "en": "Tax law is notoriously intricate, requiring specialized legal expertise.",
+        "tr": "Vergi hukuku, uzmanlık gerektiren derecede karmaşık ve ince ayrıntılı olmasıyla bilinir."
+      }
+    ]
+  },
+  {
+    "word": "indispensable",
+    "type": "Sıfat",
+    "meaning": "vazgeçilmez, olmazsa olmaz, zorunlu",
+    "examples": [
+      {
+        "en": "Clean drinking water and sanitation are indispensable for preventing widespread epidemics.",
+        "tr": "Temiz içme suyu ve sanitasyon, geniş çaplı salgınları önlemek için vazgeçilmezdir."
+      },
+      {
+        "en": "Computers have become an indispensable tool in modern scientific laboratories.",
+        "tr": "Bilgisayarlar, modern bilim laboratuvarlarında vazgeçilmez bir araç haline gelmiştir."
+      }
+    ]
+  },
+  {
+    "word": "volatile",
+    "type": "Sıfat",
+    "meaning": "istikrarsız, değişken, patlamaya hazır, uçucu",
+    "examples": [
+      {
+        "en": "Investors are hesitant to enter volatile foreign emerging markets during geopolitical crises.",
+        "tr": "Yatırımcılar, jeopolitik krizler sırasında istikrarsız yabancı gelişmekte olan piyasalara girmekte tereddüt ediyor."
+      },
+      {
+        "en": "Gasoline is a volatile liquid that evaporates quickly at ambient room temperature.",
+        "tr": "Benzin, ortam oda sıcaklığında hızla buharlaşan uçucu bir sıvıdır."
+      }
+    ]
+  },
+  {
+    "word": "lucrative",
+    "type": "Sıfat",
+    "meaning": "kazançlı, son derece karlı, gelir getiren",
+    "examples": [
+      {
+        "en": "Pharmaceutical patents often provide corporations with extremely lucrative revenue streams.",
+        "tr": "İlaç patentleri, şirketlere sıklıkla son derece kazançlı gelir akışları sağlar."
+      },
+      {
+        "en": "He left his academic career to pursue a lucrative position in the private sector.",
+        "tr": "Özel sektörde kazançlı bir pozisyonu kovalamak için akademik kariyerini bıraktı."
+      }
+    ]
+  },
+  {
+    "word": "obsolete",
+    "type": "Sıfat",
+    "meaning": "modası geçmiş, kullanımdan kalkmış, çağdışı",
+    "examples": [
+      {
+        "en": "Rapid technological advancements have rendered floppy disks and cassette tapes completely obsolete.",
+        "tr": "Hızlı teknolojik ilerlemeler, disketleri ve kasetleri tamamen kullanımdan kaldırmıştır."
+      },
+      {
+        "en": "Traditional industrial machinery quickly becomes obsolete without regular software upgrades.",
+        "tr": "Geleneksel sanayi makineleri, düzenli yazılım güncellemeleri olmadan hızla demode hale gelir."
+      }
+    ]
+  },
+  {
+    "word": "ambiguous",
+    "type": "Sıfat",
+    "meaning": "muğlak, belirsiz, birden fazla anlama gelebilen",
+    "examples": [
+      {
+        "en": "The wording of the legal statute was deliberately ambiguous to allow judicial discretion.",
+        "tr": "Yasal kanunun ifadesi, yargısal takdir yetkisine izin vermek için kasıtlı olarak muğlak bırakılmıştı."
+      },
+      {
+        "en": "His ambiguous response left the journalists confused about his true political intentions.",
+        "tr": "Onun belirsiz cevabı, gazetecilerin gerçek siyasi niyetleri konusunda kafasını karıştırdı."
+      }
+    ]
+  },
+  {
+    "word": "prevalent",
+    "type": "Sıfat",
+    "meaning": "yaygın, hakim, genel kabul gören",
+    "examples": [
+      {
+        "en": "Vitamin D deficiency has become alarmingly prevalent among modern urban populations.",
+        "tr": "D vitamini eksikliği, modern kentsel nüfuslar arasında endişe verici derecede yaygın hale gelmiştir."
+      },
+      {
+        "en": "The prevalent belief at that time was that the Earth was the center of the universe.",
+        "tr": "O dönemde hakim olan inanç, Dünya'nın evrenin merkezi olduğuydu."
+      }
+    ]
+  },
+  {
+    "word": "imminent",
+    "type": "Sıfat",
+    "meaning": "yakın, eli kulağında, gerçekleşmesi an meselesi",
+    "examples": [
+      {
+        "en": "Meteorologists issued an urgent evacuation warning due to the imminent landfall of the hurricane.",
+        "tr": "Meteorologlar, kasırganın karaya vurmasının an meselesi olması nedeniyle acil tahliye uyarısı yayınladı."
+      },
+      {
+        "en": "Signs of imminent volcanic eruption prompted authorities to close local airspace.",
+        "tr": "Yakın bir volkanik patlamanın belirtileri, yetkililerin yerel hava sahasını kapatmasına neden oldu."
+      }
+    ]
+  },
+  {
+    "word": "pervasive",
+    "type": "Sıfat",
+    "meaning": "her yana yayılan, sinmiş, yaygın",
+    "examples": [
+      {
+        "en": "Social media has established a pervasive influence over contemporary teenage culture.",
+        "tr": "Sosyal medya, çağdaş gençlik kültürü üzerinde her yana sinen bir etki kurmuştur."
+      },
+      {
+        "en": "There was a pervasive sense of anxiety throughout the country as elections approached.",
+        "tr": "Seçimler yaklaştıkça ülke genelinde her yere yayılan bir kaygı havası hakimdi."
+      }
+    ]
+  },
+  {
+    "word": "detrimental",
+    "type": "Sıfat",
+    "meaning": "zararlı, hasar veren, olumsuz (detrimental to)",
+    "examples": [
+      {
+        "en": "Excessive consumption of processed sugar has a severely detrimental effect on cardiovascular health.",
+        "tr": "Aşırı işlenmiş şeker tüketiminin kardiyovasküler sağlık üzerinde son derece zararlı bir etkisi vardır."
+      },
+      {
+        "en": "Chemical dumping has proven detrimental to the local river ecosystem.",
+        "tr": "Kimyasal atık dökümünün, yerel nehir ekosistemine zararlı olduğu kanıtlanmıştır."
+      }
+    ]
+  },
+  {
+    "word": "rigorous",
+    "type": "Sıfat",
+    "meaning": "titiz, sıkı, disiplinli, tavizsiz",
+    "examples": [
+      {
+        "en": "New pharmaceutical drugs must undergo rigorous clinical trials before gaining official approval.",
+        "tr": "Yeni farmasötik ilaçlar, resmi onay almadan önce titiz ve sıkı klinik testlerden geçmelidir."
+      },
+      {
+        "en": "Astronauts endure rigorous physical and psychological training before space missions.",
+        "tr": "Astronotlar, uzay görevlerinden önce zorlu ve disiplinli bir fiziksel ve psikolojik eğitimden geçerler."
+      }
+    ]
+  },
+  {
+    "word": "subtle",
+    "type": "Sıfat",
+    "meaning": "ince, hemen göze çarpmayan, ustalıklı",
+    "examples": [
+      {
+        "en": "There are subtle genetic differences between closely related subspecies of migratory birds.",
+        "tr": "Göçmen kuşların yakından ilişkili alt türleri arasında ince ve hemen göze çarpmayan genetik farklar vardır."
+      },
+      {
+        "en": "The author used subtle irony to criticize the aristocratic elite.",
+        "tr": "Yazar, aristokrat seçkinleri eleştirmek için ustalıklı ve ince bir ironi kullandı."
+      }
+    ]
+  },
+  {
+    "word": "fragile",
+    "type": "Sıfat",
+    "meaning": "kırılgan, hassas, narin",
+    "examples": [
+      {
+        "en": "Post-war peace accords are notoriously fragile and easily undermined by rogue factions.",
+        "tr": "Savaş sonrası barış anlaşmaları son derece kırılgandır ve asi gruplar tarafından kolayca baltalanabilir."
+      },
+      {
+        "en": "Coral reefs represent one of the most fragile aquatic ecosystems on Earth.",
+        "tr": "Mercan resifleri, Dünya üzerindeki en kırılgan su ekosistemlerinden birini temsil eder."
+      }
+    ]
+  },
+  {
+    "word": "compulsory",
+    "type": "Sıfat",
+    "meaning": "zorunlu, mecburi",
+    "examples": [
+      {
+        "en": "Primary education is free and compulsory for all citizens under the national constitution.",
+        "tr": "Ulusal anayasa gereğince ilköğretim tüm vatandaşlar için ücretsiz ve zorunludur."
+      },
+      {
+        "en": "Wearing protective safety helmets is compulsory on all active construction sites.",
+        "tr": "Tüm aktif şantiye alanlarında koruyucu güvenlik kaskı takmak zorunludur."
+      }
+    ]
+  },
+  {
+    "word": "unprecedented",
+    "type": "Sıfat",
+    "meaning": "eşi benzeri görülmemiş, tarihte ilk olan, emsalsiz",
+    "examples": [
+      {
+        "en": "The global pandemic triggered an unprecedented economic downturn across the world.",
+        "tr": "Küresel pandemi, dünya genelinde eşi benzeri görülmemiş bir ekonomik durgunluğu tetikledi."
+      },
+      {
+        "en": "Scientists observed an unprecedented surge in cosmic radiation from deep space.",
+        "tr": "Bilim insanları, derin uzaydan gelen kozmik radyasyonda benzeri görülmemiş bir artış gözlemledi."
+      }
+    ]
+  },
+  {
+    "word": "substantial",
+    "type": "Sıfat",
+    "meaning": "önemli, esaslı, hatırı sayılır derecede büyük",
+    "examples": [
+      {
+        "en": "The green energy project received substantial financial backing from international organizations.",
+        "tr": "Yeşil enerji projesi, uluslararası kuruluşlardan hatırı sayılır derecede mali destek aldı."
+      },
+      {
+        "en": "There has been a substantial reduction in malaria cases thanks to vaccination campaigns.",
+        "tr": "Aşılama kampanyaları sayesinde sıtma vakalarında önemli bir azalma kaydedildi."
+      }
+    ]
+  },
+  {
+    "word": "arbitrary",
+    "type": "Sıfat",
+    "meaning": "keyfi, rastgele, gerekçesiz",
+    "examples": [
+      {
+        "en": "The dictator enforced arbitrary decrees without consulting the parliamentary body.",
+        "tr": "Diktatör, parlamento organına danışmaksızın keyfi kararnameler uyguladı."
+      },
+      {
+        "en": "The selection of test subjects must not rely on arbitrary criteria.",
+        "tr": "Deneklerin seçimi keyfi ve rastgele kriterlere dayanmamalıdır."
+      }
+    ]
+  },
+  {
+    "word": "coherent",
+    "type": "Sıfat",
+    "meaning": "tutarlı, uyumlu, mantıklı bir bütün oluşturan",
+    "examples": [
+      {
+        "en": "The government failed to present a coherent strategy for tackling the economic crisis.",
+        "tr": "Hükümet, ekonomik krizle mücadele etmek için tutarlı ve mantıklı bir strateji sunamadı."
+      },
+      {
+        "en": "Despite his fever, the patient was fully coherent and answered all questions clearly.",
+        "tr": "Ateşine rağmen hastanın şuuru tamamen yerindeydi ve tüm soruları net bir şekilde yanıtladı."
+      }
+    ]
+  },
+  {
+    "word": "relentless",
+    "type": "Sıfat",
+    "meaning": "amansız, dur durak bilmeyen, acımasız",
+    "examples": [
+      {
+        "en": "The relentless heat of the Sahara Desert presents severe challenges to travelers.",
+        "tr": "Sahra Çölü'nün amansız sıcağı, seyahat edenler için ciddi zorluklar teşkil eder."
+      },
+      {
+        "en": "Her relentless pursuit of academic excellence earned her an international fellowship.",
+        "tr": "Akademik mükemmelliğe yönelik dur durak bilmeyen azmi ona uluslararası bir burs kazandırdı."
+      }
+    ]
+  },
+  {
+    "word": "resilient",
+    "type": "Sıfat",
+    "meaning": "dirençli, kendini çabuk toparlayan, esnek",
+    "examples": [
+      {
+        "en": "Children are often remarkably resilient when coping with significant life transitions.",
+        "tr": "Çocuklar, önemli hayat geçişleriyle başa çıkarken sıklıkla dikkat çekici derecede dirençlidir."
+      },
+      {
+        "en": "Agronomists are breeding crop varieties that are resilient against severe drought.",
+        "tr": "Ziraatçılar, şiddetli kuraklığa karşı dirençli ürün çeşitleri yetiştirmektedir."
+      }
+    ]
+  },
+  {
+    "word": "redundant",
+    "type": "Sıfat",
+    "meaning": "gereksiz, fuzuli, ihtiyaç fazlası",
+    "examples": [
+      {
+        "en": "Automated machine learning algorithms made many manual data entry tasks completely redundant.",
+        "tr": "Otomatik makine öğrenimi algoritmaları, birçok manuel veri girişi görevini tamamen gereksiz kıldı."
+      },
+      {
+        "en": "Avoid using redundant phrases like 'repeat again' in formal academic writing.",
+        "tr": "Resmi akademik yazımda 'tekrar yinelemek' gibi gereksiz ve fuzuli ifadeler kullanmaktan kaçının."
+      }
+    ]
+  },
+  {
+    "word": "plausible",
+    "type": "Sıfat",
+    "meaning": "makul, akla yatkın, inandırıcı",
+    "examples": [
+      {
+        "en": "The detective sought a plausible explanation for the suspect's sudden disappearance.",
+        "tr": "Dedektif, şüphelinin ani kayboluşu için akla yatkın bir açıklama aradı."
+      },
+      {
+        "en": "The astrophysicist proposed a plausible theory regarding the origin of water on Earth.",
+        "tr": "Astrofizikçi, Dünya'daki suyun kökenine dair makul ve akla yatkın bir teori öne sürdü."
+      }
+    ]
+  },
+  {
+    "word": "reluctant",
+    "type": "Sıfat",
+    "meaning": "isteksiz, gönülsüz, çekimser",
+    "examples": [
+      {
+        "en": "Central bankers are reluctant to lower interest rates until inflation is completely subdued.",
+        "tr": "Merkez bankacıları, enflasyon tamamen kontrol altına alınana kadar faiz indirmeye isteksizdir."
+      },
+      {
+        "en": "He was reluctant to discuss the traumatic events of his wartime experiences.",
+        "tr": "Savaş dönemi deneyimlerinin travmatik olaylarını konuşma konusunda gönülsüzdü."
+      }
+    ]
+  },
+  {
+    "word": "hostile",
+    "type": "Sıfat",
+    "meaning": "düşmanca, elverişsiz, sert",
+    "examples": [
+      {
+        "en": "Few organisms can survive in the hostile, hyper-saline environment of the Dead Sea.",
+        "tr": "Lut Gölü'nün düşmanca ve aşırı tuzlu ortamında çok az organizma hayatta kalabilir."
+      },
+      {
+        "en": "The proposed trade tax faced a hostile reception from foreign business leaders.",
+        "tr": "Önerilen ticaret vergisi, yabancı iş dünyası liderlerinden düşmanca bir tepki gördü."
+      }
+    ]
+  },
+  {
+    "word": "compatible",
+    "type": "Sıfat",
+    "meaning": "uyumlu, bağdaşan (compatible with)",
+    "examples": [
+      {
+        "en": "Industrial expansion must be compatible with long-term ecological sustainability.",
+        "tr": "Sanayi genişlemesi, uzun vadeli ekolojik sürdürülebilirlikle uyumlu olmak zorundadır."
+      },
+      {
+        "en": "This new medical scanning software is fully compatible with existing hospital databases.",
+        "tr": "Bu yeni tıbbi tarama yazılımı, mevcut hastane veri tabanlarıyla tamamen uyumludur."
+      }
+    ]
+  },
+  {
+    "word": "consecutive",
+    "type": "Sıfat",
+    "meaning": "ardışık, peş peşe gelen, birbirini izleyen",
+    "examples": [
+      {
+        "en": "The agricultural region endured four consecutive years of severe drought.",
+        "tr": "Tarım bölgesi, üst üste dört ardışık yıl boyunca şiddetli kuraklık yaşadı."
+      },
+      {
+        "en": "The football club secured victory in three consecutive championship seasons.",
+        "tr": "Futbol kulübü, üst üste üç ardışık şampiyonluk sezonunda zafer elde etti."
+      }
+    ]
+  },
+  {
+    "word": "conspicuous",
+    "type": "Sıfat",
+    "meaning": "göze çarpan, belirgin, dikkat çekici",
+    "examples": [
+      {
+        "en": "The sudden absence of the opposition leader was conspicuous at the state banquet.",
+        "tr": "Devlet ziyafetinde muhalefet liderinin ani yokluğu fazlasıyla göze çarpıyordu."
+      },
+      {
+        "en": "Male peacocks possess conspicuous tail feathers to attract prospective mates.",
+        "tr": "Erkek tavus kuşları, müstakbel eşleri çekmek için son derece belirgin ve dikkat çekici kuyruk tüylerine sahiptir."
+      }
+    ]
+  },
+  {
+    "word": "formidable",
+    "type": "Sıfat",
+    "meaning": "baş edilmesi güç, zorlu, korkutucu, heybetli",
+    "examples": [
+      {
+        "en": "Eliminating global extreme poverty remains a formidable challenge for the United Nations.",
+        "tr": "Küresel aşırı yoksulluğu ortadan kaldırmak, Birleşmiş Milletler için baş edilmesi son derece güç bir zorluk olmaya devam ediyor."
+      },
+      {
+        "en": "The defending champion faced a formidable opponent in the tennis final.",
+        "tr": "Son şampiyon, tenis finalinde oldukça dişli ve zorlu bir rakiple karşılaştı."
+      }
+    ]
+  },
+  {
+    "word": "inherent",
+    "type": "Sıfat",
+    "meaning": "doğasında olan, özünde var olan (inherent in)",
+    "examples": [
+      {
+        "en": "There are inherent safety risks in deep-sea petroleum drilling operations.",
+        "tr": "Derin deniz petrol sondaj operasyonlarının doğasında olan güvenlik riskleri vardır."
+      },
+      {
+        "en": "Curiosity is an inherent characteristic of the human investigative spirit.",
+        "tr": "Merak, insan araştırmacı ruhunun özünde var olan temel bir özelliğidir."
+      }
+    ]
+  },
+  {
+    "word": "invaluable",
+    "type": "Sıfat",
+    "meaning": "paha biçilemez, son derece kıymetli, çok yararlı",
+    "examples": [
+      {
+        "en": "Her fluency in ancient dialects proved invaluable to the archaeological excavation team.",
+        "tr": "Eski lehçelerdeki akıcılığı, arkeolojik kazı ekibi için paha biçilmez derecede yararlı oldu."
+      },
+      {
+        "en": "The mentor provided invaluable career advice throughout my postgraduate studies.",
+        "tr": "Danışmanım, lisansüstü eğitimim boyunca son derece kıymetli kariyer tavsiyeleri sundu."
+      }
+    ]
+  },
+  {
+    "word": "superficial",
+    "type": "Sıfat",
+    "meaning": "yüzeysel, üstünkörü",
+    "examples": [
+      {
+        "en": "The inspection was so superficial that structural cracks in the dam were completely missed.",
+        "tr": "Denetim o kadar yüzeyseldi ki barajdaki yapısal çatlaklar tamamen gözden kaçırıldı."
+      },
+      {
+        "en": "Fortunately, the car accident victim suffered only superficial scratches on his arms.",
+        "tr": "Neyse ki araba kazası kurbanının kollarında yalnızca yüzeysel sıyrıklar meydana geldi."
+      }
+    ]
+  },
+  {
+    "word": "tedious",
+    "type": "Sıfat",
+    "meaning": "can sıkıcı, bıktırıcı, yorucu, monoton",
+    "examples": [
+      {
+        "en": "Manually transcribing thousands of recorded audio interviews was a tedious process.",
+        "tr": "Kayıtlı binlerce sesli mülakatı manuel olarak yazıya dökmek bıktırıcı ve yorucu bir süreçti."
+      },
+      {
+        "en": "Modern automation relieves factory workers of repetitive and tedious chores.",
+        "tr": "Modern otomasyon, fabrika işçilerini tekrarlayan ve can sıkıcı işlerden kurtarır."
+      }
+    ]
+  },
+  {
+    "word": "breakthrough",
+    "type": "İsim",
+    "meaning": "büyük buluş, önemli ilerleme, dönüm noktası",
+    "examples": [
+      {
+        "en": "The development of mRNA vaccines represents a monumental breakthrough in modern immunology.",
+        "tr": "mRNA aşılarının geliştirilmesi, modern immünolojide anıtsal bir büyük buluşu temsil etmektedir."
+      },
+      {
+        "en": "Diplomats achieved a major breakthrough in the final hours of the border summit.",
+        "tr": "Diplomatlar, sınır zirvesinin son saatlerinde önemli bir ilerleme kaydettiler."
+      }
+    ]
+  },
+  {
+    "word": "deficiency",
+    "type": "İsim",
+    "meaning": "eksiklik, yetersizlik, noksanlık",
+    "examples": [
+      {
+        "en": "Iron deficiency is one of the most widespread nutritional disorders in developing countries.",
+        "tr": "Demir eksikliği, gelişmekte olan ülkelerdeki en yaygın beslenme bozukluklarından biridir."
+      },
+      {
+        "en": "The structural safety audit revealed severe deficiencies in the building's fire escape system.",
+        "tr": "Yapısal güvenlik denetimi, binanın yangın merdiveni sisteminde ciddi eksiklikler ortaya çıkardı."
+      }
+    ]
+  },
+  {
+    "word": "scarcity",
+    "type": "İsim",
+    "meaning": "kıtlık, azlık, nadirlik",
+    "examples": [
+      {
+        "en": "Growing water scarcity poses an existential threat to agriculture in arid Mediterranean zones.",
+        "tr": "Giderek artan su kıtlığı, kurak Akdeniz kuşaklarındaki tarım için varoluşsal bir tehdit oluşturmaktadır."
+      },
+      {
+        "en": "The severe scarcity of skilled software engineers has driven up salaries dramatically.",
+        "tr": "Nitelikli yazılım mühendislerinin ciddi azlığı, maaşları çarpıcı biçimde artırdı."
+      }
+    ]
+  },
+  {
+    "word": "consensus",
+    "type": "İsim",
+    "meaning": "uzlaşma, fikir birliği, mutabakat",
+    "examples": [
+      {
+        "en": "There is broad scientific consensus that human activities are the primary driver of global warming.",
+        "tr": "İnsan faaliyetlerinin küresel ısınmanın başlıca sebebi olduğu konusunda geniş bir bilimsel fikir birliği vardır."
+      },
+      {
+        "en": "The parliamentary council failed to reach a consensus regarding the new pension legislation.",
+        "tr": "Parlamento konseyi, yeni emeklilik mevzuatı konusunda bir uzlaşmaya varamadı."
+      }
+    ]
+  },
+  {
+    "word": "discrepancy",
+    "type": "İsim",
+    "meaning": "tutarsızlık, çelişki, uyuşmazlık",
+    "examples": [
+      {
+        "en": "Accountants uncovered a huge financial discrepancy between recorded revenues and bank deposits.",
+        "tr": "Muhasebeciler, kaydedilen gelirler ile banka mevduatları arasında büyük bir mali tutarsızlık tespit etti."
+      },
+      {
+        "en": "There was a noticeable discrepancy between the two witnesses' accounts of the burglary.",
+        "tr": "Soyguna dair iki tanığın ifadeleri arasında göze çarpan bir çelişki vardı."
+      }
+    ]
+  },
+  {
+    "word": "consequence",
+    "type": "İsim",
+    "meaning": "sonuç, netice; önem",
+    "examples": [
+      {
+        "en": "Deforestation carries catastrophic ecological consequences, including accelerated soil erosion.",
+        "tr": "Ormansızlaşma, hızlanan toprak erozyonu da dahil olmak üzere feci ekolojik sonuçlar doğurur."
+      },
+      {
+        "en": "Decisions made at this diplomatic council will be of immense consequence for global trade.",
+        "tr": "Bu diplomatik konseyde alınan kararlar, küresel ticaret için muazzam bir öneme sahip olacaktır."
+      }
+    ]
+  },
+  {
+    "word": "obstacle",
+    "type": "İsim",
+    "meaning": "engel, mani, güçlük",
+    "examples": [
+      {
+        "en": "High tariffs on imported raw materials act as a major obstacle to international trade.",
+        "tr": "İthal hammaddelere uygulanan yüksek gümrük vergileri, uluslararası ticaretin önünde büyük bir engel teşkil eder."
+      },
+      {
+        "en": "Language barriers can become an intimidating obstacle for international university students.",
+        "tr": "Dil engelleri, uluslararası üniversite öğrencileri için göz korkutucu bir güçlüğe dönüşebilir."
+      }
+    ]
+  },
+  {
+    "word": "negligence",
+    "type": "İsim",
+    "meaning": "ihmal, dikkatsizlik, savsaklama",
+    "examples": [
+      {
+        "en": "The catastrophic industrial explosion was attributed to gross corporate negligence.",
+        "tr": "Feci endüstriyel patlama, bariz kurumsal ihmale bağlandı."
+      },
+      {
+        "en": "Medical negligence lawsuits can result in millions of dollars in damages.",
+        "tr": "Tıbbi ihmal davaları, milyonlarca dolarlık tazminatlarla sonuçlanabilir."
+      }
+    ]
+  },
+  {
+    "word": "precedent",
+    "type": "İsim",
+    "meaning": "emsal, geçmiş örnek, teamül",
+    "examples": [
+      {
+        "en": "The Supreme Court ruling set an important legal precedent for future digital privacy disputes.",
+        "tr": "Yüksek Mahkeme kararı, gelecekteki dijital gizlilik ihtilafları için önemli bir yasal emsal teşkil etti."
+      },
+      {
+        "en": "There is no historical precedent for such a rapid transformation of the planetary climate.",
+        "tr": "Gezegensel iklimin bu denli hızlı dönüşümünün tarihte hiçbir geçmiş örneği yoktur."
+      }
+    ]
+  },
+  {
+    "word": "implication",
+    "type": "İsim",
+    "meaning": "muhtemel sonuç, ima, çıkarım, yansıma",
+    "examples": [
+      {
+        "en": "Scientists are actively evaluating the long-term ethical implications of gene-editing technology.",
+        "tr": "Bilim insanları, gen düzenleme teknolojisinin uzun vadeli ahlaki yansımalarını ve sonuçlarını aktif olarak değerlendirmektedir."
+      },
+      {
+        "en": "The minister's statement had serious economic implications for domestic real estate.",
+        "tr": "Bakanın açıklaması, yerel gayrimenkul sektörü açısından ciddi ekonomik sonuçlar doğurdu."
+      }
+    ]
+  },
+  {
+    "word": "controversy",
+    "type": "İsim",
+    "meaning": "tartışma, ihtilaf, uyuşmazlık",
+    "examples": [
+      {
+        "en": "The decision to construct a nuclear facility near the coast stirred immense public controversy.",
+        "tr": "Sahil yakınına bir nükleer tesis inşa etme kararı, kamuoyunda muazzam bir tartışma ve ihtilaf yarattı."
+      },
+      {
+        "en": "His controversial hypothesis was surrounded by fierce academic debate for decades.",
+        "tr": "Onun tartışmalı hipotezi, onlarca yıl boyunca şiddetli akademik tartışmalarla çevrelendi."
+      }
+    ]
+  },
+  {
+    "word": "deterioration",
+    "type": "İsim",
+    "meaning": "kötüye gitme, bozulma, yıpranma",
+    "examples": [
+      {
+        "en": "Acid rain causes the gradual deterioration of ancient limestone monuments and statues.",
+        "tr": "Asit yağmurları, antik kireçtaşı anıtların ve heykellerin kademeli olarak bozulmasına ve yıpranmasına yol açar."
+      },
+      {
+        "en": "The rapid deterioration of patient vital signs required immediate transfer to intensive care.",
+        "tr": "Hastanın yaşamsal bulgularının hızla kötüye gitmesi, yoğun bakıma derhal sevkini gerektirdi."
+      }
+    ]
+  },
+  {
+    "word": "feasibility",
+    "type": "İsim",
+    "meaning": "uygulanabilirlik, yapılabilirlik, fizibilite",
+    "examples": [
+      {
+        "en": "Civil engineers conducted a thorough study to evaluate the feasibility of an underwater railway tunnel.",
+        "tr": "İnşaat mühendisleri, su altı demiryolu tünelinin uygulanabilirliğini değerlendirmek için kapsamlı bir fizibilite çalışması yürüttü."
+      },
+      {
+        "en": "Doubts remain regarding the economic feasibility of sending human missions to Mars.",
+        "tr": "Mars'a insanlı görevler göndermenin ekonomik yapılabilirliği konusundaki şüpheler devam ediyor."
+      }
+    ]
+  },
+  {
+    "word": "prejudice",
+    "type": "İsim",
+    "meaning": "önyargı, peşin hüküm",
+    "examples": [
+      {
+        "en": "Education plays a transformative role in dismantling racial and cultural prejudice.",
+        "tr": "Eğitim, ırksal ve kültürel önyargıları yıkmada dönüştürücü bir rol oynar."
+      },
+      {
+        "en": "Judges must set aside personal prejudice to deliver an impartial and just verdict.",
+        "tr": "Yargıçlar, tarafsız ve adil bir karar vermek için kişisel önyargılarını bir kenara bırakmalıdır."
+      }
+    ]
+  },
+  {
+    "word": "resilience",
+    "type": "İsim",
+    "meaning": "toparlanma gücü, dayanıklılık, direnç",
+    "examples": [
+      {
+        "en": "The psychological resilience of wartime survivors has been the subject of extensive psychological study.",
+        "tr": "Savaş sağkalanlarının psikolojik toparlanma gücü ve direnci, kapsamlı psikolojik araştırmaların konusu olmuştur."
+      },
+      {
+        "en": "Investing in sustainable energy strengthens a country's economic resilience against external oil shocks.",
+        "tr": "Sürdürülebilir enerjiye yatırım yapmak, bir ülkenin dış petrol şoklarına karşı ekonomik direncini güçlendirir."
+      }
+    ]
+  },
+  {
+    "word": "prosperity",
+    "type": "İsim",
+    "meaning": "refah, zenginlik, bayındırlık",
+    "examples": [
+      {
+        "en": "Long-lasting regional peace and stability are prerequisite conditions for genuine economic prosperity.",
+        "tr": "Uzun soluklu bölgesel barış ve istikrar, gerçek bir ekonomik refahın vazgeçilmez ön koşullarıdır."
+      },
+      {
+        "en": "The discovery of natural offshore gas reserves ushered in a period of national prosperity.",
+        "tr": "Açık deniz doğal gaz rezervlerinin keşfi, ulusal bir refah döneminin kapılarını araladı."
+      }
+    ]
+  },
+  {
+    "word": "prerequisite",
+    "type": "İsim",
+    "meaning": "ön koşul, ön şart, zorunluluk",
+    "examples": [
+      {
+        "en": "Proficiency in mathematical statistics is an essential prerequisite for entering the data science master's program.",
+        "tr": "Matematiksel istatistikte yetkinlik, veri bilimi yüksek lisans programına kabul için temel bir ön koşuldur."
+      },
+      {
+        "en": "Mutual trust is an indispensable prerequisite for enduring international alliances.",
+        "tr": "Karşılıklı güven, kalıcı uluslararası ittifakların vazgeçilmez bir ön şartıdır."
+      }
+    ]
+  },
+  {
+    "word": "drawback",
+    "type": "İsim",
+    "meaning": "sakınca, dezavantaj, eksik yön",
+    "examples": [
+      {
+        "en": "The primary drawback of electric passenger vehicles remains their relatively limited battery range.",
+        "tr": "Elektrikli binek araçların başlıca dezavantajı, halen nispeten sınırlı olan batarya menzilleridir."
+      },
+      {
+        "en": "Living in a sprawling metropolis has numerous benefits, but excessive air pollution is a major drawback.",
+        "tr": "Geniş bir metropolde yaşamanın sayısız faydası vardır, ancak aşırı hava kirliliği büyük bir sakıncadır."
+      }
+    ]
+  },
+  {
+    "word": "intervention",
+    "type": "İsim",
+    "meaning": "müdahale, araya girme",
+    "examples": [
+      {
+        "en": "Early surgical intervention was credited with saving the patient's damaged limb.",
+        "tr": "Erken cerrahi müdahalenin, hastanın hasar gören uzvunu kurtardığı kabul edildi."
+      },
+      {
+        "en": "Foreign military intervention often leads to unintended geopolitical destabilization.",
+        "tr": "Yabancı askeri müdahale, sıklıkla istenmeyen jeopolitik istikrarsızlıklara yol açar."
+      }
+    ]
+  },
+  {
+    "word": "congestion",
+    "type": "İsim",
+    "meaning": "tıkanıklık, aşırı yoğunluk, sıkışıklık",
+    "examples": [
+      {
+        "en": "Urban planners introduced congestion pricing to deter commuters from driving into the city center.",
+        "tr": "Şehir plancıları, sürücülerin şehir merkezine araçla girmesini caydırmak için trafik yoğunluğu ücretlendirmesi getirdi."
+      },
+      {
+        "en": "Severe nasal congestion is a frequent symptom of seasonal allergic rhinitis.",
+        "tr": "Şiddetli burun tıkanıklığı, mevsimsel alerjik rinitin sık görülen bir semptomudur."
+      }
+    ]
+  },
+  {
+    "word": "perception",
+    "type": "İsim",
+    "meaning": "algı, kavrayış, algılama",
+    "examples": [
+      {
+        "en": "Public perception of artificial intelligence has shifted dramatically from skepticism to enthusiasm.",
+        "tr": "Yapay zekaya ilişkin kamuoyu algısı, şüphecilikten heyecana doğru çarpıcı bir biçimde değişti."
+      },
+      {
+        "en": "Sensory perception degrades naturally as humans enter advanced age.",
+        "tr": "İnsanlar ileri yaşlara girdikçe duyusal algı doğal olarak geriler."
+      }
+    ]
+  },
+  {
+    "word": "abundance",
+    "type": "İsim",
+    "meaning": "bolluk, bereket, çokluk",
+    "examples": [
+      {
+        "en": "The tropical rainforest boasts an incredible abundance of biodiversity.",
+        "tr": "Tropikal yağmur ormanı, inanılmaz bir biyolojik çeşitlilik bolluğuna sahiptir."
+      },
+      {
+        "en": "An abundance of affordable natural gas reduced reliance on coal power plants.",
+        "tr": "Uygun fiyatlı doğal gaz bolluğu, kömür santrallerine olan bağımlılığı azalttı."
+      }
+    ]
+  },
+  {
+    "word": "distortion",
+    "type": "İsim",
+    "meaning": "çarpıtma, tahrifat; biçim bozulması",
+    "examples": [
+      {
+        "en": "Propaganda outlets engaged in the deliberate distortion of historical facts to justify military aggression.",
+        "tr": "Propaganda kanalları, askeri saldırganlığı meşrulaştırmak için tarihi gerçeklerin kasıtlı tahrifatına başvurdu."
+      },
+      {
+        "en": "Gravitational lensing causes visual distortion of distant galaxies observed through telescopes.",
+        "tr": "Kütleçekimsel merceklenme, teleskoplarla gözlemlenen uzak galaksilerde görsel biçim bozulmasına yol açar."
+      }
+    ]
+  },
+  {
+    "word": "deterrent",
+    "type": "İsim",
+    "meaning": "caydırıcı unsur, engelleyici güç",
+    "examples": [
+      {
+        "en": "Severe penalties for insider trading serve as an effective deterrent against corporate corruption.",
+        "tr": "İçeriden öğrenenlerin ticaretine yönelik ağır cezalar, kurumsal yolsuzluğa karşı etkili bir caydırıcı unsur işlevi görür."
+      },
+      {
+        "en": "Surveillance cameras in public transport act as a visible deterrent to street crime.",
+        "tr": "Toplu taşımadaki güvenlik kameraları, sokak suçlarına karşı görünür bir caydırıcı güç oluşturur."
+      }
+    ]
+  },
+  {
+    "word": "scrutiny",
+    "type": "İsim",
+    "meaning": "ayrıntılı inceleme, yakın takip, denetim",
+    "examples": [
+      {
+        "en": "The financial dealings of elected politicians have come under intense public scrutiny.",
+        "tr": "Seçilmiş siyasetçilerin mali ilişkileri, kamuoyunun yoğun ve ayrıntılı incelemesi altına girdi."
+      },
+      {
+        "en": "Scientific discoveries must withstand rigorous peer scrutiny before being widely accepted.",
+        "tr": "Bilimsel keşifler, geniş kabul görmeden önce meslektaşların titiz denetim ve incelemesine dayanabilmelidir."
+      }
+    ]
+  },
+  {
+    "word": "substantially",
+    "type": "Zarf",
+    "meaning": "büyük ölçüde, önemli derecede, esaslı surette",
+    "examples": [
+      {
+        "en": "Switching to electric heating substantially decreased the household's annual carbon footprint.",
+        "tr": "Elektrikli ısıtmaya geçmek, hanenin yıllık karbon ayak izini büyük ölçüde azalttı."
+      },
+      {
+        "en": "The new edition of the textbook has been substantially revised and updated.",
+        "tr": "Ders kitabının yeni baskısı önemli derecede revize edilip güncellenmiştir."
+      }
+    ]
+  },
+  {
+    "word": "drastically",
+    "type": "Zarf",
+    "meaning": "sert ve çarpıcı biçimde, kökten, radikal şekilde",
+    "examples": [
+      {
+        "en": "Fuel prices increased drastically following the imposition of international trade embargoes.",
+        "tr": "Uluslararası ticaret ambargolarının uygulanmasının ardından yakıt fiyatları sert ve çarpıcı biçimde arttı."
+      },
+      {
+        "en": "Climate experts warn that global greenhouse gas output must be drastically curtailed by 2030.",
+        "tr": "İklim uzmanları, küresel sera gazı çıktısının 2030'a kadar radikal ve çarpıcı biçimde kısıtlanması gerektiği konusunda uyarıyor."
+      }
+    ]
+  },
+  {
+    "word": "remarkably",
+    "type": "Zarf",
+    "meaning": "dikkat çekici derecede, olağanüstü biçimde",
+    "examples": [
+      {
+        "en": "The elderly patient made a remarkably fast recovery after the intricate cardiac surgery.",
+        "tr": "Yaşlı hasta, karmaşık kalp ameliyatının ardından dikkat çekici derecede hızlı bir iyileşme gösterdi."
+      },
+      {
+        "en": "The young student showed remarkably mature leadership skills throughout the international project.",
+        "tr": "Genç öğrenci, uluslararası proje boyunca olağanüstü derecede olgun liderlik becerileri sergiledi."
+      }
+    ]
+  },
+  {
+    "word": "inevitably",
+    "type": "Zarf",
+    "meaning": "kaçınılmaz olarak, çaresizce",
+    "examples": [
+      {
+        "en": "Uncontrolled industrial urbanization inevitably leads to habitat destruction and loss of local biodiversity.",
+        "tr": "Kontrolsüz sanayi kentleşmesi, kaçınılmaz olarak doğal yaşam alanlarının yok olmasına ve biyolojik çeşitlilik kaybına yol açar."
+      },
+      {
+        "en": "Without structural reforms, the state health service will inevitably face bankruptcy.",
+        "tr": "Yapısal reformlar olmaksızın, devlet sağlık hizmeti kaçınılmaz olarak iflasla karşı karşıya kalacaktır."
+      }
+    ]
+  },
+  {
+    "word": "predominantly",
+    "type": "Zarf",
+    "meaning": "ağırlıklı olarak, çoğunlukla, esasen",
+    "examples": [
+      {
+        "en": "In the 19th century, the national economy was predominantly based on agricultural production.",
+        "tr": "19. yüzyılda ulusal ekonomi ağırlıklı olarak tarımsal üretime dayanıyordu."
+      },
+      {
+        "en": "The research team was predominantly composed of female biochemical engineers.",
+        "tr": "Araştırma ekibi çoğunlukla kadın biyokimya mühendislerinden oluşuyordu."
+      }
+    ]
+  },
+  {
+    "word": "inadvertently",
+    "type": "Zarf",
+    "meaning": "kazara, yanlışlıkla, istemeden",
+    "examples": [
+      {
+        "en": "An unencrypted email inadvertently leaked confidential patient health records onto the web.",
+        "tr": "Şifrelenmemiş bir e-posta, gizli hasta sağlık kayıtlarını kazara ve istemeden internete sızdırdı."
+      },
+      {
+        "en": "The laboratory technician inadvertently contaminated the sterile culture plates.",
+        "tr": "Laboratuvar teknisyeni, steril kültür plakalarını yanlışlıkla kontamine etti."
+      }
+    ]
+  },
+  {
+    "word": "virtually",
+    "type": "Zarf",
+    "meaning": "hemen hemen, neredeyse, fiilen",
+    "examples": [
+      {
+        "en": "Vaccination programs have made polio virtually nonexistent in the Western Hemisphere.",
+        "tr": "Aşılama programları, çocuk felcini Batı Yarımküre'de neredeyse tamamen yok etmiştir."
+      },
+      {
+        "en": "It is virtually impossible to predict the exact path of a tornado days in advance.",
+        "tr": "Bir hortumun tam izleyeceği yolu günler öncesinden tahmin etmek fiilen ve neredeyse imkansızdır."
+      }
+    ]
+  },
+  {
+    "word": "scarcely",
+    "type": "Zarf",
+    "meaning": "neredeyse hiç, güç bela, pek az",
+    "examples": [
+      {
+        "en": "There was scarcely enough food and water remaining for the expedition to cross the arid desert.",
+        "tr": "Keşif heyetinin kurak çölü geçmesi için geriye neredeyse hiç yiyecek ve su kalmamıştı."
+      },
+      {
+        "en": "She could scarcely conceal her profound disappointment when the exam results were posted.",
+        "tr": "Sınav sonuçları açıklandığında derin hayal kırıklığını güç bela gizleyebildi."
+      }
+    ]
+  },
+  {
+    "word": "utterly",
+    "type": "Zarf",
+    "meaning": "tamamen, bütünüyle, kesinlikle",
+    "examples": [
+      {
+        "en": "The small fishing village was utterly destroyed by the monstrous tsunami waves.",
+        "tr": "Küçük balıkçı köyü, devasa tsunami dalgaları tarafından tamamen ve bütünüyle yok edildi."
+      },
+      {
+        "en": "His claim that climate change is an elaborate scientific hoax is utterly absurd.",
+        "tr": "İklim değişikliğinin ayrıntılı bir bilimsel aldatmaca olduğu iddiası kesinlikle ve bütünüyle saçmadır."
+      }
+    ]
+  },
+  {
+    "word": "profoundly",
+    "type": "Zarf",
+    "meaning": "derinden, son derece etkili biçimde",
+    "examples": [
+      {
+        "en": "The tragic economic depression of the 1930s profoundly altered global financial policy.",
+        "tr": "1930'ların trajik ekonomik buhranı, küresel finans politikasını derinden değiştirdi."
+      },
+      {
+        "en": "His experiences working as a battlefield medic profoundly shaped his philosophical outlook.",
+        "tr": "Savaş alanında sıhhiyeci olarak çalışırken edindiği deneyimler, onun felsefi bakış açısını derinden şekillendirdi."
+      }
+    ]
+  },
+  {
+    "word": "simultaneously",
+    "type": "Zarf",
+    "meaning": "aynı anda, eşzamanlı olarak",
+    "examples": [
+      {
+        "en": "The televised speech was broadcast simultaneously across radio stations and web platforms worldwide.",
+        "tr": "Televizyondaki konuşma, dünya çapındaki radyo istasyonları ve web platformlarında aynı anda ve eşzamanlı olarak yayımlandı."
+      },
+      {
+        "en": "Quantum particles can theoretically exist in multiple superposed states simultaneously.",
+        "tr": "Kuantum parçacıkları teorik olarak aynı anda birden fazla üst üste binmiş durumda var olabilir."
+      }
+    ]
+  },
+  {
+    "word": "inherently",
+    "type": "Zarf",
+    "meaning": "doğası gereği, özünde, yaratılış itibarıyla",
+    "examples": [
+      {
+        "en": "Deep-sea exploration is inherently hazardous due to intense hydrostatic pressure and total darkness.",
+        "tr": "Derin deniz keşfi, yoğun hidrostatik basınç ve mutlak karanlık nedeniyle doğası gereği tehlikelidir."
+      },
+      {
+        "en": "Scientific inquiry is inherently self-correcting as empirical evidence accumulates over time.",
+        "tr": "Bilimsel araştırma, ampirik kanıtlar zamanla biriktikçe doğası gereği kendi kendini düzelten bir yapıya sahiptir."
+      }
+    ]
+  },
+  {
+    "word": "solely",
+    "type": "Zarf",
+    "meaning": "yalnızca, sadece, tek başına",
+    "examples": [
+      {
+        "en": "Scholarship decisions were based solely on candidates' verified academic merit and financial need.",
+        "tr": "Burs kararları, yalnızca adayların doğrulanmış akademik başarılarına ve maddi gereksinimlerine dayandırıldı."
+      },
+      {
+        "en": "You cannot hold one politician solely responsible for a nationwide economic collapse.",
+        "tr": "Ülke çapındaki bir ekonomik çöküşten tek başına bir siyasetçiyi sorumlu tutamazsınız."
+      }
+    ]
+  },
+  {
+    "word": "subsequently",
+    "type": "Zarf",
+    "meaning": "sonradan, ardından, daha sonra",
+    "examples": [
+      {
+        "en": "The initial hypothesis was disproved, and researchers subsequently revised their experimental parameters.",
+        "tr": "İlk hipotez çürütüldü ve araştırmacılar ardından deneysel parametrelerini revize ettiler."
+      },
+      {
+        "en": "The suspect fled the crime scene and was subsequently apprehended at the international border.",
+        "tr": "Şüpheli olay yerinden kaçtı ve daha sonra uluslararası sınırda yakalandı."
+      }
+    ]
+  },
+  {
+    "word": "mutually",
+    "type": "Zarf",
+    "meaning": "karşılıklı olarak, ortaklaşa",
+    "examples": [
+      {
+        "en": "The two trading nations reached a mutually beneficial agreement regarding tariff reductions.",
+        "tr": "İki ticaret ülkesi, gümrük vergisi indirimleri konusunda karşılıklı olarak yararlı bir anlaşmaya vardı."
+      },
+      {
+        "en": "Symbiotic organisms rely on mutually supportive physiological relationships to thrive.",
+        "tr": "Simbiyotik organizmalar, serpilip gelişmek için karşılıklı olarak birbirini destekleyen fizyolojik ilişkilere güvenir."
+      }
+    ]
+  },
+  {
+    "word": "explicitly",
+    "type": "Zarf",
+    "meaning": "açıkça, net bir biçimde, tereddüde yer bırakmadan",
+    "examples": [
+      {
+        "en": "The legal employment contract explicitly forbids staff from disclosing trade secrets to rivals.",
+        "tr": "Yasal iş sözleşmesi, personelin ticari sırları rakiplere açıklamasını açıkça ve net bir biçimde yasaklar."
+      },
+      {
+        "en": "The instructional manual explicitly states the sequence of safety procedures.",
+        "tr": "Kullanım kılavuzu, güvenlik prosedürlerinin sırasını açıkça belirtmektedir."
+      }
+    ]
+  },
+  {
+    "word": "considerably",
+    "type": "Zarf",
+    "meaning": "oldukça, epey, kayda değer derecede",
+    "examples": [
+      {
+        "en": "Air quality improved considerably during the strict industrial lockdowns.",
+        "tr": "Sıkı sanayi kısıtlamaları sırasında hava kalitesi oldukça ve kayda değer derecede iyileşti."
+      },
+      {
+        "en": "Her test score was considerably higher than the regional average.",
+        "tr": "Onun sınav puanı, bölgesel ortalamadan epey ve kayda değer oranda yüksekti."
+      }
+    ]
+  },
+  {
+    "word": "account for",
+    "type": "Phrasal Verb",
+    "meaning": "açıklamak; (bir oranı/miktarı) oluşturmak",
+    "examples": [
+      {
+        "en": "Renewable solar and wind installations now account for nearly forty percent of national electricity output.",
+        "tr": "Yenilenebilir güneş ve rüzgar santralleri, artık ulusal elektrik üretiminin yaklaşık yüzde kırkını oluşturmaktadır."
+      },
+      {
+        "en": "The suspect was utterly unable to account for his suspicious whereabouts on the night of the crime.",
+        "tr": "Şüpheli, suç gecesinde nerede bulunduğunu hiçbir şekilde açıklayamadı."
+      }
+    ]
+  },
+  {
+    "word": "bring about",
+    "type": "Phrasal Verb",
+    "meaning": "sebep olmak, yol açmak, meydana getirmek",
+    "examples": [
+      {
+        "en": "The industrial revolution brought about massive economic, demographic, and technological transformations.",
+        "tr": "Sanayi devrimi; devasa ekonomik, demografik ve teknolojik dönüşümlere yol açtı."
+      },
+      {
+        "en": "Only collaborative grassroots movements can bring about genuine civil rights reforms.",
+        "tr": "Yalnızca iş birlikli taban hareketleri gerçek sivil haklar reformlarını meydana getirebilir."
+      }
+    ]
+  },
+  {
+    "word": "carry out",
+    "type": "Phrasal Verb",
+    "meaning": "yürütmek, uygulamak, gerçekleştirmek",
+    "examples": [
+      {
+        "en": "Researchers must carry out extensive field experiments before publishing their final conclusions.",
+        "tr": "Araştırmacılar, nihai sonuçlarını yayımlamadan önce kapsamlı saha deneyleri yürütmelidir."
+      },
+      {
+        "en": "The specialized surgical team carried out the kidney transplant without any complications.",
+        "tr": "Uzman cerrahi ekip, böbrek naklini hiçbir komplikasyon olmaksızın gerçekleştirdi."
+      }
+    ]
+  },
+  {
+    "word": "call for",
+    "type": "Phrasal Verb",
+    "meaning": "gerektirmek; çağrıda bulunmak, talep etmek",
+    "examples": [
+      {
+        "en": "The escalating environmental crisis calls for urgent, concerted action from all industrial nations.",
+        "tr": "Tırmanan çevre krizi, tüm sanayi ülkelerinden acil ve kararlı bir eylem gerektirmektedir."
+      },
+      {
+        "en": "Human rights organizations called for an immediate ceasefire along the disputed frontier.",
+        "tr": "İnsan hakları örgütleri, tartışmalı sınır hattı boyunca derhal ateşkes çağrısında bulundu."
+      }
+    ]
+  },
+  {
+    "word": "cope with",
+    "type": "Phrasal Verb",
+    "meaning": "başa çıkmak, üstesinden gelmek, göğüs germek",
+    "examples": [
+      {
+        "en": "Developing economies struggle to cope with the severe financial burdens imposed by natural disasters.",
+        "tr": "Gelişmekte olan ekonomiler, doğal afetlerin getirdiği ağır mali yüklerle başa çıkmakta zorlanmaktadır."
+      },
+      {
+        "en": "Mindfulness meditation helps individuals cope with chronic occupational stress.",
+        "tr": "Bilinçli farkındalık meditasyonu, bireylerin kronik mesleki stresin üstesinden gelmesine yardımcı olur."
+      }
+    ]
+  },
+  {
+    "word": "stem from",
+    "type": "Phrasal Verb",
+    "meaning": "-den kaynaklanmak, -den ileri gelmek",
+    "examples": [
+      {
+        "en": "Most diplomatic disputes between the two nations stem from unresolved territorial disagreements.",
+        "tr": "İki ülke arasındaki diplomatik ihtilafların çoğu, çözülememiş toprak anlaşmazlıklarından kaynaklanmaktadır."
+      },
+      {
+        "en": "His persistent anxiety stems from stressful experiences endured during childhood.",
+        "tr": "Onun süregelen kaygısı, çocukluk döneminde maruz kaldığı stresli deneyimlerden ileri gelmektedir."
+      }
+    ]
+  },
+  {
+    "word": "give rise to",
+    "type": "Phrasal Verb",
+    "meaning": "yol açmak, sebebiyet vermek, doğurmak",
+    "examples": [
+      {
+        "en": "Unchecked rumors on social media gave rise to widespread civic unrest across the capital.",
+        "tr": "Sosyal medyadaki denetimsiz söylentiler, başkent genelinde geniş çaplı toplumsal huzursuzluğa yol açtı."
+      },
+      {
+        "en": "The merger of the two telecom giants gave rise to a monopoly in the regional market.",
+        "tr": "İki telekom devinin birleşmesi, bölgesel piyasada bir tekel doğurdu."
+      }
+    ]
+  },
+  {
+    "word": "wipe out",
+    "type": "Phrasal Verb",
+    "meaning": "yok etmek, kökünü kazımak, silip süpürmek",
+    "examples": [
+      {
+        "en": "A single catastrophic volcanic eruption could wipe out indigenous species unique to the island.",
+        "tr": "Tek bir feci volkanik patlama, adaya özgü yerli türleri tamamen yok edip yeryüzünden silebilir."
+      },
+      {
+        "en": "The financial crisis wiped out the life savings of thousands of retired citizens.",
+        "tr": "Mali kriz, binlerce emekli vatandaşın ömür boyu biriktirdiği birikimlerini silip süpürdü."
+      }
+    ]
+  },
+  {
+    "word": "make up for",
+    "type": "Phrasal Verb",
+    "meaning": "telafi etmek, açığını kapatmak, bedelini ödemek",
+    "examples": [
+      {
+        "en": "High enthusiasm cannot entirely make up for a complete lack of relevant vocational training.",
+        "tr": "Yüksek heves, ilgili mesleki eğitim eksikliğini tamamen telafi edemez."
+      },
+      {
+        "en": "The company offered complimentary vouchers to make up for the prolonged service disruption.",
+        "tr": "Şirket, uzun süren hizmet kesintisini telafi etmek için ücretsiz kuponlar sundu."
+      }
+    ]
+  },
+  {
+    "word": "rule out",
+    "type": "Phrasal Verb",
+    "meaning": "elemek, olasılık dışı bırakmak, göz ardı etmek",
+    "examples": [
+      {
+        "en": "Medical doctors conducted exhaustive lab tests to rule out malignant tumors.",
+        "tr": "Hekimler, kötü huylu tümör ihtimalini elemek için kapsamlı laboratuvar testleri yürüttü."
+      },
+      {
+        "en": "The prime minister declined to rule out the possibility of calling an early general election.",
+        "tr": "Başbakan, erken genel seçime gitme olasılığını göz ardı etmeyi reddetti."
+      }
+    ]
+  },
+  {
+    "word": "turn down",
+    "type": "Phrasal Verb",
+    "meaning": "reddetmek; (ses/ısı) kısmak",
+    "examples": [
+      {
+        "en": "The renowned biochemist turned down a lucrative employment offer from a foreign laboratory.",
+        "tr": "Tanınmış biyokimyager, yabancı bir laboratuvardan gelen kazançlı iş teklifini reddetti."
+      },
+      {
+        "en": "Please turn down the volume so researchers can concentrate on data analysis.",
+        "tr": "Lütfen sesi kısın, böylece araştırmacılar veri analizine konsantre olabilirler."
+      }
+    ]
+  },
+  {
+    "word": "call off",
+    "type": "Phrasal Verb",
+    "meaning": "iptal etmek, sonlandırmak",
+    "examples": [
+      {
+        "en": "Organizers were forced to call off the outdoor conference due to torrential rainfall.",
+        "tr": "Organizatörler, sağanak yağış nedeniyle açık hava konferansını iptal etmek zorunda kaldı."
+      },
+      {
+        "en": "The labor union called off the scheduled general strike after reaching a wage agreement.",
+        "tr": "İşçi sendikası, ücret anlaşmasına varılmasının ardından planlanan genel grevi iptal etti."
+      }
+    ]
+  },
+  {
+    "word": "put up with",
+    "type": "Phrasal Verb",
+    "meaning": "katlanmak, tahammül etmek, sineye çekmek",
+    "examples": [
+      {
+        "en": "Residents should not be expected to put up with toxic emissions from the nearby chemical plant.",
+        "tr": "Bölge sakinlerinin yakındaki kimya tesisinden gelen zehirli gaz salınımlarına katlanması beklenmemelidir."
+      },
+      {
+        "en": "She refused to put up with unfair workplace harassment and reported the manager.",
+        "tr": "İş yerindeki haksız tacize tahammül etmeyi reddetti ve yöneticiyi şikayet etti."
+      }
+    ]
+  },
+  {
+    "word": "run out of",
+    "type": "Phrasal Verb",
+    "meaning": "tüketmek, bitirmek; tükenmek",
+    "examples": [
+      {
+        "en": "Hospitals in the disaster zone rapidly ran out of emergency medical supplies.",
+        "tr": "Afet bölgesindeki hastanelerin acil tıbbi malzemeleri hızla tükendi."
+      },
+      {
+        "en": "Humanity must transition to clean energy before we run out of economically viable fossil fuels.",
+        "tr": "Ekonomik olarak çıkarılabilir fosil yakıtları tüketmeden önce insanlık temiz enerjiye geçmelidir."
+      }
+    ]
+  },
+  {
+    "word": "come up with",
+    "type": "Phrasal Verb",
+    "meaning": "ortaya atmak, (fikir, çözüm, plan) üretmek",
+    "examples": [
+      {
+        "en": "Engineers came up with an ingenious filtration system to purify industrial wastewater.",
+        "tr": "Mühendisler, endüstriyel atık suyu arıtmak için dahiyane bir filtreleme sistemi ortaya attılar."
+      },
+      {
+        "en": "The research committee must come up with concrete answers before the grant deadline.",
+        "tr": "Araştırma komitesi, hibe son başvuru tarihinden önce somut cevaplar üretmelidir."
+      }
+    ]
+  },
+  {
+    "word": "take over",
+    "type": "Phrasal Verb",
+    "meaning": "devralmak, kontrolünü üstlenmek",
+    "examples": [
+      {
+        "en": "The multinational tech conglomerate intends to take over its chief domestic competitor.",
+        "tr": "Çok uluslu teknoloji devi, başlıca yerli rakibini devralmayı amaçlıyor."
+      },
+      {
+        "en": "Robotic automation is poised to take over hazardous manufacturing duties in heavy industry.",
+        "tr": "Robotik otomasyon, ağır sanayideki tehlikeli üretim görevlerini devralmaya hazırlanıyor."
+      }
+    ]
+  },
+  {
+    "word": "cut down on",
+    "type": "Phrasal Verb",
+    "meaning": "azaltmak, kısmak, sınırlandırmak (tüketim, harcama)",
+    "examples": [
+      {
+        "en": "Nutritionists advise adults to cut down on processed carbohydrates and saturated fats.",
+        "tr": "Beslenme uzmanları, yetişkinlere işlenmiş karbonhidratları ve doymuş yağları azaltmalarını tavsiye eder."
+      },
+      {
+        "en": "The municipal government decided to cut down on administrative spending to balance the budget.",
+        "tr": "Belediye yönetimi, bütçeyi dengelemek amacıyla idari harcamaları kısmaya karar verdi."
+      }
+    ]
+  },
+  {
+    "word": "keep up with",
+    "type": "Phrasal Verb",
+    "meaning": "ayak uydurmak, hızına yetişmek, gerisinde kalmamak",
+    "examples": [
+      {
+        "en": "Legal systems often struggle to keep up with the rapid pace of technological innovation.",
+        "tr": "Hukuk sistemleri, teknolojik inovasyonun baş döndürücü hızına ayak uydurmakta sıklıkla zorlanır."
+      },
+      {
+        "en": "It requires continuous reading to keep up with developments in molecular biology.",
+        "tr": "Moleküler biyolojideki gelişmelere ayak uydurabilmek sürekli okuma yapmayı gerektirir."
+      }
+    ]
+  },
+  {
+    "word": "figure out",
+    "type": "Phrasal Verb",
+    "meaning": "çözmek, anlamak, hesaplayıp bulmak",
+    "examples": [
+      {
+        "en": "Neurologists are still striving to figure out how memories are consolidated during deep sleep.",
+        "tr": "Nörologlar, anıların derin uyku sırasında nasıl pekiştiğini çözmek için halen çaba göstermektedir."
+      },
+      {
+        "en": "It took hours for the mathematicians to figure out the flaw in the proof.",
+        "tr": "Matematikçilerin kanıttaki kusuru çözüp bulması saatler sürdü."
+      }
+    ]
+  },
+  {
+    "word": "point out",
+    "type": "Phrasal Verb",
+    "meaning": "dikkat çekmek, işaret etmek, belirtmek",
+    "examples": [
+      {
+        "en": "Economists pointed out that inflation disproportionately affects low-income families.",
+        "tr": "Ekonomistler, enflasyonun orantısız şekilde düşük gelirli aileleri etkilediğine dikkat çekti."
+      },
+      {
+        "en": "The committee chairman pointed out several discrepancies in the annual audit.",
+        "tr": "Komite başkanı, yıllık denetim raporundaki birkaç tutarsızlığa işaret etti."
+      }
+    ]
+  },
+  {
+    "word": "break out",
+    "type": "Phrasal Verb",
+    "meaning": "patlak vermek, aniden başlamak (savaş, salgın, yangın vb.)",
+    "examples": [
+      {
+        "en": "A devastating cholera epidemic broke out in the overcrowded refugee settlement.",
+        "tr": "Aşırı kalabalık mülteci yerleşiminde yıkıcı bir kolera salgını patlak verdi."
+      },
+      {
+        "en": "Riots broke out across the city following the announcement of sudden tax increases.",
+        "tr": "Ani vergi artışlarının duyurulmasının ardından kent genelinde isyanlar patlak verdi."
+      }
+    ]
+  },
+  {
+    "word": "deal with",
+    "type": "Phrasal Verb",
+    "meaning": "ele almak, ilgilenmek, üstesinden gelmek",
+    "examples": [
+      {
+        "en": "The university convened a special task force to deal with academic plagiarism.",
+        "tr": "Üniversite, akademik intihal sorununu ele almak ve çözmek için özel bir çalışma grubu topladı."
+      },
+      {
+        "en": "Psychologists offer strategies to help adolescents deal with social anxiety.",
+        "tr": "Psikologlar, ergenlerin sosyal kaygıyla başa çıkmalarına yardımcı olacak stratejiler sunmaktadır."
+      }
+    ]
+  },
+  {
+    "word": "look into",
+    "type": "Phrasal Verb",
+    "meaning": "araştırmak, incelemek, soruşturmak",
+    "examples": [
+      {
+        "en": "The judicial commission was appointed to look into allegations of political bribery.",
+        "tr": "Yargı komisyonu, siyasi rüşvet iddialarını araştırmak ve soruşturmak üzere görevlendirildi."
+      },
+      {
+        "en": "Physicians are looking into the efficacy of herbal extracts in reducing high blood pressure.",
+        "tr": "Hekimler, bitkisel özlerin yüksek tansiyonu düşürmedeki etkinliğini araştırmaktadır."
+      }
+    ]
+  },
+  {
+    "word": "set off",
+    "type": "Phrasal Verb",
+    "meaning": "yola çıkmak; tetiklemek, başlatmak",
+    "examples": [
+      {
+        "en": "The unexpected collapse of a major investment bank set off a chain reaction across global markets.",
+        "tr": "Büyük bir yatırım bankasının beklenmedik çöküşü, küresel piyasalarda bir zincirleme reaksiyonu tetikledi."
+      },
+      {
+        "en": "The scientific expedition set off toward the Arctic circle early at dawn.",
+        "tr": "Bilimsel keşif heyeti, şafak vaktinde Kuzey Kutup dairesine doğru yola çıktı."
+      }
+    ]
+  },
+  {
+    "word": "back up",
+    "type": "Phrasal Verb",
+    "meaning": "desteklemek, arka çıkmak, doğrulamak; yedeklemek",
+    "examples": [
+      {
+        "en": "The researcher provided extensive statistical data to back up her controversial hypothesis.",
+        "tr": "Araştırmacı, tartışmalı hipotezini desteklemek ve doğrulamak için kapsamlı istatistiksel veriler sundu."
+      },
+      {
+        "en": "System administrators routinely back up hospital server files to cloud storage.",
+        "tr": "Sistem yöneticileri, hastane sunucu dosyalarını rutin olarak bulut depolamaya yedekler."
       }
     ]
   }
