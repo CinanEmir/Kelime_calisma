@@ -1,5 +1,5 @@
 // sw.js - KelimePulse Service Worker (Offline Destegi)
-const CACHE_NAME = 'kelimepulse-v3';
+const CACHE_NAME = 'kelimepulse-v4';
 const ASSETS_TO_CACHE = [
   './',
   'index.html',
