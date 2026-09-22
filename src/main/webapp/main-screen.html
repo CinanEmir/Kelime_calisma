@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>KelimePulse - İngilizce Kelime Çalışma</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -10,15 +10,17 @@
     <div class="app-container">
         <!-- Üst Başlık ve Durum Çubuğu -->
         <header class="app-header">
-            <div class="brand">
-                <span class="brand-icon">✨</span>
-                <span>KelimePulse</span>
-            </div>
-            <div class="header-actions">
+            <div class="header-brand-group">
+                <div class="brand">
+                    <span class="brand-icon">✨</span>
+                    <span>KelimePulse</span>
+                </div>
                 <div class="stat-badge" title="Aktif çalışma havuzu">
                     <span>📦</span>
                     <span id="pool-count">Yükleniyor...</span>
                 </div>
+            </div>
+            <div class="header-actions">
                 <button class="btn-header-action" id="openDictionaryBtn" title="Kelime Defteri (Kısayol: D)">
                     <span>📋</span>
                     <span>Kelimeler</span>
