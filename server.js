@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 const wordsFilePath = path.join(__dirname, 'src/main/webapp/words.json');
 
 app.use(bodyParser.json());
-app.use(express.static('src/main/webapp')); // Bu satır, tüm statik dosyalarını okumaya devam edecek
+app.use(express.static('src/main/webapp', { dotfiles: 'allow' })); // Statik dosyalari ve .well-known klasorunu sunar
 
 // Kelime ekleme isteğini işleyen endpoint
 app.post('/add-word', (req, res) => {
