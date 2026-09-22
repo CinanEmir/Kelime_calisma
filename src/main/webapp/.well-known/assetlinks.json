@@ -4,6 +4,7 @@
     "namespace": "android_app",
     "package_name": "app.vercel.kelime_calisma.twa",
     "sha256_cert_fingerprints": [
+      "9B:45:0B:82:0A:16:0D:9F:E8:8F:05:06:7A:21:86:6B:75:68:33:79:C5:F5:FA:DB:8F:88:A1:E5:8A:2E:37:8C",
       "70:9C:E8:69:15:FD:95:ED:0D:D4:87:3E:7B:B7:9B:51:E0:AD:22:54:C6:95:E6:9D:12:41:84:C8:59:62:B1:4E",
       "3B:06:88:13:2C:B3:F4:86:B3:C9:A3:5D:4F:CA:56:38:5D:47:E1:91:F7:6F:A4:7A:E8:BA:07:FD:51:FC:E0:19"
     ]
