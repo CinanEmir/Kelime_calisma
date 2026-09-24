@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>KelimePulse - Hoş Geldiniz</title>
+    <title>KelimePulse</title>
     <meta name="theme-color" content="#070b14">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="icons/icon-192.png">
@@ -17,18 +17,19 @@
         }
     </script>
 </head>
-<body>
-    <div class="welcome-container" id="welcome-screen">
-        <div class="welcome-logo-box">
-            <img src="icons/icon-192.png" alt="KelimePulse Logo" class="welcome-logo-img">
+<body class="splash-body">
+    <div class="splash-screen" id="welcome-screen">
+        <div class="splash-center">
+            <div class="splash-logo-box">
+                <img src="icons/icon-192.png" alt="KelimePulse Logo" class="splash-logo-img">
+            </div>
+            <h1 class="splash-title">KelimePulse</h1>
+            <p class="splash-subtitle">YDS Kelime Kartları</p>
+            
+            <div class="splash-loader">
+                <div class="splash-loader-bar"></div>
+            </div>
         </div>
-        <h1 class="welcome-title">KelimePulse</h1>
-        <p class="welcome-subtitle">YDS & YÖKDİL İngilizce Kelime Kartları</p>
-        
-        <div class="welcome-loader-bar">
-            <div class="loader-progress"></div>
-        </div>
-        <span class="welcome-status-text">Akıllı çalışma ortamı hazırlanıyor...</span>
     </div>
     <script src="js/main.js"></script>
 </body>

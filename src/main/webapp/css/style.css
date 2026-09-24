@@ -866,91 +866,153 @@ body {
 }
 
 /* ==========================================================================
-   Welcome Screen (index.html)
+   Minimalist & Modern Splash / Welcome Screen
    ========================================================================== */
-.welcome-container {
-    text-align: center;
-    background: var(--bg-card);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border: 1px solid var(--bg-card-border);
-    padding: 44px 32px;
-    border-radius: var(--radius-lg);
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 242, 254, 0.1);
-    max-width: 420px;
-    width: 90%;
-    margin: 0 auto;
-    animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+.splash-body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    width: 100%;
+    background-color: #070b14;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.welcome-logo-box {
+.splash-screen {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    background: radial-gradient(circle at 50% 45%, rgba(0, 242, 254, 0.08) 0%, rgba(7, 11, 20, 0.98) 65%, #070b14 100%);
+    background-color: #070b14;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.splash-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    animation: splashAppear 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.splash-logo-box {
     margin-bottom: 20px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.welcome-logo-img {
-    width: 104px;
-    height: 104px;
-    border-radius: 26px;
-    box-shadow: 0 12px 30px rgba(0, 242, 254, 0.35), 0 4px 12px rgba(0, 0, 0, 0.5);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    animation: gentlePulse 2.4s ease-in-out infinite;
+.splash-logo-box::before {
+    content: '';
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    border-radius: 28px;
+    background: radial-gradient(circle, rgba(0, 242, 254, 0.22) 0%, transparent 70%);
+    filter: blur(14px);
+    z-index: 0;
+    animation: splashGlowPulse 2.8s ease-in-out infinite alternate;
+}
+
+.splash-logo-img {
+    width: 86px;
+    height: 86px;
+    border-radius: 22px;
+    position: relative;
+    z-index: 1;
     object-fit: cover;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.55), 0 0 20px rgba(0, 242, 254, 0.15);
+    animation: splashLogoFloat 2.8s ease-in-out infinite alternate;
 }
 
-@keyframes gentlePulse {
-    0%, 100% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.3)); }
-    50% { transform: scale(1.04); filter: drop-shadow(0 0 22px rgba(0, 242, 254, 0.6)); }
-}
-
-.welcome-title {
-    font-size: 2.2rem;
+.splash-title {
+    font-size: 1.85rem;
     font-weight: 800;
-    margin-bottom: 8px;
-    background: var(--gradient-primary);
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+    background: linear-gradient(135deg, #ffffff 40%, #67e8f9 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    letter-spacing: -0.5px;
 }
 
-.welcome-subtitle {
-    color: var(--text-secondary);
-    font-size: 0.95rem;
-    margin-bottom: 26px;
-    line-height: 1.5;
+.splash-subtitle {
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: #94a3b8;
+    letter-spacing: 0.4px;
+    margin-bottom: 24px;
 }
 
-.welcome-loader-bar {
-    width: 150px;
-    height: 4px;
+.splash-loader {
+    width: 48px;
+    height: 2.5px;
     background: rgba(255, 255, 255, 0.08);
-    border-radius: var(--radius-full);
+    border-radius: 9999px;
     overflow: hidden;
-    margin-bottom: 12px;
+    position: relative;
 }
 
-.loader-progress {
+.splash-loader-bar {
     width: 100%;
     height: 100%;
-    background: var(--gradient-primary);
-    border-radius: var(--radius-full);
-    animation: loaderSlide 1.2s infinite ease-in-out;
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+    border-radius: 9999px;
+    box-shadow: 0 0 8px rgba(0, 242, 254, 0.6);
+    animation: splashLoaderFill 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
-@keyframes loaderSlide {
+.splash-fade-out {
+    opacity: 0 !important;
+    transform: scale(1.02) !important;
+    filter: blur(4px) !important;
+    pointer-events: none !important;
+    transition: opacity 0.32s cubic-bezier(0.4, 0, 0.2, 1), transform 0.32s cubic-bezier(0.4, 0, 0.2, 1), filter 0.32s ease !important;
+}
+
+@keyframes splashAppear {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes splashGlowPulse {
+    0% { transform: scale(0.9); opacity: 0.4; }
+    100% { transform: scale(1.15); opacity: 0.8; }
+}
+
+@keyframes splashLogoFloat {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+
+@keyframes splashLoaderFill {
     0% { transform: translateX(-100%); }
-    50% { transform: translateX(0); }
-    100% { transform: translateX(100%); }
+    100% { transform: translateX(0%); }
 }
 
-.welcome-status-text {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    letter-spacing: 0.2px;
+/* Backwards compatibility for old class name */
+.welcome-container {
+    composes: splash-screen;
 }
 
 /* Animations */
