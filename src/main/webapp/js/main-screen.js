@@ -693,9 +693,37 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ==========================================================================
-// 12. Başlangıç
+// 12. Başlangıç & Karşılama Ekranı Yönetimi
 // ==========================================================================
-document.addEventListener('DOMContentLoaded', () => {
+function dismissSplashOverlay() {
+    const splashOverlay = document.getElementById('main-splash-overlay');
+    if (!splashOverlay) return;
+
+    try {
+        sessionStorage.setItem('kelime_splash_shown', 'true');
+    } catch (e) {}
+
+    if (splashOverlay.style.display !== 'none' && !splashOverlay.classList.contains('splash-fade-out')) {
+        splashOverlay.classList.add('splash-fade-out');
+        setTimeout(() => {
+            splashOverlay.style.display = 'none';
+        }, 320);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
     updateAutoRevealUI();
-    getRandomWord();
+
+    const splashOverlay = document.getElementById('main-splash-overlay');
+    if (splashOverlay && splashOverlay.style.display !== 'none') {
+        splashOverlay.addEventListener('click', dismissSplashOverlay, { once: true });
+        splashOverlay.addEventListener('touchstart', dismissSplashOverlay, { passive: true, once: true });
+    }
+
+    await getRandomWord();
+
+    // İlk kelime yerleştikten sonra karşılama ekranını pürüzsüzce kaldır
+    if (splashOverlay && splashOverlay.style.display !== 'none') {
+        setTimeout(dismissSplashOverlay, 650);
+    }
 });

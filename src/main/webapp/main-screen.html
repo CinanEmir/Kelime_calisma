@@ -18,6 +18,28 @@
     </script>
 </head>
 <body>
+    <!-- Sade ve Öz Açılış Karşılama Ekranı (APK / Direkt Girişler İçin) -->
+    <div class="splash-screen" id="main-splash-overlay" style="display: none;">
+        <div class="splash-center">
+            <div class="splash-logo-box">
+                <img src="icons/icon-192.png" alt="KelimePulse Logo" class="splash-logo-img">
+            </div>
+            <h1 class="splash-title">KelimePulse</h1>
+            <p class="splash-subtitle">YDS Kelime Kartları</p>
+            
+            <div class="splash-loader">
+                <div class="splash-loader-bar"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        try {
+            if (!sessionStorage.getItem('kelime_splash_shown')) {
+                document.getElementById('main-splash-overlay').style.display = 'flex';
+            }
+        } catch (e) {}
+    </script>
+
     <div class="app-container">
         <!-- Üst Başlık ve Durum Çubuğu -->
         <header class="app-header">
